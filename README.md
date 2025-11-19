@@ -9,3 +9,4 @@
 * Wilhelt, the Rotcleaver [MB](https://manabox.app/decks/AZqclncYeWiQUe1X3ZP4_g) [MF](https://moxfield.com/decks/rPU5wvz9vEGUECLyZwjnyQ)
 * Chulane, Teller of Tales [MB](https://manabox.app/decks/AZqc1K0ue_6gy8S5qAWeOw) [MF](https://moxfield.com/decks/f3gfNAYbuEWmrKyLvv1oSA)
 * Feather, the Redeemed [MB](https://manabox.app/decks/AZqc4J38ddqnlJNZCLXptQ) [MF](https://moxfield.com/decks/SrlkKgTpp0-sSSm8l11wqw)
+* Teysa Karlov [MB](https://manabox.app/decks/AZqc9nmEcwOX_X_-kFMQGw) [MF](https://moxfield.com/decks/SGjsnoE_10K2YGMRgy6NMQ)
