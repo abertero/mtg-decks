@@ -12,3 +12,4 @@
 * Teysa Karlov [MB](https://manabox.app/decks/AZqc9nmEcwOX_X_-kFMQGw) [MF](https://moxfield.com/decks/SGjsnoE_10K2YGMRgy6NMQ)
 * Atraxa, Praetors' Voice [MB](https://manabox.app/decks/AZqeXBayd_eslvC3fsQyYA) [MF](https://moxfield.com/decks/rQJ0U18shUu_9g14eouXwA)
 * The Wise Mothman [MB](https://manabox.app/decks/AZqeaQxQfrewOgi9-3gZFQ) [MF](https://moxfield.com/decks/SfMUUNTSsEagMv4ks697GA)
+* Muldrotha, the Gravetide [MB](https://manabox.app/decks/AZqekSHzeWisHXEiSWTkUQ) [MF](https://moxfield.com/decks/J88Ngd_8-0qzoiM51LeBzQ)
