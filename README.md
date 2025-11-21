@@ -13,3 +13,6 @@
 * Atraxa, Praetors' Voice [MB](https://manabox.app/decks/AZqeXBayd_eslvC3fsQyYA) [MF](https://moxfield.com/decks/rQJ0U18shUu_9g14eouXwA)
 * The Wise Mothman [MB](https://manabox.app/decks/AZqeaQxQfrewOgi9-3gZFQ) [MF](https://moxfield.com/decks/SfMUUNTSsEagMv4ks697GA)
 * Muldrotha, the Gravetide [MB](https://manabox.app/decks/AZqekSHzeWisHXEiSWTkUQ) [MF](https://moxfield.com/decks/J88Ngd_8-0qzoiM51LeBzQ)
+* Krenko, Mob Boss [MB](https://manabox.app/decks/AZqngEgofUSHn8YHq4hAew) [MF](https://moxfield.com/decks/cNZwB9L1vkW9-PmU3PVqJw)
+* Silvar, Devourer of the Free | Trynn, Champion of Freedom [MB](https://manabox.app/decks/AZqnrzIdeiOboa6OiEYRbQ) [MF](https://moxfield.com/decks/ZB3Y5qjLC0CZMY8oSBVTng)
+* K'rrik, Son of Yawgmoth [MB](https://manabox.app/decks/AZqolrZSfoawZJE7guF1aQ) [MF]()
