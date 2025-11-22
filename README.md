@@ -17,3 +17,6 @@
 * Silvar, Devourer of the Free | Trynn, Champion of Freedom [MB](https://manabox.app/decks/AZqnrzIdeiOboa6OiEYRbQ) [MF](https://moxfield.com/decks/ZB3Y5qjLC0CZMY8oSBVTng)
 * K'rrik, Son of Yawgmoth [MB](https://manabox.app/decks/AZqolrZSfoawZJE7guF1aQ) [MF](https://moxfield.com/decks/IvpHnGwKxkGdQl3-_CPoTQ)
 * Yuriko, the Tiger's Shadow [MB](https://manabox.app/decks/AZqoq8bpeom9JOJmzYuhHg) [MF](https://moxfield.com/decks/vtTC1gil9UGxORm9qSys6Q)
+* Oloro, Ageless Ascetic [MB](https://manabox.app/decks/AZqsMDiedle1nxCqKN0XeA) [MF](https://moxfield.com/decks/VCNGODKYik211cTWU79P5w)
+* Meren of Clan Nel Toth [MB](https://manabox.app/decks/AZqs6pGOckG9t7qmUVgVHQ) [MF](https://moxfield.com/decks/ZYrmcTESpE-irO__tN-NHA)
+* Najeela, the Blade-Blossom [MB](https://manabox.app/decks/AZqs_tUTdRy141iRMfdHpg) [MF](https://moxfield.com/decks/Nv4KCQXy1ku9LbVHOxCSUQ)
