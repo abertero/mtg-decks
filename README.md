@@ -20,3 +20,5 @@
 * Oloro, Ageless Ascetic [MB](https://manabox.app/decks/AZqsMDiedle1nxCqKN0XeA) [MF](https://moxfield.com/decks/VCNGODKYik211cTWU79P5w)
 * Meren of Clan Nel Toth [MB](https://manabox.app/decks/AZqs6pGOckG9t7qmUVgVHQ) [MF](https://moxfield.com/decks/ZYrmcTESpE-irO__tN-NHA)
 * Najeela, the Blade-Blossom [MB](https://manabox.app/decks/AZqs_tUTdRy141iRMfdHpg) [MF](https://moxfield.com/decks/Nv4KCQXy1ku9LbVHOxCSUQ)
+* Breya, Etherium Shaper [MB](https://manabox.app/decks/AZqtGDslf02n2XOVQ1-YIg) [MF](https://moxfield.com/decks/54RNysHAS0OSECoxb7yCig)
+* Rafiq of the Many [MB](https://manabox.app/decks/AZqtIgq4e36IpxRd_zOghA) [MF](https://moxfield.com/decks/lidPI7omUkuawGE5EwzCLA)
