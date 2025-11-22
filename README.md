@@ -22,3 +22,8 @@
 * Najeela, the Blade-Blossom [MB](https://manabox.app/decks/AZqs_tUTdRy141iRMfdHpg) [MF](https://moxfield.com/decks/Nv4KCQXy1ku9LbVHOxCSUQ)
 * Breya, Etherium Shaper [MB](https://manabox.app/decks/AZqtGDslf02n2XOVQ1-YIg) [MF](https://moxfield.com/decks/54RNysHAS0OSECoxb7yCig)
 * Rafiq of the Many [MB](https://manabox.app/decks/AZqtIgq4e36IpxRd_zOghA) [MF](https://moxfield.com/decks/lidPI7omUkuawGE5EwzCLA)
+* Ghired, Conclave Exile [MB](https://manabox.app/decks/AZqtKoBseIOKsSY77UvPaw) [MF](https://moxfield.com/decks/ajAT36495EGZHOJupfdf1Q)
+* Thantis, the Warweaver [MB](https://manabox.app/decks/AZqtRKbWeVmsDMd75Ih7-w) [MF](https://moxfield.com/decks/JWH7IKylRkqETXthUOLJJQ)
+* Lathril, Blade of the Elves [MB](https://manabox.app/decks/AZqtTJwIeoWQwvJ69_uAhw) [MF](https://moxfield.com/decks/N6TaG_upPkSw20rV77c_gw)
+* Isshin, Two Heavens as One [MB](https://manabox.app/decks/AZqtU6kDeniggca4TE74Nw) [MF](https://moxfield.com/decks/E5oCk2CHsUW6YutCC5JGgg)
+* Kynaios and Tiro of Meletis [MB](https://manabox.app/decks/AZqtZWi1diKzQcGh2SMq6w) [MF]()
