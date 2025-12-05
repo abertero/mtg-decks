@@ -28,3 +28,4 @@
 * Isshin, Two Heavens as One [MB](https://manabox.app/decks/AZqtU6kDeniggca4TE74Nw) [MF](https://moxfield.com/decks/E5oCk2CHsUW6YutCC5JGgg)
 * Kynaios and Tiro of Meletis [MB](https://manabox.app/decks/AZqtZWi1diKzQcGh2SMq6w) [MF](https://manabox.app/decks/AZrArsKFfZyO-PXfI4G33A)
 * Ezuri, Renegade Leader [MB](https://manabox.app/decks/AZrArsKFfZyO-PXfI4G33A) [MF](https://moxfield.com/decks/OtfbHqgj3kC2j-PQayOrEA)
+* Phenax, God of Deception [MB](https://manabox.app/decks/AZrusOLmfmmKlOdqmc3XKQ) [MF](https://moxfield.com/decks/W72Xl4ougEuTyvaayKRiyA)
