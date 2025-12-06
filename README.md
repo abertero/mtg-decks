@@ -1,6 +1,6 @@
 # Magic The Gathering Decks
 
-* Edgar Markov [MB](https://manabox.app/decks/AZqZNXQBfw2VhnskVo1YtQ) [MF](https://moxfield.com/decks/Gb1hS-YP40KBYECDD-SWCQ)
+* Edgar Markov [MB](https://manabox.app/decks/AZqZNXQBfw2VhnskVo1YtQ) [MF](https://moxfield.com/decks/Gb1hS-YP40KBYECDD-SWCQ) [DS](https://deckstats.net/decks/292152/4322128-edgar)
 * Narset, Enlightened Exile [MB](https://manabox.app/decks/AZqZSnl-e5eLn7sfkEdWlA) [MF](https://moxfield.com/decks/z3-r5vqzU0-LGnpRG5ERUg)
 * Chatterfang, Squirrel General [MB](https://manabox.app/decks/AZqZYGtCedesnv5hNWKTeA) [MF](https://moxfield.com/decks/ADhA1hO_5Eys2bhqPFMlWg)
 * Lathiel, the Bounteous Dawn [MB](https://manabox.app/decks/AZqZa6I9dqeDCqvla4jWvQ) [MF](https://moxfield.com/decks/XOPKWueHYEenl2OBjGIqnQ)
@@ -11,7 +11,7 @@
 * Feather, the Redeemed [MB](https://manabox.app/decks/AZqc4J38ddqnlJNZCLXptQ) [MF](https://moxfield.com/decks/SrlkKgTpp0-sSSm8l11wqw)
 * Teysa Karlov [MB](https://manabox.app/decks/AZqc9nmEcwOX_X_-kFMQGw) [MF](https://moxfield.com/decks/SGjsnoE_10K2YGMRgy6NMQ)
 * Atraxa, Praetors' Voice [MB](https://manabox.app/decks/AZqeXBayd_eslvC3fsQyYA) [MF](https://moxfield.com/decks/rQJ0U18shUu_9g14eouXwA)
-* The Wise Mothman [MB](https://manabox.app/decks/AZqeaQxQfrewOgi9-3gZFQ) [MF](https://moxfield.com/decks/SfMUUNTSsEagMv4ks697GA)
+* The Wise Mothman [MB](https://manabox.app/decks/AZqeaQxQfrewOgi9-3gZFQ) [MF](https://moxfield.com/decks/SfMUUNTSsEagMv4ks697GA) [DS](https://deckstats.net/decks/292152/4322184-mothman)
 * Muldrotha, the Gravetide [MB](https://manabox.app/decks/AZqekSHzeWisHXEiSWTkUQ) [MF](https://moxfield.com/decks/J88Ngd_8-0qzoiM51LeBzQ)
 * Krenko, Mob Boss [MB](https://manabox.app/decks/AZqngEgofUSHn8YHq4hAew) [MF](https://moxfield.com/decks/cNZwB9L1vkW9-PmU3PVqJw)
 * Silvar, Devourer of the Free | Trynn, Champion of Freedom [MB](https://manabox.app/decks/AZqnrzIdeiOboa6OiEYRbQ) [MF](https://moxfield.com/decks/ZB3Y5qjLC0CZMY8oSBVTng)
