@@ -72,7 +72,8 @@ Deck
 1 Struggle for Project Purity
 1 Sunken Hollow
 1 Nesting Grounds
-3 Swamp
+2 Swamp
+1 Karn's Bastion
 1 Swiftfoot Boots
 1 Syr Konrad, the Grim
 1 Tainted Isle
