@@ -13,7 +13,7 @@ Deck
 1 Drove of Elves
 1 Dwynen, Gilt-Leaf Daen
 1 Elvish Archdruid
-1 Elvish Champion
+1 Copperhorn Scout
 1 Elvish Guidance
 1 Elvish Mystic
 1 Elvish Visionary
@@ -47,12 +47,12 @@ Deck
 1 Overrun
 1 Overwhelming Stampede
 1 Praetor's Counsel
-1 Predator, Flagship
+1 Tyvar, the Pummeler
 1 Priest of Titania
 1 Primordial Sage
 1 Rampaging Baloths
 1 Reclamation Sage
-1 Seedborn Muse
+1 Jagged-Scar Archers
 1 Seer's Sundial
 1 Shamanic Revelation
 1 Siege Behemoth
