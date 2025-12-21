@@ -9,3 +9,24 @@ Deck
 1 Assault Formation
 1 Farseek
 1 Arasta of the Endless Web
+1 Swiftfoot Boots
+1 Orzhov Signet
+1 Selesnya Signet
+1 Utter End
+1 Putrefy
+1 Abzan Charm
+1 Mortify
+1 Ancient Adamantoise
+1 Axebane Guardian
+1 Sylvan Caryatid
+1 Hornet Nest
+1 Wall of Mulch
+1 Guardian Project
+1 Spidersilk Armor
+1 Command Tower
+1 Canopy Vista
+1 Woodland Cemetery
+1 Scattered Groves
+1 Jungle Hollow
+1 Blossoming Sands
+1 Scoured Barrens
