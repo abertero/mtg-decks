@@ -5,7 +5,6 @@ Deck
 1 Crashing Drawbridge
 1 Seedborn Muse
 1 Tower Defense
-1 Beast Within
 1 Assault Formation
 1 Farseek
 1 Arasta of the Endless Web
@@ -30,3 +29,21 @@ Deck
 1 Jungle Hollow
 1 Blossoming Sands
 1 Scoured Barrens
+1 Swamp
+1 Sandsteppe Citadel
+1 Exotic Orchard
+1 Murmuring Bosk
+1 Sunlit March
+1 Radiant Grove
+1 Fortified Village
+1 Terramorphic Expanse
+1 Sungrass Prairie
+1 Sunpetal Grove
+1 Evolving Wilds
+1 Golgari Signet
+1 Wall of Tanglecord
+1 Ikra Shidiqi, the Usurper
+1 Sunscape Familiar
+1 Fell the Mighty
+1 Dusk // Dawn
+1 Wall of Reverence
