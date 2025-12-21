@@ -61,7 +61,7 @@ Deck
 1 Quest for Renewal
 1 Reclamation Sage
 1 Return Upon the Tide
-1 Rhys the Exiled
+1 Elvish Champion
 1 Rogue's Passage
 1 Ruthless Winnower
 1 Seedborn Muse
