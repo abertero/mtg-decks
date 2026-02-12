@@ -30,4 +30,6 @@
 * Ezuri, Renegade Leader [MB](https://manabox.app/decks/AZrArsKFfZyO-PXfI4G33A) [MF](https://moxfield.com/decks/OtfbHqgj3kC2j-PQayOrEA)
 * Phenax, God of Deception [MB](https://manabox.app/decks/AZrusOLmfmmKlOdqmc3XKQ) [MF](https://moxfield.com/decks/W72Xl4ougEuTyvaayKRiyA)
 * Hope Estheim [MB]() [MF]() [DS](https://deckstats.net/decks/292152/4323213-hope-estheim)
-* Felothar the Steadfast [MB]() [MF]() [DS](https://deckstats.net/decks/292152/4331293-felothar)
+* Rin and Siri, Inseparables [MB]() [MF]() [DS]()
+* Valgavoth, Harrower of Souls [MB]() [MF]() [DS]()
+* Brago, King Eternal [MB](https://manabox.app/decks/AZqot5bqcg-q_-OcU8mXAA) [MF](https://moxfield.com/decks/YhTBJWYNLECPcY9keqCiNw) [DS]()

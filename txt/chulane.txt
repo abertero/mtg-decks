@@ -2,8 +2,6 @@ Commander
 1 Chulane, Teller of Tales
 
 Deck
-1 Arbor Elf
-1 Arcane Denial
 1 Archaeomancer
 1 Avacyn's Pilgrim
 1 Azorius Guildgate
@@ -12,43 +10,26 @@ Deck
 1 Blossoming Sands
 1 Cleansing Nova
 1 Cloudblazer
-1 Coiling Oracle
 1 Command Tower
 1 Counterspell
 1 Cultivate
-1 Deadeye Navigator
 1 Deafening Silence
 1 Elite Guardmage
 1 Elvish Mystic
 1 Eternal Witness
 1 Evolving Wilds
-1 Farhaven Elf
 1 Fierce Empath
 1 Finale of Revelation
-1 Forest
-1 Forest
-1 Forest
-2 Forest
-2 Forest
-1 Forest
+8 Forest
 1 Frilled Mystic
-1 Fyndhorn Elves
-1 Gavony Township
-1 Generous Gift
 1 Glacial Fortress
 1 God-Eternal Oketra
 1 Guardian Project
-1 Gyre Engineer
-1 Gyre Sage
 1 Hallowed Fountain
 1 Incubation Druid
 1 Inspiring Call
 1 Intruder Alarm
-1 Island
-1 Island
-1 Island
-1 Island
-1 Kataki, War's Wage
+4 Island
 1 Kiora's Follower
 1 Knight of the White Orchid
 1 Laboratory Maniac
@@ -61,26 +42,21 @@ Deck
 1 Mulldrifter
 1 Negate
 1 Noble Hierarch
-1 Overburden
 1 Paradise Druid
 1 Path to Exile
-1 Plains
-1 Plains
-2 Plains
-1 Plaxmanta
+4 Plains
 1 Prairie Stream
 1 Rampaging Baloths
 1 Reclamation Sage
 1 Reliquary Tower
 1 Render Silent
 1 Scute Swarm
-1 Seaside Citadel
 1 Selesnya Guildgate
 1 Selfless Spirit
 1 Shrieking Drake
-1 Simic Growth Chamber
 1 Simic Guildgate
 1 Soulherder
+1 Sun Titan
 1 Swords to Plowshares
 1 Sylvan Caryatid
 1 Tatyova, Benthic Druid
@@ -88,13 +64,10 @@ Deck
 1 Temple of Enlightenment
 1 Temple of Mystery
 1 Temple of Plenty
-1 Terastodon
 1 Thalia, Guardian of Thraben
 1 Thornwood Falls
 1 Thriving Heath
 1 Time Wipe
 1 Tranquil Cove
-1 Ulvenwald Tracker
 1 Vivien, Champion of the Wilds
-1 Whitemane Lion
 1 Woodland Stream
