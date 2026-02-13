@@ -40,7 +40,6 @@ Deck
 1 Ghostly Prison
 1 Grasp of Fate
 1 Halimar Depths
-1 High Market
 1 Hour of Revelation
 1 Humility
 1 Irrigated Farmland
@@ -74,7 +73,7 @@ Deck
 1 Sphinx's Revelation
 1 Sun Droplet
 1 Supreme Verdict
-4 Swamp
+5 Swamp
 1 Swords to Plowshares
 1 Tainted Aether
 1 Tainted Field
