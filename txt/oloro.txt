@@ -44,7 +44,7 @@ Deck
 1 Hour of Revelation
 1 Humility
 1 Irrigated Farmland
-1 Isengard, Saruman's Fortress
+1 Boseiju, Who Shelters All
 5 Island
 1 Isolated Chapel
 1 Karmic Justice
@@ -83,7 +83,7 @@ Deck
 1 Terramorphic Expanse
 1 Tranquil Cove
 1 Urborg, Tomb of Yawgmoth
-1 Vault of the Archangel
+1 Sunlit Marsh
 1 Venser's Journal
 1 Vile Consumption
 1 Void Rend
