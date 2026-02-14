@@ -33,3 +33,4 @@
 * Rin and Siri, Inseparables [MB]() [MF]() [DS]()
 * Valgavoth, Harrower of Souls [MB]() [MF]() [DS]()
 * Brago, King Eternal [MB](https://manabox.app/decks/AZqot5bqcg-q_-OcU8mXAA) [MF](https://moxfield.com/decks/YhTBJWYNLECPcY9keqCiNw) [DS]()
+* Marchesa, the Black Rose [MB](https://manabox.app/decks/AZqnci0Ue2mhfrAeRgMdCA) [MF](https://moxfield.com/decks/xymJHJr4IUOIHMlBugfXKw) [DS]()
