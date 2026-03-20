@@ -3,7 +3,7 @@ Commander
 
 Deck
 1 Agent Frank Horrigan
-1 Altar of Dementia
+1 The Water Crystal
 1 An Offer You Can't Refuse
 1 Arcane Signet
 1 Assassin's Trophy
@@ -13,14 +13,14 @@ Deck
 1 Bloodchief Ascension
 1 Bojuka Bog
 1 Branching Evolution
-1 Bruvac the Grandiloquent
+1 Muldrotha, the Gravetide
 1 Casualties of War
 1 Cathedral Acolyte
 1 Command Tower
 1 Corpsejack Menace
 1 Counterspell
 1 Cultivate
-1 Danny Pink
+1 Alpha Deathclaw
 1 Darkwater Catacombs
 1 Drown in the Loch
 1 Drowned Catacomb
@@ -44,7 +44,7 @@ Deck
 1 Infesting Radroach
 1 Inspiring Call
 2 Island
-3 Island
+2 Island
 1 Maddening Cacophony
 1 Mariposa Military Base
 1 Mesmeric Orb
@@ -95,3 +95,4 @@ Deck
 1 Marcus, Mutant Mayor
 1 Winding Constrictor
 1 Woodland Cemetery
+1 Reanimate
