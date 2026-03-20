@@ -9,7 +9,7 @@ Deck
 1 Baleful Strix
 1 Blasphemous Act
 1 Bloodfell Caves
-1 Bloodflow Connoisseur
+1 Danny Pink
 1 Bloodtracker
 1 Braids, Arisen Nightmare
 1 Carrion Feeder
