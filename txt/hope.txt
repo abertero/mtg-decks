@@ -2,84 +2,87 @@ Commander
 1 Hope Estheim
 
 Deck
-1 Absorb
-1 Adarkar Wastes
-1 Adventurer's Inn
-1 Aerith Gainsborough
-1 Aetherflux Reservoir
-1 Ajani, Strength of the Pride
-1 Alhammarret's Archive
-1 An Offer You Can't Refuse
-1 Angel of Vitality
-1 Arcane Denial
-1 Arcane Signet
-1 Authority of the Consuls
-1 Azorius Signet
-1 Beacon of Immortality
-1 Blind Obedience
-1 Boon Reflection
 1 Bruvac the Grandiloquent
-1 Cleric Class
-1 Command Tower
-1 Congregate
-1 Counterspell
 1 Daxos, Blessed by the Sun
-1 Deserted Beach
-1 Dovin's Veto
+1 Angel of Vitality
 1 Drogskol Reaver
 1 Exemplar of Light
 1 Felidar Sovereign
-1 Flooded Strand
-1 Floodfarm Verge
-1 Fractured Sanity
-1 Fumigate
-1 Ghostly Prison
-1 Glacial Fortress
-1 Gold-Forged Thopteryx
-1 Guide of Souls
-1 Haliya, Guided by Light
-1 Hallowed Fountain
-1 Heliod's Intervention
 1 Heliod, Sun-Crowned
-10 Island
-1 Jidoor, Aristocratic Capital
-1 Kwain, Itinerant Meddler
-1 Leyline of Hope
-1 Lightning Greaves
-1 Maddening Cacophony
-1 Path to Exile
-10 Plains
-1 Port Town
-1 Prairie Stream
-1 Pristine Talisman
-1 Propaganda
-1 Psychic Corrosion
-1 Radiant Fountain
-1 Reliquary Tower
-1 Restoration Magic
 1 Rhox Faithmender
-1 Riot Control
-1 Riverchurn Monument
-1 Ruin Crab
-1 Sea of Clouds
-1 Serra Ascendant
-1 Sol Ring
 1 Soul Warden
-1 Soul's Attendant
-1 Space-Time Anomaly
-1 Sphinx of the Revelation
-1 Sphinx's Revelation
-1 Supreme Verdict
 1 Suture Priest
-1 Swiftfoot Boots
-1 Swords to Plowshares
-1 Talisman of Progress
-1 Tasha's Hideous Laughter
+1 Soul's Attendant
+1 Sphinx of the Revelation
+1 Y'shtola Rhul
+1 Haliya, Guided by Light
+1 Aerith Gainsborough
+1 Ruin Crab
 1 The Gaffer
+1 Kwain, Itinerant Meddler
+1 Will, Scion of Peace
+1 Guide of Souls
+1 Gold-Forged Thopteryx
+1 Wall of Reverence
+1 Archangel of Thune
+1 Mangara, the Diplomat
+1 Absorb
+1 Beacon of Immortality
+1 Congregate
+1 An Offer You Can't Refuse
+1 Arcane Denial
+1 Counterspell
+1 Dovin's Veto
+1 Heliod's Intervention
+1 Restoration Magic
+1 Riot Control
+1 Path to Exile
+1 Swords to Plowshares
+1 War Report
+1 Sphinx's Revelation
+1 Alhammarret's Archive
+1 Arcane Signet
+1 Azorius Signet
+1 Riverchurn Monument
+1 Pristine Talisman
+1 Cosmos Elixir
+1 Venser's Journal
 1 The Water Crystal
 1 The Wind Crystal
-1 Tranquil Cove
-1 War Report
+1 Sol Ring
+1 Swiftfoot Boots
+1 Talisman of Progress
 1 Well of Lost Dreams
-1 Will, Scion of Peace
-1 Y'shtola Rhul
+1 Fractured Sanity
+1 Fumigate
+1 Maddening Cacophony
+1 Space-Time Anomaly
+1 Supreme Verdict
+1 Tasha's Hideous Laughter
+1 Authority of the Consuls
+1 Blind Obedience
+1 Boon Reflection
+1 Ghostly Prison
+1 Leyline of Hope
+1 Propaganda
+1 Psychic Corrosion
+1 Cleric Class
+1 Rest in Peace
+1 Test of Endurance
+9 Plains
+8 Island
+1 Adarkar Wastes
+1 Adventurer's Inn
+1 Command Tower
+1 Glacial Fortress
+1 Jidoor, Aristocratic Capital
+1 Port Town
+1 Prairie Stream
+1 Radiant Fountain
+1 Tranquil Cove
+1 Skycloud Expanse
+1 Idyllic Beachfront
+1 Glacial Floodplain
+1 Rogue's Passage
+1 Evolving Wilds
+1 Terramorphic Expanse
