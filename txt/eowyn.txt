@@ -3,22 +3,17 @@ Commander
 
 Deck
 1 Adeline, Resplendent Cathar
-1 Akroma's Will
 1 Aragorn, King of Gondor
 1 Arcane Signet
-1 Banishing Light
-1 Bastion Protector
 1 Battlefield Forge
 1 Beregond of the Guard
 1 Boromir, Gondor's Hope
-1 Boromir, Warden of the Tower
 1 Champions of Minas Tirith
 1 Clifftop Retreat
 1 Combat Celebrant
 1 Command Tower
 1 Commander's Sphere
 1 Coppercoat Vanguard
-1 Counterspell
 1 Crown of Gondor
 1 Door of Destinies
 1 Erkenbrand, Lord of Westfold
@@ -30,19 +25,14 @@ Deck
 1 Fiend Hunter
 1 Flamerush Rider
 1 Flawless Maneuver
-1 Flowering of the White Tree
-1 Forth Eorlingas!
 1 Frontier Warmonger
 1 Frontline Medic
 1 Furycalm Snarl
 1 Gilraen, Dúnedain Protector
 1 Glacial Fortress
 1 Harsh Mentor
-1 Herald's Horn
-1 Horn of Gondor
 1 Increasing Devotion
-4 Island
-1 Kindred Discovery
+6 Island
 1 Lossarnach Captain
 1 Lost to Legend
 1 Marshal's Anthem
@@ -52,12 +42,11 @@ Deck
 1 Oath of Eorl
 1 Path of Ancestry
 1 Path to Exile
-8 Plains
+7 Plains
 1 Port Town
 1 Prairie Stream
 1 Prince Imrahil the Fair
 1 Riders of Rohan
-1 Riders of the Mark
 1 Rising of the Day
 1 Rogue's Passage
 1 Secluded Courtyard
@@ -65,11 +54,7 @@ Deck
 1 Shared Animosity
 1 Sol Ring
 1 Sulfur Falls
-1 Supreme Verdict
 1 Swords to Plowshares
-1 Talisman of Conviction
-1 Talisman of Progress
-1 Taunt from the Rampart
 1 Terramorphic Expanse
 1 Thalia's Lieutenant
 1 Thought Vessel
@@ -77,7 +62,6 @@ Deck
 1 Théoden, King of Rohan
 1 Tranquil Cove
 1 Unbreakable Formation
-1 Vanquisher's Banner
 1 Verge Rangers
 1 Village Bell-Ringer
 1 Visions of Glory
@@ -85,6 +69,23 @@ Deck
 1 Weathered Wayfarer
 1 Wind-Scarred Crag
 1 Windbrisk Heights
-1 Zealous Conscripts
 1 Éomer, King of Rohan
 1 Éowyn, Fearless Knight
+1 Cleansing Nova
+1 Descend Upon the Sinful
+1 Call the Coppercoats
+1 Generous Gift
+1 Negate
+1 Intangible Virtue
+1 Commander's Authority
+1 Molten Echoes
+1 Grasp of Fate
+1 Wedding Announcement
+1 Boros Signet
+1 Izzet Signet
+1 Azorius Signet
+1 Champion of the Parish
+1 Mentor of the Meek
+1 Odric, Master Tactician
+1 Thraben Doomsayer
+1 Devout Chaplain
