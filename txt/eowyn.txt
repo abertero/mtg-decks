@@ -9,7 +9,6 @@ Deck
 1 Beregond of the Guard
 1 Boromir, Gondor's Hope
 1 Champions of Minas Tirith
-1 Clifftop Retreat
 1 Combat Celebrant
 1 Command Tower
 1 Commander's Sphere
@@ -18,18 +17,14 @@ Deck
 1 Door of Destinies
 1 Erkenbrand, Lord of Westfold
 1 Evolving Wilds
-1 Exotic Orchard
 1 Faramir, Prince of Ithilien
 1 Faramir, Steward of Gondor
-1 Field of Ruin
 1 Fiend Hunter
 1 Flamerush Rider
 1 Flawless Maneuver
 1 Frontier Warmonger
 1 Frontline Medic
-1 Furycalm Snarl
 1 Gilraen, Dúnedain Protector
-1 Glacial Fortress
 1 Harsh Mentor
 1 Increasing Devotion
 6 Island
@@ -37,28 +32,20 @@ Deck
 1 Lost to Legend
 1 Marshal's Anthem
 1 Mass Appeal
-1 Minas Tirith
 4 Mountain
 1 Oath of Eorl
 1 Path of Ancestry
 1 Path to Exile
 7 Plains
-1 Port Town
-1 Prairie Stream
 1 Prince Imrahil the Fair
 1 Riders of Rohan
 1 Rising of the Day
-1 Rogue's Passage
-1 Secluded Courtyard
 1 Selfless Squire
 1 Shared Animosity
 1 Sol Ring
-1 Sulfur Falls
 1 Swords to Plowshares
-1 Terramorphic Expanse
 1 Thalia's Lieutenant
 1 Thought Vessel
-1 Throne of the High City
 1 Théoden, King of Rohan
 1 Tranquil Cove
 1 Unbreakable Formation
@@ -66,7 +53,6 @@ Deck
 1 Village Bell-Ringer
 1 Visions of Glory
 1 Wayfarer's Bauble
-1 Weathered Wayfarer
 1 Wind-Scarred Crag
 1 Windbrisk Heights
 1 Éomer, King of Rohan
@@ -89,3 +75,15 @@ Deck
 1 Odric, Master Tactician
 1 Thraben Doomsayer
 1 Devout Chaplain
+1 Field of Ruin
+1 Swiftwater Cliffs
+1 Mystic Monastery
+1 Azorius Guildgate
+1 Prismari Campus
+1 Sharlayan, Nation of Scholars
+1 Temple of the False God
+1 Castle Ardenvale
+1 Temple of Triumph
+1 Halimar Depths
+1 Idyllic Beachfront
+1 Spinerock Knoll
