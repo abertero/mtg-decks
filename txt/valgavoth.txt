@@ -2,7 +2,6 @@ Commander
 1 Valgavoth, Harrower of Souls
 
 Deck
-1 Sire of Seven Deaths
 1 Blood Seeker
 1 Morbid Opportunist
 1 Nightshade Harvester
@@ -11,17 +10,13 @@ Deck
 1 Blasphemous Act
 1 Chaos Warp
 1 Kardur, Doomscourge
-1 Florian, Voldaren Scion
 1 Harsh Mentor
 1 Barbed Wire
 1 Kaervek the Merciless
 1 Massacre Wurm
 1 Mai, Scornful Striker
 1 Stormfist Crusader
-1 Magebane Lizard
-1 Falkenrath Noble
 1 Blood Artist
-1 Barbflare Gremlin
 1 Underworld Dreams
 1 Spiked Corridor
 1 Sulfuric Vortex
@@ -32,47 +27,31 @@ Deck
 1 Wound Reflection
 1 Rug of Smothering
 1 Syr Konrad, the Grim
-1 Rin and Seri, Inseparable
-1 Parallel Lives
 1 Spiteful Visions
 1 Basilisk Collar
 1 Mogis, God of Slaughter
 1 Kederekt Parasite
 1 Victim of Night
-1 Massacre Girl
 1 Feed the Swarm
-1 Sign in Blood
 1 Decree of Pain
 1 Ob Nixilis, the Hate-Twisted
 1 Fate Unraveler
-1 Blood Reckoning
+1 Bloodchief Ascension
 1 Pestilence
 1 Rakdos, Lord of Riots
 1 Gray Merchant of Asphodel
 1 Mayhem Devil
 1 Rakdos Charm
 1 Bedevil
-1 Dreadbore
+1 Terminate
 1 Citadel of Pain
-1 Unlicensed Disintegration
-1 Deadly Tempest
-1 In Garruk's Wake
-1 Zurzoth, Chaos Rider
-1 Flameblade Angel
+1 Chandra's Ignition
 1 Aether Sting
 1 Gleeful Arsonist
 1 Brash Taunter
-1 Disrupt Decorum
 1 Star Athlete
-1 Faithless Looting
-1 Abrade
 1 Manabarbs
-1 Psychosis Crawler
-1 Commander's Sphere
-1 Solemn Simulacrum
 1 Rakdos Signet
-1 Maestros Theater
-1 Wayfarer's Bauble
 1 Ominous Asylum
 1 Sol Ring
 1 Swiftfoot Boots
@@ -85,6 +64,25 @@ Deck
 1 Command Tower
 1 Smoldering Marsh
 1 Cinder Barrens
-11 Mountain
-12 Swamp
+7 Mountain
+10 Swamp
 1 Rakdos Guildgate
+1 Suspended Sentence
+1 Infernal Grasp
+1 Arcane Signet
+1 Thought Vessel
+1 Fellwar Stone
+1 Ankh of Mishra
+1 Shadowblood Ridge
+1 Tainted Peak
+1 Temple of Malice
+1 Dragonskull Summit
+1 Canyon Slough
+1 Foreboding Ruins
+1 Shivan Gorge
+1 Chandra, Awakened Inferno
+1 The Lord of Pain
+1 Persistent Constrictor
+1 Razorkin Needlehead
+1 Rampaging Ferocidon
+1 Solphim, Mayhem Dominus
