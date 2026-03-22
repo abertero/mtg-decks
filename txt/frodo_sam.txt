@@ -5,12 +5,11 @@ Commander
 Deck
 1 Academy Manufactor
 1 Access Tunnel
-1 Anguished Unmaking
+1 Generous Gift
 1 Arcane Signet
 1 Assassin's Trophy
 1 Banquet Guests
 1 Bilbo, Birthday Celebrant
-1 Birds of Paradise
 1 Brushland
 1 Call of the Ring
 1 Canopy Vista
@@ -20,7 +19,6 @@ Deck
 1 Crypt Incursion
 1 Cultivate
 1 Dawn of Hope
-1 Delighted Halfling
 1 Dusk // Dawn
 1 Elanor Gardner
 1 Essence Warden
@@ -40,11 +38,9 @@ Deck
 1 Gollum, Obsessed Stalker
 1 Graypelt Refuge
 1 Gwaihir, Greatest of the Eagles
-1 Heroic Intervention
 1 Isolated Chapel
 1 Jaheira, Friend of the Forest
 1 Lobelia, Defender of Bag End
-1 Lotho, Corrupt Shirriff
 1 Many Partings
 1 Meriadoc Brandybuck
 1 Merry, Warden of Isengard
@@ -54,8 +50,7 @@ Deck
 1 Murmuring Bosk
 1 Necroblossom Snarl
 1 Night of the Sweets' Revenge
-1 Night's Whisper
-1 Nuka-Cola Vending Machine
+1 Fell the Mighty
 1 Of Herbs and Stewed Rabbit
 1 Path of Ancestry
 1 Path to Exile
@@ -80,14 +75,18 @@ Deck
 3 Swamp
 1 Swords to Plowshares
 1 The Battle of Bywater
-1 The Gaffer
-1 The One Ring
+1 Swiftfoot Boots
 1 The Shire
-1 Tireless Provisioner
-1 Toxic Deluge
 1 Treebeard, Gracious Host
 1 Vito, Thorn of the Dusk Rose
 1 Well of Lost Dreams
 1 Woodland Cemetery
 1 Ninja Pizza
 1 Vraska Joins Up
+1 Beast Within
+1 Utter End
+1 Rootborn Defenses
+1 Despark
+1 Mentor of the Meek
+1 Smeagol, Helpful Guide
+1 Archangel of Thune
