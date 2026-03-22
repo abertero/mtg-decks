@@ -13,7 +13,7 @@ Deck
 1 Bloodfell Caves
 1 Bloodghast
 1 Bloodline Keeper
-1 Bloodline Necromancer
+1 Vengeful Bloodwitch
 1 Bloodlord of Vaasgoth
 1 Bojuka Bog
 1 Boros Guildgate
@@ -39,7 +39,7 @@ Deck
 1 Go for the Throat
 1 Herald's Horn
 1 Indulgent Aristocrat
-1 Kindred Charge
+1 Ruinous Ultimatum
 1 Legion Lieutenant
 1 Legion's Landing
 1 Malakir Bloodwitch
@@ -58,8 +58,8 @@ Deck
 3 Plains
 1 Rakdos Signet
 1 Rakish Heir
-1 Read the Bones
-1 Return to Dust
+1 Olivia's Wrath
+1 Village Rites
 1 Rogue's Passage
 1 Sanctum Seeker
 1 Sanguine Bond
@@ -67,7 +67,7 @@ Deck
 1 Secluded Courtyard
 1 Shadowblood Ridge
 1 Shared Animosity
-1 Sign in Blood
+1 Pact of the Serpent
 1 Skullclamp
 1 Smoldering Marsh
 1 Sol Ring
@@ -86,7 +86,7 @@ Deck
 1 Vampire Nighthawk
 1 Vampire Socialite
 1 Vanquisher's Banner
-1 Vindicate
+1 Edgar, Charmed Groom
 1 Viscera Seer
 1 Welcoming Vampire
 1 Well of Lost Dreams
