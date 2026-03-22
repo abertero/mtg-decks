@@ -35,4 +35,4 @@
 * Brago, King Eternal [MB](https://manabox.app/decks/AZqot5bqcg-q_-OcU8mXAA) [MF](https://moxfield.com/decks/YhTBJWYNLECPcY9keqCiNw) [DS]()
 * Marchesa, the Black Rose [MB](https://manabox.app/decks/AZqnci0Ue2mhfrAeRgMdCA) [MF](https://moxfield.com/decks/xymJHJr4IUOIHMlBugfXKw) [DS]()
 * Eowyn, Shieldmaiden [MB]() [MF](https://moxfield.com/decks/jjOwaa-DZUKOLZe8F6AnJw) [DS]()
-* Frodo, Adventurous Hobbit & Sam, Loyal Attendant [MB]() [MF](https://moxfield.com/decks/B7etCPutzkSjYfbXYzf0Ww) [DS]()
+* Frodo, Adventurous Hobbit | Sam, Loyal Attendant [MB]() [MF](https://moxfield.com/decks/B7etCPutzkSjYfbXYzf0Ww) [DS]()
