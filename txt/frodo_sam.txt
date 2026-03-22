@@ -28,7 +28,7 @@ Deck
 1 Farseek
 1 Feasting Hobbit
 1 Field-Tested Frying Pan
-6 Forest
+4 Forest
 1 Fortified Village
 1 Frodo, Sauron's Bane
 1 Ghost Quarter
@@ -56,7 +56,7 @@ Deck
 1 Path to Exile
 1 Peregrin Took
 1 Pippin, Warden of Isengard
-5 Plains
+4 Plains
 1 Prize Pig
 1 Prosperous Innkeeper
 1 Rapacious Guest
@@ -72,7 +72,7 @@ Deck
 1 Shineshadow Snarl
 1 Sol Ring
 1 Sunpetal Grove
-3 Swamp
+2 Swamp
 1 Swords to Plowshares
 1 The Battle of Bywater
 1 Swiftfoot Boots
