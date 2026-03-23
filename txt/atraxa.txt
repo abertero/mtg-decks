@@ -8,13 +8,13 @@ Deck
 1 Arcane Signet
 1 Ash Barrens
 1 Astral Cornucopia
-1 Austere Command
+1 Vraska's Fall
 1 Blighted Agent
 1 Bloated Contaminator
 1 Blooming Marsh
 1 Cankerbloom
 1 Chromatic Lantern
-1 Comeuppance
+1 Infectious Bite
 1 Command Tower
 1 Contagion Engine
 1 Counterspell
@@ -36,7 +36,7 @@ Deck
 1 Flux Channeler
 1 Forest
 1 Forest
-1 Forest
+1 Tekuthal, Inquiry Dominus
 2 Forest
 1 Hallowed Fountain
 1 Ichor Rats
@@ -55,16 +55,16 @@ Deck
 1 Merciless Eviction
 1 Metastatic Evangel
 1 Murmuring Bosk
-1 Narset Transcendent
+1 Oko, Thief of Crowns
 1 Narset, Parter of Veils
 1 Nature's Lore
 1 Norn's Decree
 1 Opulent Palace
 1 Path of Ancestry
 1 Path to Exile
-1 Persistent Constrictor
+1 Blightbelly Rat
 1 Phyrexian Swarmlord
-1 Pir, Imaginative Rascal
+1 Fathom Mage
 1 Plains
 1 Plains
 1 Plains
@@ -74,13 +74,13 @@ Deck
 1 Reliquary Tower
 1 Rhystic Study
 1 Sandsteppe Citadel
-1 Scavenging Ooze
+1 Grateful Apparition
 1 Seaside Citadel
 1 Sensei's Divining Top
 1 Smothering Tithe
 1 Sol Ring
 1 Spara's Headquarters
-1 Spike Weaver
+1 Viral Drake
 1 Sunpetal Grove
 1 Supreme Verdict
 1 Swamp
@@ -93,10 +93,10 @@ Deck
 1 Tamiyo, Field Researcher
 1 Teferi, Hero of Dominaria
 1 Teferi, Temporal Archmage
-1 Temple of the False God
+1 Deceptive Landscape
 1 Terramorphic Expanse
 1 Tezzeret's Gambit
 1 Thrummingbird
-1 Toothy, Imaginary Friend
+1 Brokers Ascendancy
 1 Voidwing Hybrid
-1 Zimone, Paradox Sculptor
+1 Skrelv, Defector Mite
