@@ -74,7 +74,7 @@ Deck
 1 Stensia Masquerade
 1 Sulfurous Springs
 1 Stromkirk Captain
-1 Sunhome, Fortress of the Legion
+1 Vault of the Archangel
 6 Swamp
 1 Swords to Plowshares
 1 Teferi's Protection
