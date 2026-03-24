@@ -11,7 +11,7 @@ Deck
 1 Arcane Sanctum
 1 Arcane Signet
 1 River of Tears
-1 Aura of Silence
+1 Foundry Inspector
 1 Azorius Chancery
 1 Azorius Signet
 1 Baleful Strix
