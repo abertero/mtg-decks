@@ -7,7 +7,7 @@
 * Hakbal of the Surging Soul [MB](https://manabox.app/decks/AZqcAdiRe4qJYy8x3MiRTg) [MF](https://moxfield.com/decks/vNMBkI_iikC_bjFApCEhoA)
 * Alela, Artful Provocateur [MB](https://manabox.app/decks/AZqcHWvKd2upudaO22JeAA) [MF](https://moxfield.com/decks/eGdF_2fumEqKQs2sGoHvVw) [DS](https://deckstats.net/decks/292152/4322635-alela) [AD](https://archidekt.com/decks/21111356/alela)
 * Wilhelt, the Rotcleaver [MB](https://manabox.app/decks/AZqclncYeWiQUe1X3ZP4_g) [MF](https://moxfield.com/decks/rPU5wvz9vEGUECLyZwjnyQ)
-* Chulane, Teller of Tales [MB](https://manabox.app/decks/AZqc1K0ue_6gy8S5qAWeOw) [MF](https://moxfield.com/decks/f3gfNAYbuEWmrKyLvv1oSA)
+* Chulane, Teller of Tales [MB](https://manabox.app/decks/AZqc1K0ue_6gy8S5qAWeOw) [MF](https://moxfield.com/decks/f3gfNAYbuEWmrKyLvv1oSA) [AD](https://archidekt.com/decks/21112655/chulane)
 * Feather, the Redeemed [MB](https://manabox.app/decks/AZqc4J38ddqnlJNZCLXptQ) [MF](https://moxfield.com/decks/SrlkKgTpp0-sSSm8l11wqw)
 * Teysa Karlov [MB](https://manabox.app/decks/AZqc9nmEcwOX_X_-kFMQGw) [MF](https://moxfield.com/decks/SGjsnoE_10K2YGMRgy6NMQ)
 * Atraxa, Praetors' Voice [MB](https://manabox.app/decks/AZqeXBayd_eslvC3fsQyYA) [MF](https://moxfield.com/decks/rQJ0U18shUu_9g14eouXwA) [DS](https://deckstats.net/decks/292152/4322222-atraxa) [AD](https://archidekt.com/decks/21112448/atraxa)
