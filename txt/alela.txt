@@ -48,8 +48,7 @@ Deck
 1 Imprisoned in the Moon
 1 Inquisitive Glimmer
 1 Intangible Virtue
-2 Island
-2 Island
+7 Island
 1 Isolated Chapel
 1 Lightning Greaves
 1 Talisman of Hierarchy
@@ -70,7 +69,6 @@ Deck
 1 Redress Fate
 1 Rhystic Study
 1 Scion of Oona
-1 Scoured Barrens
 1 Seat of the Synod
 1 Sephara, Sky's Blade
 1 Skullclamp
@@ -83,7 +81,7 @@ Deck
 1 Starnheim Courser
 1 Sunken Hollow
 1 Supreme Verdict
-3 Swamp
+1 Swamp
 1 Swiftfoot Boots
 1 Swords to Plowshares
 1 Talisman of Progress
