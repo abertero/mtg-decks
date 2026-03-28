@@ -13,7 +13,7 @@ Deck
 1 Blind Obedience
 1 Bojuka Bog
 1 Bolas's Citadel
-1 Boon Reflection
+1 The Wind Crystal
 1 Chromatic Lantern
 1 Test of Endurance
 1 Meekstone
@@ -27,7 +27,7 @@ Deck
 1 Detection Tower
 1 Diabolic Tutor
 1 Dimir Signet
-1 Dismal Backwater
+1 River of Tears
 1 Dovin's Veto
 1 Shadow of the Second Sun
 1 Arena of the Ancients
@@ -49,11 +49,11 @@ Deck
 1 Karmic Justice
 1 Lethal Vapors
 1 Leyline of Anticipation
-1 Marchesa's Decree
+1 Spreading Plague
 1 Merciless Eviction
 1 Mortify
 1 Negate
-1 New Benalia
+1 Hall of Heliod's Generosity
 1 Norn's Annex
 1 Open the Vaults
 1 Orzhov Signet
@@ -80,7 +80,7 @@ Deck
 1 Temple of Deceit
 1 Terminus
 1 Terramorphic Expanse
-1 Tranquil Cove
+1 Temple of Silence
 1 Urborg, Tomb of Yawgmoth
 1 Sunlit Marsh
 1 Venser's Journal

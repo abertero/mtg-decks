@@ -17,7 +17,7 @@
 * Silvar, Devourer of the Free | Trynn, Champion of Freedom [MB](https://manabox.app/decks/AZqnrzIdeiOboa6OiEYRbQ) [MF](https://moxfield.com/decks/ZB3Y5qjLC0CZMY8oSBVTng)
 * K'rrik, Son of Yawgmoth [MB](https://manabox.app/decks/AZqolrZSfoawZJE7guF1aQ) [MF](https://moxfield.com/decks/IvpHnGwKxkGdQl3-_CPoTQ)
 * Yuriko, the Tiger's Shadow [MB](https://manabox.app/decks/AZqoq8bpeom9JOJmzYuhHg) [MF](https://moxfield.com/decks/vtTC1gil9UGxORm9qSys6Q) [DS](https://deckstats.net/decks/292152/4322639-yuriko)
-* Oloro, Ageless Ascetic [MB](https://manabox.app/decks/AZqsMDiedle1nxCqKN0XeA) [MF](https://moxfield.com/decks/VCNGODKYik211cTWU79P5w) [DS](https://deckstats.net/decks/292152/4322657-oloro)
+* Oloro, Ageless Ascetic [MB](https://manabox.app/decks/AZqsMDiedle1nxCqKN0XeA) [MF](https://moxfield.com/decks/VCNGODKYik211cTWU79P5w) [DS](https://deckstats.net/decks/292152/4322657-oloro) [AD](https://archidekt.com/decks/21199238/oloro_creatureless)
 * Meren of Clan Nel Toth [MB](https://manabox.app/decks/AZqs6pGOckG9t7qmUVgVHQ) [MF](https://moxfield.com/decks/ZYrmcTESpE-irO__tN-NHA)
 * Najeela, the Blade-Blossom [MB](https://manabox.app/decks/AZqs_tUTdRy141iRMfdHpg) [MF](https://moxfield.com/decks/Nv4KCQXy1ku9LbVHOxCSUQ)
 * Breya, Etherium Shaper [MB](https://manabox.app/decks/AZqtGDslf02n2XOVQ1-YIg) [MF](https://moxfield.com/decks/54RNysHAS0OSECoxb7yCig)
