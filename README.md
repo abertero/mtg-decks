@@ -37,4 +37,4 @@
 * Eowyn, Shieldmaiden [MF](https://moxfield.com/decks/jjOwaa-DZUKOLZe8F6AnJw)
 * Frodo, Adventurous Hobbit | Sam, Loyal Attendant [MF](https://moxfield.com/decks/B7etCPutzkSjYfbXYzf0Ww)
 * Urza, Chief Artificer [MF](https://moxfield.com/decks/bLTy6C7l0EWMykpoMJq1AA)
-* Obeka, Splitter of Seconds [MF]()
+* Obeka, Splitter of Seconds [MF](https://moxfield.com/decks/fEZsB-Dk7kWkXPjTClxrbw) [AD](https://archidekt.com/decks/21201466/obeka_budget)
