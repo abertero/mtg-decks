@@ -36,4 +36,5 @@
 * Marchesa, the Black Rose [MB](https://manabox.app/decks/AZqnci0Ue2mhfrAeRgMdCA) [MF](https://moxfield.com/decks/xymJHJr4IUOIHMlBugfXKw)
 * Eowyn, Shieldmaiden [MF](https://moxfield.com/decks/jjOwaa-DZUKOLZe8F6AnJw)
 * Frodo, Adventurous Hobbit | Sam, Loyal Attendant [MF](https://moxfield.com/decks/B7etCPutzkSjYfbXYzf0Ww)
-* Urza, Chief Artificer [MF](https://moxfield.com/decks/bLTy6C7l0EWMykpoMJq1AA) [AD]()
+* Urza, Chief Artificer [MF](https://moxfield.com/decks/bLTy6C7l0EWMykpoMJq1AA)
+* Obeka, Splitter of Seconds [MF]()
