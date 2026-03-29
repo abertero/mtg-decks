@@ -76,7 +76,7 @@ Deck
 1 Disdainful Stroke
 5 Swamp
 1 Gate to the Aether
-1 Followed Footsteps
+1 Sarevok's Tome
 1 Tamiyo's Journal
 1 Trailblazer's Boots
 1 Enter the Enigma
