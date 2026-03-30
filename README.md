@@ -19,7 +19,7 @@
 * Meren of Clan Nel Toth [MB](https://manabox.app/decks/AZqs6pGOckG9t7qmUVgVHQ) [MF](https://moxfield.com/decks/ZYrmcTESpE-irO__tN-NHA) [AD](https://archidekt.com/decks/21241093/meren)
 * Najeela, the Blade-Blossom [MB](https://manabox.app/decks/AZqs_tUTdRy141iRMfdHpg) [MF](https://moxfield.com/decks/Nv4KCQXy1ku9LbVHOxCSUQ) [AD](https://archidekt.com/decks/21241142/najeela)
 * Rafiq of the Many [MB](https://manabox.app/decks/AZqtIgq4e36IpxRd_zOghA) [MF](https://moxfield.com/decks/lidPI7omUkuawGE5EwzCLA) [AD](https://archidekt.com/decks/21241194/rafiq)
-* Thantis, the Warweaver [MB](https://manabox.app/decks/AZqtRKbWeVmsDMd75Ih7-w) [MF](https://moxfield.com/decks/JWH7IKylRkqETXthUOLJJQ)
+* Thantis, the Warweaver [MB](https://manabox.app/decks/AZqtRKbWeVmsDMd75Ih7-w) [MF](https://moxfield.com/decks/JWH7IKylRkqETXthUOLJJQ) [AD](https://archidekt.com/decks/21241252/thantis)
 * Lathril, Blade of the Elves [MB](https://manabox.app/decks/AZqtTJwIeoWQwvJ69_uAhw) [MF](https://moxfield.com/decks/N6TaG_upPkSw20rV77c_gw) [DS](https://deckstats.net/decks/292152/4322675-lathril)
 * Isshin, Two Heavens as One [MB](https://manabox.app/decks/AZqtU6kDeniggca4TE74Nw) [MF](https://moxfield.com/decks/E5oCk2CHsUW6YutCC5JGgg)
 * Kynaios and Tiro of Meletis [MB](https://manabox.app/decks/AZqtZWi1diKzQcGh2SMq6w) [MF](https://manabox.app/decks/AZrArsKFfZyO-PXfI4G33A)
