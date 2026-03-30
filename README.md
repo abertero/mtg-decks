@@ -29,9 +29,9 @@
 * Valgavoth, Harrower of Souls [MF](https://moxfield.com/decks/vpqac3aeXUiRIrBf_vy8aQ) [AD](https://archidekt.com/decks/21241425/valgavoth)
 * Brago, King Eternal [MB](https://manabox.app/decks/AZqot5bqcg-q_-OcU8mXAA) [MF](https://moxfield.com/decks/YhTBJWYNLECPcY9keqCiNw) [AD](https://archidekt.com/decks/21112509/brago)
 * Marchesa, the Black Rose [MB](https://manabox.app/decks/AZqnci0Ue2mhfrAeRgMdCA) [MF](https://moxfield.com/decks/xymJHJr4IUOIHMlBugfXKw) [AD](https://archidekt.com/decks/21241439/marchesa)
-* Eowyn, Shieldmaiden [MF](https://moxfield.com/decks/jjOwaa-DZUKOLZe8F6AnJw)
-* Frodo, Adventurous Hobbit | Sam, Loyal Attendant [MF](https://moxfield.com/decks/B7etCPutzkSjYfbXYzf0Ww)
-* Urza, Chief Artificer [MF](https://moxfield.com/decks/bLTy6C7l0EWMykpoMJq1AA)
+* Eowyn, Shieldmaiden [MF](https://moxfield.com/decks/jjOwaa-DZUKOLZe8F6AnJw) [AD](https://archidekt.com/decks/21241461/eowyn)
+* Frodo, Adventurous Hobbit | Sam, Loyal Attendant [MF](https://moxfield.com/decks/B7etCPutzkSjYfbXYzf0Ww) [AD](https://archidekt.com/decks/21241488/frodo_sam)
+* Urza, Chief Artificer [MF](https://moxfield.com/decks/bLTy6C7l0EWMykpoMJq1AA) [AD](https://archidekt.com/decks/21241508/urza)
 * Obeka, Splitter of Seconds [MF](https://moxfield.com/decks/fEZsB-Dk7kWkXPjTClxrbw) [AD](https://archidekt.com/decks/21201466/obeka_budget)
 
 ## Disassembled Decks
