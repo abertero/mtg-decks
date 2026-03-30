@@ -1,7 +1,7 @@
 # Magic The Gathering Decks
 
-* Edgar Markov [MB](https://manabox.app/decks/AZqZNXQBfw2VhnskVo1YtQ) [MF](https://moxfield.com/decks/Gb1hS-YP40KBYECDD-SWCQ) [DS](https://deckstats.net/decks/292152/4322128-edgar)
-* Narset, Enlightened Exile [MB](https://manabox.app/decks/AZqZSnl-e5eLn7sfkEdWlA) [MF](https://moxfield.com/decks/z3-r5vqzU0-LGnpRG5ERUg)
+* Edgar Markov [MB](https://manabox.app/decks/AZqZNXQBfw2VhnskVo1YtQ) [MF](https://moxfield.com/decks/Gb1hS-YP40KBYECDD-SWCQ) [DS](https://deckstats.net/decks/292152/4322128-edgar) [AD](https://archidekt.com/decks/21112873/edgar)
+* Narset, Enlightened Exile [MB](https://manabox.app/decks/AZqZSnl-e5eLn7sfkEdWlA) [MF](https://moxfield.com/decks/z3-r5vqzU0-LGnpRG5ERUg) [AD](https://archidekt.com/decks/21240374/narset)
 * Chatterfang, Squirrel General [MB](https://manabox.app/decks/AZqZYGtCedesnv5hNWKTeA) [MF](https://moxfield.com/decks/ADhA1hO_5Eys2bhqPFMlWg) [AD](https://archidekt.com/decks/21112569/chatterfang)
 * Lathiel, the Bounteous Dawn [MB](https://manabox.app/decks/AZqZa6I9dqeDCqvla4jWvQ) [MF](https://moxfield.com/decks/XOPKWueHYEenl2OBjGIqnQ)
 * Hakbal of the Surging Soul [MB](https://manabox.app/decks/AZqcAdiRe4qJYy8x3MiRTg) [MF](https://moxfield.com/decks/vNMBkI_iikC_bjFApCEhoA)
