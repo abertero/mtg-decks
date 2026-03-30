@@ -1,95 +1,81 @@
 Commander
-1 Teysa Karlov
+1 Elas il-Kor, Sadistic Pilgrim
 
 Deck
 1 Black Market
 1 Arcane Lighthouse
-1 Archon of Justice
+1 Skullclamp
 1 Ashnod's Altar
 1 Athreos, God of Passage
 1 Blood Artist
-1 Butcher of Malakir
+1 Enduring Tenacity
 1 Castle Ardenvale
 1 Condemn
 1 Cruel Celebrant
 1 Dark Prophecy
 1 Dawn of Hope
-1 Day of Judgment
+1 Kaya's Wrath
 1 Despark
 1 Diabolic Tutor
-1 Doomed Dissenter
+1 Elenda, the Dusk Rose
 1 Doomed Traveler
 1 Bastion of Remembrance
 1 Dusk
 1 Ethereal Absolution
 1 Evolving Wilds
-1 Felidar Retreat
+1 Sanguine Bond
 1 Fellwar Stone
 1 Forsaken Sanctuary
 1 Generous Gift
-1 Gift of Immortality
+1 Lunar Convocation
 1 Goldmire Bridge
 1 Grim Haruspex
-1 Hallowed Spiritkeeper
+1 Starscape Cleric
 1 Harvester of Souls
 1 High Market
 1 Hunted Witness
-1 Imperious Oligarch
-1 Land Tax
+1 Marauding Blight-Priest
+1 Austere Command
 1 Liesa, Forgotten Archangel
-1 Lingering Souls
+1 Rite of Oblivion
 1 Martial Coup
 1 Mentor of the Meek
-1 Merciless Eviction
+1 Vindicate
 1 Mind's Eye
 1 Mortify
 1 Mortuary Mire
-1 Ogre Slumlord
+1 Suture Priest
 1 Oketra's Monument
 1 Open the Graves
 1 Orzhov Basilica
 1 Orzhov Cluestone
-1 Orzhov Enforcer
+1 Jadar, Ghoulcaller of Nephalia
 1 Orzhov Guildgate
-1 Orzhov Locket
+1 Mind Stone
 1 Orzhov Signet
 1 Pawn of Ulamog
 1 Phyrexian Reclamation
-1 Plaguecrafter
-1 Plains
-1 Plains
-1 Plains
-2 Plains
-2 Plains
-1 Plains
-2 Plains
-1 Plains
-1 Plains
+1 Ayli, Eternal Pilgrim
+12 Plains
 1 Priest of Forgotten Gods
 1 Rally the Ancestors
-1 Ravenous Chupacabra
+1 Soul's Attendant
 1 Reassembling Skeleton
-1 Requiem Angel
-1 Return to Dust
-1 Reveillark
+1 Denethor, Ruling Steward
+1 Rootborn Defenses
+1 Sun Titan
 1 Revel in Riches
 1 Scoured Barrens
 1 Sign in Blood
-1 Smothering Abomination
-1 Solemn Simulacrum
-1 Sun Titan
-4 Swamp
-1 Swamp
-1 Swamp
-1 Swamp
-2 Swamp
-1 Swamp
-2 Swamp
+1 Fleshtaker
+1 Selfless Spirit
+1 Soul Warden
+12 Swamp
 1 Swiftfoot Boots
-1 Teysa, Orzhov Scion
+1 Teysa Karlov
 1 Vindictive Vampire
 1 Viscera Seer
 1 Wayfarer's Bauble
 1 Witch's Cottage
-1 Yahenni, Undying Partisan
+1 Elenda's Hierophant
 1 Zulaport Cutthroat
