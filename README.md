@@ -28,7 +28,7 @@
 * Rin and Siri, Inseparables [MF](https://moxfield.com/decks/rwK0KxXKnEaSinUBJ1unmw) [AD](https://archidekt.com/decks/21241396/rin_and_seri)
 * Valgavoth, Harrower of Souls [MF](https://moxfield.com/decks/vpqac3aeXUiRIrBf_vy8aQ) [AD](https://archidekt.com/decks/21241425/valgavoth)
 * Brago, King Eternal [MB](https://manabox.app/decks/AZqot5bqcg-q_-OcU8mXAA) [MF](https://moxfield.com/decks/YhTBJWYNLECPcY9keqCiNw) [AD](https://archidekt.com/decks/21112509/brago)
-* Marchesa, the Black Rose [MB](https://manabox.app/decks/AZqnci0Ue2mhfrAeRgMdCA) [MF](https://moxfield.com/decks/xymJHJr4IUOIHMlBugfXKw)
+* Marchesa, the Black Rose [MB](https://manabox.app/decks/AZqnci0Ue2mhfrAeRgMdCA) [MF](https://moxfield.com/decks/xymJHJr4IUOIHMlBugfXKw) [AD](https://archidekt.com/decks/21241439/marchesa)
 * Eowyn, Shieldmaiden [MF](https://moxfield.com/decks/jjOwaa-DZUKOLZe8F6AnJw)
 * Frodo, Adventurous Hobbit | Sam, Loyal Attendant [MF](https://moxfield.com/decks/B7etCPutzkSjYfbXYzf0Ww)
 * Urza, Chief Artificer [MF](https://moxfield.com/decks/bLTy6C7l0EWMykpoMJq1AA)
