@@ -24,7 +24,7 @@
 * Isshin, Two Heavens as One [MB](https://manabox.app/decks/AZqtU6kDeniggca4TE74Nw) [MF](https://moxfield.com/decks/E5oCk2CHsUW6YutCC5JGgg) [AD](https://archidekt.com/decks/21241301/isshin_lighning)
 * Kynaios and Tiro of Meletis [MB](https://manabox.app/decks/AZqtZWi1diKzQcGh2SMq6w) [MF](https://manabox.app/decks/AZrArsKFfZyO-PXfI4G33A) [AD](https://archidekt.com/decks/21241326/kynaios_tiro)
 * Phenax, God of Deception [MB](https://manabox.app/decks/AZrusOLmfmmKlOdqmc3XKQ) [MF](https://moxfield.com/decks/W72Xl4ougEuTyvaayKRiyA) [AD](https://archidekt.com/decks/21241339/phenax)
-* Hope Estheim [MF](https://moxfield.com/decks/nSneuwzt7kGZ-T-HSov-wA) [DS](https://deckstats.net/decks/292152/4323213-hope-estheim)
+* Hope Estheim [MF](https://moxfield.com/decks/nSneuwzt7kGZ-T-HSov-wA) [DS](https://deckstats.net/decks/292152/4323213-hope-estheim) [AD](https://archidekt.com/decks/21241365/hope)
 * Rin and Siri, Inseparables [MF](https://moxfield.com/decks/rwK0KxXKnEaSinUBJ1unmw)
 * Valgavoth, Harrower of Souls [MF](https://moxfield.com/decks/vpqac3aeXUiRIrBf_vy8aQ)
 * Brago, King Eternal [MB](https://manabox.app/decks/AZqot5bqcg-q_-OcU8mXAA) [MF](https://moxfield.com/decks/YhTBJWYNLECPcY9keqCiNw) [AD](https://archidekt.com/decks/21112509/brago)
