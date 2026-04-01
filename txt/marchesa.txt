@@ -75,7 +75,7 @@ Deck
 6 Swamp
 1 Swiftwater Cliffs
 1 Temple of Deceit
-1 Temple of the False God
+1 Shadowblood Ridge
 1 Terminate
 1 Terramorphic Expanse
 1 Thran Vigil
