@@ -78,7 +78,7 @@ Deck
 6 Swamp
 1 Swords to Plowshares
 1 Teferi's Protection
-1 Temple of the False God
+1 Caves of Koilos
 1 Terramorphic Expanse
 1 Twilight Prophet
 1 Unclaimed Territory
