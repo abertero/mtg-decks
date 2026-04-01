@@ -40,7 +40,7 @@ Deck
 1 Heroic Intervention
 1 Immaculate Magistrate
 1 Imperious Perfect
-1 Joraga Warcaller
+1 High Perfect Morcant
 1 Jungle Hollow
 1 Kindred Summons
 1 Leaf-Crowned Visionary
