@@ -10,17 +10,15 @@ Deck
 1 Commander's Sphere
 1 Consuming Aberration
 1 Cruel Somnophage
-1 Curse of the Swine
 1 Cut Your Losses
 1 Darksteel Citadel
 1 Darkwater Catacombs
 1 Diabolic Tutor
 1 Didn't Say Please
 1 Dimir Signet
-1 Disdainful Stroke
+1 Unwind
 1 Dismal Backwater
 1 Doom Blade
-1 Doomsday Excruciator
 1 Dramatic Reversal
 1 Dreadship Reef
 1 Dreamborn Muse
@@ -34,14 +32,14 @@ Deck
 1 Grisly Spectacle
 1 Guiltfeeder
 1 Halimar Depths
-1 Hedron Crab
+1 Undead Alchemist
 1 Hover Barrier
 1 In Garruk's Wake
-11 Island
+12 Island
 1 Jace's Phantasm
 1 Keening Stone
 1 King Macar, the Gold-Cursed
-1 Lazav, Dimir Mastermind
+1 Caelorna, Coral Tyrant
 1 Manic Scribe
 1 Memorial to Genius
 1 Mind Funeral
@@ -59,14 +57,14 @@ Deck
 1 Psychic Strike
 1 Rapid Hybridization
 1 Scavenger Grounds
-1 Sewer Nemesis
+1 Drift of Phantasms
 1 Sire of Stagnation
 1 Sol Ring
-1 Sphinx's Tutelage
+1 Pemmin's Aura
 10 Swamp
 1 Tainted Isle
 1 Talisman of Dominance
-1 Tasha's Hideous Laughter
+1 Curse of the Swine
 1 Temple of Deceit
 1 Temple of the False God
 1 Terisian Mindbreaker
@@ -82,3 +80,4 @@ Deck
 1 Wight of Precinct Six
 1 Windfall
 1 Wrexial, the Risen Deep
+1 Crashing Drawbridge

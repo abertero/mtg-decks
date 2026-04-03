@@ -33,6 +33,7 @@
 * Frodo, Adventurous Hobbit | Sam, Loyal Attendant [MF](https://moxfield.com/decks/B7etCPutzkSjYfbXYzf0Ww) [AD](https://archidekt.com/decks/21241488/frodo_sam)
 * Urza, Chief Artificer [MF](https://moxfield.com/decks/bLTy6C7l0EWMykpoMJq1AA) [AD](https://archidekt.com/decks/21241508/urza)
 * Obeka, Splitter of Seconds [MF](https://moxfield.com/decks/fEZsB-Dk7kWkXPjTClxrbw) [AD](https://archidekt.com/decks/21201466/obeka_budget)
+* Eriette of the Charmed Apple [MF](https://moxfield.com/decks/Z_snTGvl0UORiZ9eZE7peA) [AD](https://archidekt.com/decks/21329651/eriette)
 
 ## Disassembled Decks
 
