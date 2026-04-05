@@ -5,11 +5,11 @@ Deck
 1 Aetherize
 1 Ashiok, Dream Render
 1 Bonehoard
-1 Brainstorm
+1 Wall of Lost Thoughts
 1 Charix, the Raging Isle
-1 Commander's Sphere
+1 Syr Konrad, the Grim
 1 Consuming Aberration
-1 Cruel Somnophage
+1 Corrupted Shapeshifter
 1 Cut Your Losses
 1 Darksteel Citadel
 1 Darkwater Catacombs
@@ -18,8 +18,8 @@ Deck
 1 Dimir Signet
 1 Unwind
 1 Dismal Backwater
-1 Doom Blade
-1 Dramatic Reversal
+1 Illusionist's Bracers
+1 Realmbreaker, the Invasion Tree
 1 Dreadship Reef
 1 Dreamborn Muse
 1 Duskmantle Guildmage
@@ -28,28 +28,28 @@ Deck
 1 Fleet Swallower
 1 Fraying Sanity
 1 Freed from the Real
-1 Glimpse the Unthinkable
-1 Grisly Spectacle
-1 Guiltfeeder
+1 Fog Bank
+1 Mirelurk Queen
+1 Guard Gomazoa
 1 Halimar Depths
 1 Undead Alchemist
 1 Hover Barrier
-1 In Garruk's Wake
-12 Island
-1 Jace's Phantasm
-1 Keening Stone
+1 Ioreth of the Healing House
+11 Island
+1 Tui and La, Moon and Ocean
+1 Unstoppable Plan
 1 King Macar, the Gold-Cursed
 1 Caelorna, Coral Tyrant
 1 Manic Scribe
-1 Memorial to Genius
-1 Mind Funeral
-1 Mind Grind
+1 Choked Estuary
+1 The Haunt of Hightower
+1 Riverchurn Monument
 1 Mindcrank
-1 Mirko Vosk, Mind Drinker
-1 Mortivore
-1 Mortuary Mire
+1 Singularity Rupture
+1 Ruin Crab
+1 Exotic Orchard
 1 Negate
-1 Nemesis of Reason
+1 Kitsune's Technique
 1 Nephalia Drownyard
 1 Nighthowler
 1 Propaganda
@@ -58,10 +58,10 @@ Deck
 1 Rapid Hybridization
 1 Scavenger Grounds
 1 Drift of Phantasms
-1 Sire of Stagnation
+1 Geth, Lord of the Vault
 1 Sol Ring
 1 Pemmin's Aura
-10 Swamp
+9 Swamp
 1 Tainted Isle
 1 Talisman of Dominance
 1 Curse of the Swine
@@ -73,11 +73,13 @@ Deck
 1 The Mindskinner
 1 Thought Collapse
 1 Thousand-Year Elixir
-1 Traumatize
+1 The Water Crystal
 1 Tree of Perdition
-1 Ultimate Price
+1 Ruin Crab
 1 Wall of Frost
-1 Wight of Precinct Six
+1 Sting, the Glinting Dagger
 1 Windfall
-1 Wrexial, the Risen Deep
+1 Soulless Jailer
 1 Crashing Drawbridge
+1 River of Tears
+1 Command Tower
