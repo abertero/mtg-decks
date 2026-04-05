@@ -3,29 +3,29 @@ Commander
 
 Deck
 1 Elas il-Kor, Sadistic Pilgrim
-1 Hidden Stockpile
+1 Painful Quandary
 1 Bojuka Bog
-1 Skullclamp
-1 Ashnod's Altar
-1 Athreos, God of Passage
+1 Well of Lost Dreams
+1 Fellwar Stone
+1 Cosmos Elixir
 1 Blood Artist
 1 Enduring Tenacity
 1 Castle Ardenvale
 1 Path to Exile
-1 Cruel Celebrant
+1 Nykthos Paragon
 1 Drana and Linvala
-1 Elspeth, Sun's Champion
-1 Victimize
+1 Kaya, Intangible Slayer
+1 Exsanguinate
 1 Despark
 1 Diabolic Tutor
 1 Cliffhaven Vampire
 1 Gray Merchant of Asphodel
-1 Bastion of Remembrance
+1 Phyrexian Arena
 1 Dusk
 1 Arcane Signet
 1 Evolving Wilds
 1 Sanguine Bond
-1 Corrupted Conviction
+1 Fracture
 1 Forsaken Sanctuary
 1 Generous Gift
 1 Lunar Convocation
@@ -38,14 +38,14 @@ Deck
 1 Austere Command
 1 Righteous Valkyrie
 1 Rite of Oblivion
-1 Unearth
+1 Fumigate
 1 South Wind Avatar
 1 Swords to Plowshares
 1 Kunoros, Hound of Athreos
 1 Mortify
 1 Temple of Silence
 1 Suture Priest
-1 Oketra's Monument
+1 Swiftfoot Boots
 1 Rhox Faithmender
 1 Orzhov Basilica
 1 Liesa, Forgotten Archangel
@@ -58,26 +58,26 @@ Deck
 1 Mai, Scornful Striker
 9 Plains
 1 Exemplar of Light
-1 Raise the Past
+1 Debt to the Deathless
 1 Soul's Attendant
 1 Angel of Vitality
 1 Mangara, the Diplomat
-1 Deadly Dispute
-1 Skrelv's Hive
+1 Land Tax
+1 Blind Obedience
 1 Resplendent Angel
 1 Scoured Barrens
 1 Sign in Blood
 1 Sunscorch Regent
 1 Selfless Spirit
 1 Soul Warden
-9 Swamp
-1 Village Rites
+8 Swamp
+1 Heliod's Intervention
 1 Indulging Patrician
-1 Vampiric Rites
-1 Viscera Seer
+1 Authority of the Consuls
+1 Witch of the Moors
 1 Talisman of Hierarchy
 1 Witch's Cottage
-1 Elenda's Hierophant
+1 Cleric Class
 1 Zulaport Cutthroat
 1 Exotic Orchard
 1 Isolated Chapel
@@ -85,3 +85,4 @@ Deck
 1 Terramorphic Expanse
 1 Fetid Heath
 1 Shineshadow Snarl
+1 Vault of the Archangel
