@@ -98,6 +98,6 @@ Deck
 1 Growth Spiral
 1 Farseek
 1 Splendid Reclamation
-1 Seek the Horizon
+1 Reach the Horizon
 1 Omnath, Locus of Rage
 1 Rampaging Baloths
