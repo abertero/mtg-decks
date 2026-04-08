@@ -1,0 +1,84 @@
+Commander
+1 Niv-Mizzet, Parun
+
+Deck
+1 Abrade
+1 Arcane Denial
+1 Arcane Signet
+1 Archmage Emeritus
+1 Blasphemous Act
+1 Brainstorm
+1 Cascade Bluffs
+1 Case of the Ransacked Lab
+1 Chain Reaction
+1 Chaos Warp
+1 Clear the Mind
+1 Command Tower
+1 Counterspell
+1 Crackling Drake
+1 Curiosity
+1 Decanter of Endless Water
+1 Electrostatic Field
+1 Erebor Flamesmith
+1 Exotic Orchard
+1 Expressive Iteration
+1 Fellwar Stone
+1 Frantic Search
+1 Frostboil Snarl
+1 Gandalf's Sanction
+1 Harmonic Prodigy
+1 Laboratory Maniac
+1 Mocking Sprite
+1 Murmuring Mystic
+1 Niv-Mizzet, Visionary
+1 Ophidian Eye
+1 Preordain
+1 Prismari Command
+1 Quick Study
+1 Rapid Hybridization
+1 Reliquary Tower
+1 Riptide Laboratory
+1 Serum Visions
+1 Shivan Reef
+1 Snap
+1 Sol Ring
+1 Storm-Kiln Artist
+1 Stormcatch Mentor
+1 Sulfur Falls
+1 Swarm Intelligence
+1 Swiftfoot Boots
+1 Tandem Lookout
+1 Teferi's Ageless Insight
+1 Temple of Epiphany
+1 Fiery Inscription
+1 Third Path Iconoclast
+1 Thought Vessel
+1 Thousand-Year Storm
+1 Young Pyromancer
+9 Mountain
+12 Island
+1 Prismari Campus
+1 Mystic Sanctuary
+1 Izzet Boilerworks
+1 Swiftwater Cliffs
+1 Evolving Wilds
+1 Narset, Parter of Veils
+1 Baral, Chief of Compliance
+1 The Locust God
+1 Goblin Electromancer
+1 Niv-Mizzet, the Firemind
+1 Guttersnipe
+1 Psychosis Crawler
+1 Dispel
+1 Remand
+1 Thrill of Possibility
+1 Unwind
+1 Negate
+1 Opt
+1 Aetherize
+1 Izzet Charm
+1 Deep Analysis
+1 Portent
+1 Faithless Looting
+1 Commander's Sphere
+1 Izzet Signet
