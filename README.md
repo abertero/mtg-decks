@@ -36,7 +36,7 @@
 * Eriette of the Charmed Apple [MF](https://moxfield.com/decks/Z_snTGvl0UORiZ9eZE7peA) [AD](https://archidekt.com/decks/21329651/eriette)
 * Niv-Mizzet, Parun [MF](https://moxfield.com/decks/3jIIDeOk00mz1LNvPf1-1g) [AD](https://archidekt.com/decks/21525350/nivmizzet)
 * The Wandering Minstrel [MF](https://moxfield.com/decks/s-LBBas9w0ad0hn9_ph35A) [AD](https://archidekt.com/decks/21527490/minstrel)}
-* Kuja, Genoma Sorcerer(Final Fantasy Only) [MF](https://moxfield.com/decks/0Mj51LUszkSQW3K786xUkQ) [AD]
+* Kuja, Genoma Sorcerer(Final Fantasy Only) [MF](https://moxfield.com/decks/0Mj51LUszkSQW3K786xUkQ) [AD]()
 
 ## Disassembled Decks
 
