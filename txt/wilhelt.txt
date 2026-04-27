@@ -24,10 +24,10 @@ Deck
 1 Diregraf Colossus
 1 Disdainful Stroke
 1 Distant Melody
-1 Dread Summons
+1 Skullclamp
 1 Dreadhorde Invasion
 1 Drown in Dreams
-1 Eater of Hope
+1 Ashnod's Altar
 1 Eloise, Nephalia Sleuth
 1 Empty the Laboratory
 1 Endless Ranks of the Dead

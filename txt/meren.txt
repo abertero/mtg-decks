@@ -21,7 +21,7 @@ Deck
 1 Deathrite Shaman
 1 Diabolic Servitude
 1 Dictate of Erebos
-1 Disciple of Bolas
+1 Zulaport Cutthroat
 1 Dread Summons
 1 Eternal Witness
 1 Evolutionary Leap
@@ -48,7 +48,7 @@ Deck
 1 Lightning Greaves
 1 Living Death
 1 Merciless Executioner
-1 Mycoloth
+1 Reclamation Sage
 1 Pathbreaker Ibex
 1 Polluted Mire
 1 Primal Growth
@@ -76,8 +76,8 @@ Deck
 1 Viridian Zealot
 1 Viscera Seer
 1 Vivid Grove
-1 Wall of Blossoms
+1 Ravenous Chupacabra
 1 Westvale Abbey
 1 Wood Elves
-1 Yavimaya Elder
+1 Elves of Deep Shadow
 1 Zombify
