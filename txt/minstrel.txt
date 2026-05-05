@@ -35,7 +35,7 @@ Deck
 1 Conduit of Worlds
 1 Counterspell
 1 Crossroads Village
-1 Cultivate
+1 Circuitous Route
 1 Druid Class
 1 Dryad of the Ilysian Grove
 1 Eden, Seat of the Sanctum
