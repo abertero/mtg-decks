@@ -41,7 +41,7 @@ Deck
 1 Meriadoc Brandybuck
 1 Merry, Warden of Isengard
 1 Mirkwood Bats
-1 Mortify
+1 Anguished Unmaking
 1 Motivated Pony
 1 Murmuring Bosk
 1 Night of the Sweets' Revenge
@@ -90,7 +90,7 @@ Deck
 1 Terramorphic Expanse
 1 High Market
 1 Sungrass Prairie
-1 Jungle Hollow
+1 Reliquary Tower
 1 Bountiful Promenade
 1 Radiant Grove
 1 Gingerbread Cabin

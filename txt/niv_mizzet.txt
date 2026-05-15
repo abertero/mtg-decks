@@ -15,7 +15,7 @@ Deck
 1 Clear the Mind
 1 Command Tower
 1 Counterspell
-1 Crackling Drake
+1 Talrand, Sky Summoner
 1 Curiosity
 1 Decanter of Endless Water
 1 Electrostatic Field
@@ -28,12 +28,12 @@ Deck
 1 Gandalf's Sanction
 1 Harmonic Prodigy
 1 Laboratory Maniac
-1 Mocking Sprite
+1 Coruscation Mage
 1 Murmuring Mystic
 1 Niv-Mizzet, Visionary
 1 Ophidian Eye
 1 Preordain
-1 Prismari Command
+1 Vandalblast
 1 Quick Study
 1 Rapid Hybridization
 1 Reliquary Tower
@@ -45,13 +45,13 @@ Deck
 1 Storm-Kiln Artist
 1 Stormcatch Mentor
 1 Sulfur Falls
-1 Swarm Intelligence
+1 Treasure Cruise
 1 Swiftfoot Boots
 1 Tandem Lookout
 1 Teferi's Ageless Insight
 1 Temple of Epiphany
 1 Fiery Inscription
-1 Third Path Iconoclast
+1 Ponder
 1 Thought Vessel
 1 Thousand-Year Storm
 1 Young Pyromancer
@@ -78,7 +78,7 @@ Deck
 1 Aetherize
 1 Izzet Charm
 1 Deep Analysis
-1 Portent
+1 Consider
 1 Faithless Looting
 1 Commander's Sphere
 1 Izzet Signet
