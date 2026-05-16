@@ -42,6 +42,33 @@ Deck
 1 Unstoppable Plan
 1 Vedalken Aethermage
 1 Voidmage Prodigy
-31 Island
+30 Island
 1 Lonely Sandbar
 1 Halimar Depths
+1 Negate
+1 Soratami Savant
+1 Lat-Nam Adept
+1 Windrider Wizard
+1 Trinket Mage
+1 Snap
+1 Pensive Professor
+1 Disdainful Stroke
+1 Volshe Tideturner
+1 Deekah, Fractal Theorist
+1 Tester of the Tangential
+1 Dispel
+1 Moonfolk Puzzlemaker
+1 Merrow Levitator
+1 Arcanis the Omnipotent
+1 Gadwick, the Wizened
+1 Vodalian Arcanist
+1 Spell Pierce
+1 Kefnet's Monument
+1 Curse of the Swine
+1 Aetherize
+1 Fallowsage
+1 Reality Shift
+1 Sky Diamond
+1 Rewind
+1 Wizard's Retort
+1 Portal Mage
