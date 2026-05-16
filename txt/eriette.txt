@@ -17,9 +17,9 @@ Deck
 1 Fellwar Stone
 1 Fetid Heath
 1 Generous Gift
-1 Grievous Wound
+1 Coercive Impetus
 1 Hateful Eidolon
-1 Starnheim Courser
+1 Killian, Decisive Mentor
 1 Hyena Umbra
 1 Isolated Chapel
 1 Killian, Ink Duelist
@@ -58,7 +58,7 @@ Deck
 1 Unquestioned Authority
 1 Vampiric Link
 9 Swamp
-12 Plains
+10 Plains
 1 Sun Titan
 1 Heliod's Pilgrim
 1 Mesa Enchantress
@@ -82,3 +82,5 @@ Deck
 1 Open the Armory
 1 Retether
 1 Bojuka Bog
+1 Exotic Orchard
+1 Umbral Expanse
