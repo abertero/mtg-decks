@@ -57,7 +57,7 @@ Deck
 1 Trespasser's Curse
 1 Unquestioned Authority
 1 Vampiric Link
-10 Swamp
+9 Swamp
 12 Plains
 1 Sun Titan
 1 Heliod's Pilgrim
@@ -77,7 +77,8 @@ Deck
 1 Evolving Wilds
 1 Orzhov Basilica
 1 Scoured Barrens
-1 Sign in Blood
+1 Anguished Unmaking
 1 Winds of Rath
 1 Open the Armory
 1 Retether
+1 Bojuka Bog
