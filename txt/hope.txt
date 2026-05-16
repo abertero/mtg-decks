@@ -17,13 +17,13 @@ Deck
 1 Y'shtola Rhul
 1 Haliya, Guided by Light
 1 Aerith Gainsborough
-1 Ruin Crab
+1 Temple of Enlightenment
 1 The Gaffer
 1 Kwain, Itinerant Meddler
 1 Will, Scion of Peace
 1 Guide of Souls
 1 Gold-Forged Thopteryx
-1 Wall of Reverence
+1 Exotic Orchard
 1 Archangel of Thune
 1 Mangara, the Diplomat
 1 Absorb
@@ -68,7 +68,7 @@ Deck
 1 Psychic Corrosion
 1 Cleric Class
 1 Rest in Peace
-1 Test of Endurance
+1 Reliquary Tower
 9 Plains
 8 Island
 1 Adarkar Wastes
