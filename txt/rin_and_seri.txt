@@ -30,7 +30,7 @@ Deck
 1 Gavony Township
 1 Helpful Hunter
 1 Herald's Horn
-1 Commander's Sphere
+1 Chromatic Lantern
 1 Hungry Lynx
 1 Impact Tremors
 1 Jazal Goldmane
@@ -44,7 +44,7 @@ Deck
 1 Kodama's Reach
 1 Kutzil, Malamet Exemplar
 1 Leonin Warleader
-1 Esika's Chariot
+1 Patchwork Banner
 1 Loyal Warhound
 1 Marisi, Breaker of the Coil
 1 Masked Vandal

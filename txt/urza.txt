@@ -17,7 +17,7 @@ Deck
 1 Cranial Plating
 1 Cyberdrive Awakener
 1 Whirler Rogue
-1 Utter End
+1 Anguished Unmaking
 1 Darksteel Citadel
 1 Despark
 1 Digsite Engineer
@@ -60,7 +60,7 @@ Deck
 1 Seat of the Synod
 1 Sharding Sphinx
 1 Silver Myr
-1 Sculpting Steel
+1 Mystic Forge
 1 Skullclamp
 1 Skycloud Expanse
 1 Mechanized Production
@@ -69,7 +69,7 @@ Deck
 1 Spire of Industry
 1 Steel Overseer
 1 Adarkar Wastes
-3 Swamp
+2 Swamp
 1 Brilliant Restoration
 1 Swords to Plowshares
 1 Talisman of Dominance
@@ -84,7 +84,7 @@ Deck
 1 Thousand Moons Smithy
 1 Go for the Throat
 1 Uthros Research Craft
-1 Guildmages' Forum
+1 Archway of Innovation
 1 Phyrexian Metamorph
 1 Urza, Prince of Kroog
 1 Glacial Fortress
@@ -94,3 +94,4 @@ Deck
 1 Shrine of the Forsaken Gods
 1 Temple of Silence
 1 Terramorphic Expanse
+1 Bojuka Bog
