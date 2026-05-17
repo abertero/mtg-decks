@@ -41,3 +41,5 @@ Deck
 1 Blanchwood Armor
 1 Evolving Wilds
 1 Norwood Ranger
+1 Tuinvale Treefolk
+1 Harrier Naga
