@@ -11,7 +11,7 @@ Deck
 1 Champions of Minas Tirith
 1 Combat Celebrant
 1 Command Tower
-1 Commander's Sphere
+1 Cathars' Crusade
 1 Coppercoat Vanguard
 1 Crown of Gondor
 1 Door of Destinies
@@ -50,9 +50,9 @@ Deck
 1 Tranquil Cove
 1 Unbreakable Formation
 1 Verge Rangers
-1 Village Bell-Ringer
+1 Boromir, Warden of the Tower
 1 Visions of Glory
-1 Wayfarer's Bauble
+1 Herald's Horn
 1 Wind-Scarred Crag
 1 Windbrisk Heights
 1 Éomer, King of Rohan
@@ -62,17 +62,17 @@ Deck
 1 Call the Coppercoats
 1 Generous Gift
 1 Negate
-1 Intangible Virtue
-1 Commander's Authority
-1 Molten Echoes
+1 Outlaws' Merriment
+1 Vanquisher's Banner
+1 Horn of Gondor
 1 Grasp of Fate
-1 Wedding Announcement
+1 Chromatic Lantern
 1 Boros Signet
 1 Izzet Signet
 1 Azorius Signet
-1 Champion of the Parish
+1 Riders of the Mark
 1 Mentor of the Meek
-1 Odric, Master Tactician
+1 Bastion Protector
 1 Thraben Doomsayer
 1 Devout Chaplain
 1 Field of Ruin
