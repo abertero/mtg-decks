@@ -43,3 +43,6 @@ Deck
 1 Norwood Ranger
 1 Tuinvale Treefolk
 1 Harrier Naga
+1 Cowl Prowler
+1 Murasa Brute
+1 Orazca Frillback
