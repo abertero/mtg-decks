@@ -46,3 +46,26 @@ Deck
 1 Cowl Prowler
 1 Murasa Brute
 1 Orazca Frillback
+1 Rhonas's Monument
+1 Dolmen Gate
+1 Whisperer of the Wilds
+1 Hall of Triumph
+1 Howl of the Night Pack
+1 Fresh Meat
+1 Axebane Stag
+1 Primordial Sage
+1 Mouth
+1 Muraganda Petroglyphs
+1 Run Over
+1 Trained Armodon
+1 Triumph of Ferocity
+1 Zendikar's Roil
+1 Vastwood Gorger
+1 Spined Karok
+1 Sight of the Scalelords
+1 Explore
+1 Rishkar's Expertise
+1 Praetor's Counsel
+1 Peregrination
+1 Rabid Bite
+1 Tendershoot Dryad
