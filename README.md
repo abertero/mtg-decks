@@ -39,7 +39,7 @@
 * Kuja, Genoma Sorcerer(Final Fantasy Only) [MF](https://moxfield.com/decks/0Mj51LUszkSQW3K786xUkQ) [AD](https://archidekt.com/decks/22639644/kuja_ff_only)
 * Azami, Lady of Scrolls [MF](https://moxfield.com/decks/FkIOvmxlZ064anFL_CswfQ) [AD](https://archidekt.com/decks/22639976/azami)
 * Fynn, the Fangbearer [MF](https://moxfield.com/decks/xSl4bPMmGkaoOaekP_-szA) [AD](https://archidekt.com/decks/22667879/fynn)
-* Ruxa, Patient Professor [MF](https://moxfield.com/decks/afu0iUtKPESMWxpW5WTTWg) [AD]()
+* Ruxa, Patient Professor [MF](https://moxfield.com/decks/afu0iUtKPESMWxpW5WTTWg) [AD](https://archidekt.com/decks/22674259/ruxa)
 
 ## Disassembled Decks
 
