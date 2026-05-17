@@ -12,7 +12,7 @@ Deck
 1 Enduring Tenacity
 1 Castle Ardenvale
 1 Path to Exile
-1 Nykthos Paragon
+1 Anguished Unmaking
 1 Drana and Linvala
 1 Kaya, Intangible Slayer
 1 Exsanguinate
@@ -31,7 +31,7 @@ Deck
 1 Lunar Convocation
 1 Goldmire Bridge
 1 Vizkopa Guildmage
-1 Starscape Cleric
+1 Twilight Prophet
 1 High Market
 1 Erebos, God of the Dead
 1 Marauding Blight-Priest
@@ -66,19 +66,19 @@ Deck
 1 Blind Obedience
 1 Resplendent Angel
 1 Scoured Barrens
-1 Sign in Blood
+1 Rug of Smothering
 1 Sunscorch Regent
-1 Selfless Spirit
+1 Vito, Thorn of the Dusk Rose
 1 Soul Warden
-8 Swamp
+7 Swamp
 1 Heliod's Intervention
 1 Indulging Patrician
 1 Authority of the Consuls
-1 Witch of the Moors
+1 Bolas's Citadel
 1 Talisman of Hierarchy
 1 Witch's Cottage
 1 Cleric Class
-1 Zulaport Cutthroat
+1 Ghostly Prison
 1 Exotic Orchard
 1 Isolated Chapel
 1 Tainted Field
@@ -86,3 +86,4 @@ Deck
 1 Fetid Heath
 1 Shineshadow Snarl
 1 Vault of the Archangel
+1 Seraph Sanctuary

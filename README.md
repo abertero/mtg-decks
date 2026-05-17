@@ -8,7 +8,7 @@
 * Wilhelt, the Rotcleaver [MB](https://manabox.app/decks/AZqclncYeWiQUe1X3ZP4_g) [MF](https://moxfield.com/decks/rPU5wvz9vEGUECLyZwjnyQ) [AD](https://archidekt.com/decks/21240542/wilhelt)
 * Chulane, Teller of Tales [MB](https://manabox.app/decks/AZqc1K0ue_6gy8S5qAWeOw) [MF](https://moxfield.com/decks/f3gfNAYbuEWmrKyLvv1oSA) [AD](https://archidekt.com/decks/21112655/chulane)
 * Feather, the Redeemed [MB](https://manabox.app/decks/AZqc4J38ddqnlJNZCLXptQ) [MF](https://moxfield.com/decks/SrlkKgTpp0-sSSm8l11wqw) [AD](https://archidekt.com/decks/21240648/feather)
-* Liesa, Shroud of Dusk [MB](https://manabox.app/decks/AZqc9nmEcwOX_X_-kFMQGw) [MF](https://moxfield.com/decks/SGjsnoE_10K2YGMRgy6NMQ) [AD](https://archidekt.com/decks/21240692/teysa)
+* Liesa, Shroud of Dusk [MB](https://manabox.app/decks/AZqc9nmEcwOX_X_-kFMQGw) [MF](https://moxfield.com/decks/SGjsnoE_10K2YGMRgy6NMQ) [AD](https://archidekt.com/decks/22667835/liesa)
 * Atraxa, Praetors' Voice [MB](https://manabox.app/decks/AZqeXBayd_eslvC3fsQyYA) [MF](https://moxfield.com/decks/rQJ0U18shUu_9g14eouXwA) [DS](https://deckstats.net/decks/292152/4322222-atraxa) [AD](https://archidekt.com/decks/21112448/atraxa)
 * The Wise Mothman [MB](https://manabox.app/decks/AZqeaQxQfrewOgi9-3gZFQ) [MF](https://moxfield.com/decks/SfMUUNTSsEagMv4ks697GA) [DS](https://deckstats.net/decks/292152/4322184-mothman) [AD](https://archidekt.com/decks/21240749/mothman)
 * Muldrotha, the Gravetide [MB](https://manabox.app/decks/AZqekSHzeWisHXEiSWTkUQ) [MF](https://moxfield.com/decks/J88Ngd_8-0qzoiM51LeBzQ) [AD](https://archidekt.com/decks/21240945/muldrotha)
@@ -35,9 +35,10 @@
 * Obeka, Splitter of Seconds [MF](https://moxfield.com/decks/fEZsB-Dk7kWkXPjTClxrbw) [AD](https://archidekt.com/decks/21201466/obeka_budget)
 * Eriette of the Charmed Apple [MF](https://moxfield.com/decks/Z_snTGvl0UORiZ9eZE7peA) [AD](https://archidekt.com/decks/21329651/eriette)
 * Niv-Mizzet, Parun [MF](https://moxfield.com/decks/3jIIDeOk00mz1LNvPf1-1g) [AD](https://archidekt.com/decks/21525350/nivmizzet)
-* The Wandering Minstrel [MF](https://moxfield.com/decks/s-LBBas9w0ad0hn9_ph35A) [AD](https://archidekt.com/decks/21527490/minstrel)}
+* The Wandering Minstrel [MF](https://moxfield.com/decks/s-LBBas9w0ad0hn9_ph35A) [AD](https://archidekt.com/decks/21527490/minstrel)
 * Kuja, Genoma Sorcerer(Final Fantasy Only) [MF](https://moxfield.com/decks/0Mj51LUszkSQW3K786xUkQ) [AD](https://archidekt.com/decks/22639644/kuja_ff_only)
 * Azami, Lady of Scrolls [MF](https://moxfield.com/decks/FkIOvmxlZ064anFL_CswfQ) [AD](https://archidekt.com/decks/22639976/azami)
+* Fynn, the Fangbearer [MF](https://moxfield.com/decks/xSl4bPMmGkaoOaekP_-szA) [AD](https://archidekt.com/decks/22667879/fynn)
 
 ## Disassembled Decks
 
