@@ -53,3 +53,33 @@ Deck
 1 Orzhov Signet
 1 Selesnya Signet
 1 Golgari Signet
+1 Tear Asunder
+1 Tip the Scales
+1 Walking Bulwark
+1 Wall of Omens
+1 Slagwurm Armor
+1 Hallowed Burial
+1 Sight of the Scalelords
+1 Angelic Chorus
+1 Hornet Nest
+1 Spidersilk Armor
+1 Gatecreeper Vine
+1 Archers' Parapet
+1 Wall of Glare
+1 Mentor of the Meek
+1 Guardians of Meletis
+1 Obelisk Spider
+1 Wall of Mulch
+1 Jeskai Barricade
+1 Resolute Watchdog
+1 Suspicious Bookcase
+1 Abzan Banner
+1 Worn Powerstone
+1 Putrefy
+1 Mortify
+1 Condemn
+1 Victim of Night
+1 Perch Protection
+1 Rootborn Defenses
+1 Fecund Greenshell
+1 Betor, Kin to All
