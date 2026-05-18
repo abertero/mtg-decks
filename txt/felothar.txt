@@ -3,7 +3,7 @@ Commander
 
 Deck
 6 Plains
-8 Swamp
+7 Swamp
 9 Forest
 1 Evolving Wilds
 1 Sandsteppe Citadel
@@ -30,3 +30,8 @@ Deck
 1 Axebane Guardian
 1 Wall of Reverence
 1 Blight Pile
+1 Command Tower
+1 Carven Caryatid
+1 Colfenor's Urn
+1 Crashing Drawbridge
+1 Doran, Besieged by Time
