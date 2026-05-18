@@ -20,7 +20,7 @@ Deck
 1 Essence Channeler
 1 Mikaeus, the Lunarch
 1 Felidar Sovereign
-1 Condemn
+1 Ascend from Avernus
 1 Suture Priest
 1 Frontline Medic
 1 Elenda's Hierophant
@@ -54,13 +54,21 @@ Deck
 1 Angel's Feather
 1 Windbrisk Heights
 1 Dawn of Hope
-1 True Conviction
+1 Tocasia's Welcome
 1 Hanweir Militia Captain
 1 Banisher Priest
 1 Cleansing Nova
-1 Nykthos Paragon
-1 Tragic Arrogance
+1 Cosmos Elixir
+1 Leyline of Hope
 1 Swords to Plowshares
-32 Plains
+30 Plains
 1 Ashes of the Abhorrent
 1 Arcane Signet
+1 Adventurer's Inn
+1 Cleric Class
+1 Excalibur II
+1 Pearl Medallion
+1 The Wind Crystal
+1 Restoration Magic
+1 Ravnica at War
+1 Emeria, the Sky Ruin
