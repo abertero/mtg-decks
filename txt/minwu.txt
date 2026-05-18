@@ -53,3 +53,12 @@ Deck
 1 Well of Lost Dreams
 1 Oketra's Monument
 1 Angel's Feather
+1 Windbrisk Heights
+1 Dawn of Hope
+1 True Conviction
+1 Hanweir Militia Captain
+1 Banisher Priest
+1 Cleansing Nova
+1 Nykthos Paragon
+1 Tragic Arrogance
+1 Swords to Plowshares
