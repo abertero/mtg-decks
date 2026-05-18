@@ -30,3 +30,26 @@ Deck
 1 Abzan Battle Priest
 1 Bygone Bishop
 1 Mangara, the Diplomat
+1 Righteous Valkyrie
+1 Speaker of the Heavens
+1 Soul's Attendant
+1 Soul Warden
+1 Ajani's Welcome
+1 Sigarda's Splendor
+1 Moonlit Lamenter
+1 Impassioned Orator
+1 Kor Celebrant
+1 Path to Exile
+1 Resourceful Defense
+1 Sol Ring
+1 Star Charter
+1 Unbreakable Formation
+1 Valkyrie Harbinger
+1 Perch Protection
+1 Radiant Fountain
+1 Myriad Landscape
+1 Path of Ancestry
+1 Myriad Landscape
+1 Well of Lost Dreams
+1 Oketra's Monument
+1 Angel's Feather
