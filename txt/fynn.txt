@@ -54,7 +54,7 @@ Deck
 1 Poison Dart Frog
 1 Rogue's Passage
 1 Ram Through
-1 Soul of the Harvest
+1 Beast Whisperer
 1 Saryth, the Viper's Fang
 1 Sylvan Anthem
 1 Beastmaster Ascension

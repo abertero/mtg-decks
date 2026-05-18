@@ -14,7 +14,7 @@ Deck
 1 Grizzly Bears
 1 Alpine Grizzly
 1 Ancient Brontodon
-1 Beast Whisperer
+1 Soul of the Harvest
 1 Elvish Mystic
 1 Llanowar Elves
 1 Jibbirik Omnivore
