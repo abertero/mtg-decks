@@ -2,48 +2,31 @@ Commander
 1 Felothar the Steadfast
 
 Deck
-1 Crashing Drawbridge
-1 Seedborn Muse
-1 Tower Defense
-1 Assault Formation
-1 Farseek
-1 Arasta of the Endless Web
-1 Swiftfoot Boots
-1 Orzhov Signet
-1 Selesnya Signet
-1 Utter End
-1 Putrefy
-1 Abzan Charm
-1 Mortify
-1 Ancient Adamantoise
-1 Axebane Guardian
-1 Sylvan Caryatid
-1 Hornet Nest
-1 Wall of Mulch
-1 Guardian Project
-1 Spidersilk Armor
-1 Command Tower
-1 Canopy Vista
-1 Woodland Cemetery
-1 Scattered Groves
-1 Jungle Hollow
+6 Plains
+8 Swamp
+9 Forest
+1 Evolving Wilds
+1 Sandsteppe Citadel
 1 Blossoming Sands
 1 Scoured Barrens
-1 Swamp
-1 Sandsteppe Citadel
-1 Exotic Orchard
-1 Murmuring Bosk
-1 Sunlit March
-1 Radiant Grove
-1 Fortified Village
-1 Terramorphic Expanse
+1 Jungle Hollow
+1 Tranquil Expanse
+1 Selesnya Guildgate
+1 Access Tunnel
+1 Golgari Guildgate
+1 Orzhov Guildgate
+1 Myriad Landscape
+1 Haunted Mire
+1 Woodland Chasm
 1 Sungrass Prairie
-1 Sunpetal Grove
-1 Evolving Wilds
-1 Golgari Signet
+1 Wall of Blossoms
+1 Sylvan Caryatid
+1 Arboreal Grazer
 1 Wall of Tanglecord
+1 Wall of Limbs
+1 Ancient Adamantoise
+1 Wakestone Gargoyle
 1 Ikra Shidiqi, the Usurper
-1 Sunscape Familiar
-1 Fell the Mighty
-1 Dusk // Dawn
+1 Axebane Guardian
 1 Wall of Reverence
+1 Blight Pile
