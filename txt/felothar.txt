@@ -2,7 +2,7 @@ Commander
 1 Felothar the Steadfast
 
 Deck
-6 Plains
+5 Plains
 7 Swamp
 9 Forest
 1 Evolving Wilds
@@ -35,3 +35,5 @@ Deck
 1 Colfenor's Urn
 1 Crashing Drawbridge
 1 Doran, Besieged by Time
+1 Exotic Orchard
+1 Arcane Signet
