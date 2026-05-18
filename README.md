@@ -40,6 +40,7 @@
 * Azami, Lady of Scrolls [MF](https://moxfield.com/decks/FkIOvmxlZ064anFL_CswfQ) [AD](https://archidekt.com/decks/22639976/azami)
 * Fynn, the Fangbearer [MF](https://moxfield.com/decks/xSl4bPMmGkaoOaekP_-szA) [AD](https://archidekt.com/decks/22667879/fynn)
 * Ruxa, Patient Professor [MF](https://moxfield.com/decks/afu0iUtKPESMWxpW5WTTWg) [AD](https://archidekt.com/decks/22674259/ruxa)
+* Sythis, Harvest's Hand [MF](https://moxfield.com/decks/QZhibCi5rEyLMv36Bkoulw) [AD](https://archidekt.com/decks/22698286/sythis)
 
 ## Disassembled Decks
 

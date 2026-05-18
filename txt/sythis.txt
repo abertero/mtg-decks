@@ -37,3 +37,50 @@ Deck
 1 Solitary Confinement
 1 Utopia Sprawl
 1 Wild Growth
+1 Moon-Blessed Cleric
+1 Ajani's Chosen
+1 Archon of Sun's Grace
+1 Eidolon of Blossoms
+1 Mesa Enchantress
+1 Satyr Enchanter
+1 Resurgent Belief
+1 Path to Exile
+1 Sanctum Weaver
+1 Kenrith's Transformation
+1 Sol Ring
+1 Sphere of Safety
+1 Strength of the Harvest
+1 Avacyn's Pilgrim
+1 Arasta of the Endless Web
+1 Llanowar Elves
+1 Elvish Mystic
+1 Yavimaya Enchantress
+1 Sun Titan
+1 Scavenging Ooze
+1 Rune-Tail, Kitsune Ascendant
+1 Perch Protection
+1 Stroke of Midnight
+1 Generous Gift
+1 Condemn
+1 Make a Stand
+1 Open the Vaults
+1 Descend Upon the Sinful
+1 Terminus
+1 Morningtide's Light
+1 Dawn's Reflection
+1 Snake Umbra
+1 Paradox Zone
+1 Zendikar Resurgent
+1 Urban Burgeoning
+1 Island Sanctuary
+1 Righteous Aura
+1 Luminarch Ascension
+1 Awakening Zone
+1 Unflinching Courage
+1 Eldrazi Conscription
+1 Song of the Dryads
+1 Holy Mantle
+1 Whip Silk
+1 Yenna, Redtooth Regent
+1 Verduran Enchantress
+1 Weaver of Harmony
