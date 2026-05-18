@@ -37,3 +37,19 @@ Deck
 1 Doran, Besieged by Time
 1 Exotic Orchard
 1 Arcane Signet
+1 Tower Defense
+1 Generous Gift
+1 Assault Formation
+1 Dusk // Dawn
+1 Fell the Mighty
+1 Rampant Growth
+1 Jaws of Defeat
+1 Overgrown Battlement
+1 Rampart Architect
+1 Stalwart Shield-Bearers
+1 Stoneskin
+1 Shalai, Voice of Plenty
+1 Sidar Kondo of Jamuraa
+1 Orzhov Signet
+1 Selesnya Signet
+1 Golgari Signet
