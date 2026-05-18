@@ -47,7 +47,6 @@ Deck
 1 Valkyrie Harbinger
 1 Perch Protection
 1 Radiant Fountain
-1 Myriad Landscape
 1 Path of Ancestry
 1 Myriad Landscape
 1 Well of Lost Dreams
@@ -62,3 +61,6 @@ Deck
 1 Nykthos Paragon
 1 Tragic Arrogance
 1 Swords to Plowshares
+32 Plains
+1 Ashes of the Abhorrent
+1 Arcane Signet
