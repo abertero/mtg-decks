@@ -35,9 +35,9 @@ Deck
 1 Extravagant Replication
 1 Inevitable Betrayal
 1 Commander's Sphere
-1 Sinister Concierge
+1 Laughing Jasper Flint
 1 Indulgent Tormentor
-1 River's Rebuke
+1 Twilight Prophet
 8 Island
 1 Izzet Signet
 1 Jhoira of the Ghitu
