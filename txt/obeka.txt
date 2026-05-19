@@ -9,14 +9,14 @@ Deck
 1 Victim of Night
 1 Midnight Clock
 1 As Foretold
-1 Reality Strobe
+1 Inspiring Refrain
 1 Swiftwater Cliffs
 1 Court of Ambition
 1 Braids, Conjurer Adept
 1 Sol Talisman
 1 Sin Prodder
 1 Suspended Sentence
-1 Waterfront District
+1 Rogue's Passage
 1 Unwind
 1 Triple Triad
 1 Kumena's Awakening
@@ -31,7 +31,7 @@ Deck
 1 Dragonmaster Outcast
 1 Cinder Barrens
 1 Submerged Boneyard
-1 Highland Lake
+1 Grand Coliseum
 1 Extravagant Replication
 1 Inevitable Betrayal
 1 Commander's Sphere
@@ -41,8 +41,8 @@ Deck
 8 Island
 1 Izzet Signet
 1 Jhoira of the Ghitu
-1 Dominus of Fealty
-1 Dragonfire Blade
+1 Aarakocra Sneak
+1 Passageway Seer
 1 Blood Tyrant
 1 Evolving Wilds
 1 Mechanized Production
@@ -54,7 +54,7 @@ Deck
 1 Paradox Haze
 1 Halimar Depths
 1 Stormfist Crusader
-1 Artful Dodge
+1 Feed the Swarm
 1 Rakdos Signet
 1 Choked Estuary
 1 Replicating Ring
@@ -62,7 +62,7 @@ Deck
 1 Ring of Evos Isle
 1 Ring of Valkas
 1 Ring of Xathrid
-1 Izzet Guildgate
+1 Frostboil Snarl
 1 Blasphemous Act
 1 Dismal Backwater
 1 Wildfire Devils
@@ -72,7 +72,7 @@ Deck
 1 Bloodfell Caves
 1 Command Tower
 1 Myriad Landscape
-1 Ash Barrens
+1 Exotic Orchard
 1 Disdainful Stroke
 5 Swamp
 1 Gate to the Aether
