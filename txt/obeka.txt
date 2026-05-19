@@ -29,19 +29,19 @@ Deck
 1 Cancel
 1 Dimir Signet
 1 Dragonmaster Outcast
-1 Cinder Barrens
-1 Submerged Boneyard
+1 Temple of Malice
+1 Sunken Hollow
 1 Grand Coliseum
 1 Extravagant Replication
 1 Inevitable Betrayal
-1 Commander's Sphere
+1 Swiftfoot Boots
 1 Laughing Jasper Flint
 1 Indulgent Tormentor
 1 Twilight Prophet
 8 Island
 1 Izzet Signet
 1 Jhoira of the Ghitu
-1 Aarakocra Sneak
+1 Tomb of Horrors Adventurer
 1 Passageway Seer
 1 Blood Tyrant
 1 Evolving Wilds
@@ -52,7 +52,7 @@ Deck
 1 Nightscape Familiar
 1 Palace Siege
 1 Paradox Haze
-1 Halimar Depths
+1 Temple of Epiphany
 1 Stormfist Crusader
 1 Feed the Swarm
 1 Rakdos Signet
@@ -80,7 +80,7 @@ Deck
 1 Tamiyo's Journal
 1 Trailblazer's Boots
 1 Enter the Enigma
-1 Taigam, Master Opportunist
+1 Thassa, God of the Sea
 1 Thopter Spy Network
 1 The Ninth Doctor
 1 Whispersilk Cloak
