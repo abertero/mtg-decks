@@ -15,16 +15,16 @@ Deck
 1 Braids, Conjurer Adept
 1 Sol Talisman
 1 Sin Prodder
-1 Rapid Hybridization
+1 Suspended Sentence
 1 Waterfront District
 1 Unwind
 1 Triple Triad
 1 Kumena's Awakening
 1 Shadow of the Second Sun
 1 Court of Ire
-1 Triskaidekaphobia
+1 Plargg and Nassari
 1 Court of Vantress
-1 Duskmantle Seer
+1 Caves of Chaos Adventurer
 1 Crumbling Necropolis
 1 Cancel
 1 Dimir Signet

@@ -5,7 +5,7 @@ Deck
 1 Aether Gale
 1 Aetherspouts
 1 Arcane Denial
-1 Arcane Epiphany
+1 Rapid Hybridization
 1 Arcane Signet
 1 Archaeomancer
 1 Call to Mind
