@@ -65,7 +65,7 @@ Deck
 1 Frostboil Snarl
 1 Blasphemous Act
 1 Dismal Backwater
-1 Wildfire Devils
+1 Stirring Bard
 1 Skyline Despot
 1 Smoldering Marsh
 1 Darksteel Reactor
@@ -75,7 +75,7 @@ Deck
 1 Exotic Orchard
 1 Disdainful Stroke
 5 Swamp
-1 Gate to the Aether
+1 Shaun, Father of Synths
 1 Sarevok's Tome
 1 Tamiyo's Journal
 1 Trailblazer's Boots
