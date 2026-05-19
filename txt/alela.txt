@@ -12,7 +12,7 @@ Deck
 1 Arcane Signet
 1 River of Tears
 1 Foundry Inspector
-1 Azorius Chancery
+1 Adarkar Wastes
 1 Azorius Signet
 1 Baleful Strix
 1 Bident of Thassa
@@ -22,13 +22,12 @@ Deck
 1 Cathars' Crusade
 1 Coastal Piracy
 1 Command Tower
-1 Commander's Sphere
+1 Fellwar Stone
 1 Counterspell
 1 Dance of the Manse
 1 Darkslick Shores
 1 Darksteel Mutation
 1 Dimir Signet
-1 Dismal Backwater
 1 Distant Melody
 1 Dovin's Veto
 1 Empyrean Eagle
@@ -92,6 +91,7 @@ Deck
 1 Terramorphic Expanse
 1 Thought Vessel
 1 Idol of Oblivion
-1 Tranquil Cove
+1 Path of Ancestry
+1 Reliquary Tower
 1 Vault of Whispers
 1 Void Rend
