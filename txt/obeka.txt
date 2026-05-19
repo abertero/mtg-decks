@@ -11,7 +11,7 @@ Deck
 1 As Foretold
 1 Reality Strobe
 1 Swiftwater Cliffs
-1 Triskaidekaphile
+1 Court of Ambition
 1 Braids, Conjurer Adept
 1 Sol Talisman
 1 Sin Prodder
@@ -46,7 +46,7 @@ Deck
 1 Blood Tyrant
 1 Evolving Wilds
 1 Mechanized Production
-1 Rakdos Guildgate
+1 Dragonskull Summit
 6 Mountain
 1 Negate
 1 Nightscape Familiar
@@ -56,21 +56,21 @@ Deck
 1 Stormfist Crusader
 1 Artful Dodge
 1 Rakdos Signet
-1 Dimir Guildgate
+1 Choked Estuary
 1 Replicating Ring
 1 Rilsa Rael, Kingpin
 1 Ring of Evos Isle
 1 Ring of Valkas
 1 Ring of Xathrid
 1 Izzet Guildgate
-1 Charnel Serenade
+1 Blasphemous Act
 1 Dismal Backwater
 1 Wildfire Devils
 1 Skyline Despot
 1 Smoldering Marsh
 1 Darksteel Reactor
 1 Bloodfell Caves
-1 Temple of the False God
+1 Command Tower
 1 Myriad Landscape
 1 Ash Barrens
 1 Disdainful Stroke
