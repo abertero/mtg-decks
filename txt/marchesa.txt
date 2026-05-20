@@ -4,11 +4,11 @@ Commander
 Deck
 1 Alesha, Who Laughs at Fate
 1 Arcane Signet
-1 Ash Barrens
+1 Guildmages' Forum
 1 Ashnod's Altar
 1 Baleful Strix
 1 Blasphemous Act
-1 Bloodfell Caves
+1 Nesting Grounds
 1 Danny Pink
 1 Bloodtracker
 1 Braids, Arisen Nightmare
@@ -23,10 +23,10 @@ Deck
 1 Deadly Dispute
 1 Dictate of Erebos
 1 Didn't Say Please
-1 Dimir Aqueduct
+1 Darkwater Catacombs
 1 Dimir Signet
 1 Disdainful Stroke
-1 Dismal Backwater
+1 Reliquary Tower
 1 Drana, Liberator of Malakir
 1 Evolving Wilds
 1 Exotic Orchard
@@ -40,17 +40,17 @@ Deck
 1 Gisa, Glorious Resurrector
 1 Glen Elendra Archmage
 1 Goblin Bombardment
-1 Grave Betrayal
+1 Uncivil Unrest
 1 Grim Haruspex
 1 Herald of Secret Streams
-1 Highland Lake
-1 Infernal Vessel
+1 Forge of Heroes
+1 Pitiless Plunderer
 1 Iron Apprentice
 6 Island
-1 Izzet Boilerworks
+1 Path of Ancestry
 1 Izzet Signet
 1 Juri, Master of the Revue
-1 Jwar Isle Refuge
+1 Choked Estuary
 1 Lightning Greaves
 1 Mahadi, Emporium Master
 1 Marionette Apprentice
@@ -60,10 +60,10 @@ Deck
 1 Mystifying Maze
 1 Negate
 1 Opal Palace
-1 Perforating Artist
+1 Gray Merchant of Asphodel
 1 Puppeteer Clique
 1 Rakdos Signet
-1 Rapid Hybridization
+1 Mob Rule
 1 River Kelpie
 1 Sage of Fables
 1 Satoru, the Infiltrator
@@ -73,17 +73,17 @@ Deck
 1 Solemn Simulacrum
 1 Spark Double
 6 Swamp
-1 Swiftwater Cliffs
+1 Sulfur Falls
 1 Temple of Deceit
 1 Shadowblood Ridge
 1 Terminate
 1 Terramorphic Expanse
 1 Thran Vigil
 1 Thundering Raiju
-1 Tragic Slip
+1 Victimize
 1 Unspeakable Symbol
 1 Vandalblast
-1 Village Rites
+1 Sneak Attack
 1 Viscera Seer
 1 Xander's Lounge
 1 Yahenni, Undying Partisan
