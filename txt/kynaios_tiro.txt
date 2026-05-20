@@ -53,7 +53,7 @@ Deck
 1 Minds Aglow
 1 Mountain
 1 Mystic Monastery
-1 Nadir Kraken
+1 The Council of Four
 1 Noble Benefactor
 1 Oblation
 1 Ominous Seas
@@ -81,7 +81,7 @@ Deck
 1 Temple of Enlightenment
 1 Tempt with Discovery
 1 Tempting Contract
-1 Tenuous Truce
+1 The Second Doctor
 1 Terramorphic Expanse
 1 Thornwood Falls
 1 Thought Collapse
