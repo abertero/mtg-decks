@@ -25,7 +25,7 @@ Deck
 1 Diabolic Tutor
 1 Doubling Season
 1 Dreamtide Whale
-1 Elspeth, Sun's Champion
+1 Venerated Rotpriest
 1 Everflowing Chalice
 1 Evolution Sage
 1 Evolving Wilds
@@ -52,7 +52,7 @@ Deck
 1 Kor Haven
 1 Lightning Greaves
 1 Maze of Ith
-1 Merciless Eviction
+1 Farewell
 1 Metastatic Evangel
 1 Murmuring Bosk
 1 Oko, Thief of Crowns
@@ -70,7 +70,7 @@ Deck
 1 Plains
 1 Plains
 1 Prologue to Phyresis
-1 Quilled Greatwurm
+1 Skithiryx, the Blight Dragon
 1 Reliquary Tower
 1 Rhystic Study
 1 Sandsteppe Citadel
@@ -80,7 +80,7 @@ Deck
 1 Smothering Tithe
 1 Sol Ring
 1 Spara's Headquarters
-1 Viral Drake
+1 Plague Stinger
 1 Sunpetal Grove
 1 Supreme Verdict
 1 Swamp
@@ -91,7 +91,7 @@ Deck
 1 Sylvan Library
 1 Tainted Observer
 1 Tamiyo, Field Researcher
-1 Teferi, Hero of Dominaria
+1 Contaminant Grafter
 1 Teferi, Temporal Archmage
 1 Deceptive Landscape
 1 Terramorphic Expanse
