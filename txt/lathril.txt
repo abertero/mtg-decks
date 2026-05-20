@@ -45,10 +45,10 @@ Deck
 1 Chronicle of Victory
 1 Leaf-Crowned Visionary
 1 Llanowar Elves
-1 Llanowar Tribe
+1 Morcant's Loyalist
 1 Lys Alana Huntmaster
 1 Marwyn, the Nurturer
-1 Miara, Thorn of the Glade
+1 Elvish Harbinger
 1 Moldervine Reclamation
 1 Myriad Landscape
 1 Nullmage Shepherd

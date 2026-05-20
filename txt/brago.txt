@@ -44,7 +44,7 @@ Deck
 1 Momentary Blink
 1 Mulldrifter
 1 Mycosynth Wellspring
-1 Nevermaker
+1 Whirler Rogue
 1 Nimbus Maze
 1 Panharmonicon
 1 Path to Exile
