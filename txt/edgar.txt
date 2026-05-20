@@ -10,8 +10,8 @@ Deck
 1 Elenda, the Dusk Rose
 1 Blood Artist
 1 Baron Bertram Graywater
-1 Bloodfell Caves
-1 Crossway Troublemakers
+1 Dragonskull Summit
+1 Master of Dark Rites
 1 Bloodline Keeper
 1 Vengeful Bloodwitch
 1 Markov Baron
@@ -36,7 +36,7 @@ Deck
 1 Forerunner of the Legion
 1 Foreboding Ruins
 1 Vito, Thorn of the Dusk Rose
-1 Go for the Throat
+1 Anguished Unmaking
 1 Herald's Horn
 1 Indulgent Aristocrat
 1 Ruinous Ultimatum
@@ -44,7 +44,7 @@ Deck
 1 Legion's Landing
 1 Malakir Bloodwitch
 1 Mavren Fein, Dusk Apostle
-1 Merciless Eviction
+1 Farewell
 1 Mortify
 2 Mountain
 1 Clifftop Retreat
@@ -63,7 +63,7 @@ Deck
 1 Rogue's Passage
 1 Sanctum Seeker
 1 Sanguine Bond
-1 Scoured Barrens
+1 Isolated Chapel
 1 Secluded Courtyard
 1 Shadowblood Ridge
 1 Shared Animosity
@@ -82,7 +82,7 @@ Deck
 1 Terramorphic Expanse
 1 Twilight Prophet
 1 Unclaimed Territory
-1 Utter End
+1 Despark
 1 Vampire Nighthawk
 1 Vampire Socialite
 1 Vanquisher's Banner
