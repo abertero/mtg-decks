@@ -91,7 +91,7 @@ Deck
 1 Thought Vessel
 1 Titan's Strength
 1 Unleash Fury
-1 Vanguard of Brimaz
+1 Loran's Escape
 1 Wayfarer's Bauble
 1 Young Pyromancer
 1 Zada, Hedron Grinder
