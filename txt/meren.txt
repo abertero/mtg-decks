@@ -2,7 +2,7 @@ Commander
 1 Meren of Clan Nel Toth
 
 Deck
-1 Acidic Slime
+1 Braids, Arisen Nightmare
 1 Animate Dead
 1 Ashnod's Altar
 1 Attrition
@@ -11,7 +11,7 @@ Deck
 1 Black Market
 1 Bloodthrone Vampire
 1 Bojuka Bog
-1 Bonehoard
+1 Arcane Signet
 1 Buried Alive
 1 Butcher of Malakir
 1 Caustic Caterpillar
@@ -39,17 +39,17 @@ Deck
 1 Haywire Mite
 1 High Market
 1 Hissing Quagmire
-1 It That Betrays
+1 Plaguecrafter
 1 Jarad, Golgari Lich Lord
 1 Jarad's Orders
 1 Journey to Eternity
 1 Jungle Hollow
-1 Kessig Cagebreakers
+1 Llanowar Elves
 1 Lightning Greaves
 1 Living Death
 1 Merciless Executioner
 1 Reclamation Sage
-1 Pathbreaker Ibex
+1 Elvish Mystic
 1 Polluted Mire
 1 Primal Growth
 1 Protean Hulk
@@ -61,23 +61,24 @@ Deck
 1 Skullclamp
 1 Skullwinder
 1 Slippery Karst
-1 Smothering Abomination
+1 Massacre Wurm
 1 Sol Ring
 1 Solemn Simulacrum
 1 Spore Frog
-11 Swamp
+10 Swamp
 1 Swiftfoot Boots
 1 Tainted Wood
-1 Terastodon
+1 Syr Konrad, the Grim
 1 Terramorphic Expanse
 1 Underrealm Lich
 1 Victimize
 1 Viridian Emissary
 1 Viridian Zealot
 1 Viscera Seer
-1 Vivid Grove
+1 Tear Asunder
 1 Ravenous Chupacabra
 1 Westvale Abbey
 1 Wood Elves
 1 Elves of Deep Shadow
 1 Zombify
+1 Mortality Spear
