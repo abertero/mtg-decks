@@ -13,7 +13,7 @@ Deck
 1 Cut Your Losses
 1 Darksteel Citadel
 1 Darkwater Catacombs
-1 Diabolic Tutor
+1 Traumatize
 1 Didn't Say Please
 1 Dimir Signet
 1 Unwind
@@ -58,7 +58,7 @@ Deck
 1 Rapid Hybridization
 1 Scavenger Grounds
 1 Drift of Phantasms
-1 Geth, Lord of the Vault
+1 Unhallowed Phalanx
 1 Sol Ring
 1 Pemmin's Aura
 9 Swamp
@@ -80,6 +80,6 @@ Deck
 1 Sting, the Glinting Dagger
 1 Windfall
 1 Soulless Jailer
-1 Crashing Drawbridge
+1 Glacial Wall
 1 River of Tears
 1 Command Tower

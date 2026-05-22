@@ -28,7 +28,7 @@ Deck
 1 Dreadhorde Invasion
 1 Drown in Dreams
 1 Ashnod's Altar
-1 Eloise, Nephalia Sleuth
+1 Vengeful Dead
 1 Empty the Laboratory
 1 Endless Ranks of the Dead
 1 Eternal Skylord
@@ -40,13 +40,13 @@ Deck
 1 Gisa and Geralf
 1 Gleaming Overseer
 1 Go for the Throat
-1 Gorex, the Tombshell
+1 Noxious Ghoul
 1 Gravespawn Sovereign
 1 Gray Merchant of Asphodel
 1 Havengul Runebinder
 1 Headless Rider
 1 Hordewing Skaab
-1 Hour of Eternity
+1 Victimize
 11 Island
 1 Liliana, Death's Majesty
 1 Liliana's Devotee
