@@ -2,8 +2,8 @@ Commander
 1 Azami, Lady of Scrolls
 
 Deck
-1 Aether Gale
-1 Aetherspouts
+1 Ominous Seas
+1 Docent of Perfection
 1 Arcane Denial
 1 Rapid Hybridization
 1 Arcane Signet
@@ -12,20 +12,20 @@ Deck
 1 Counterspell
 1 Cursecatcher
 1 Decanter of Endless Water
-1 Distant Melody
+1 Teferi, Temporal Pilgrim
 1 Diviner's Wand
 1 Dramatic Reversal
 1 Evacuation
-1 Fellwar Stone
+1 Jace, Wielder of Mysteries
 1 Flood of Tears
 1 Graceful Adept
 1 High Tide
 1 Impulse
 1 Information Dealer
 1 Ixidor's Will
-1 Lost in the Maze
+1 Wizard Class
 1 Mind Stone
-1 Mischievous Mystic
+1 Clinquant Skymage
 1 Naban, Dean of Iteration
 1 Reliquary Tower
 1 Resculpt
@@ -46,29 +46,29 @@ Deck
 1 Lonely Sandbar
 1 Halimar Depths
 1 Negate
-1 Soratami Savant
-1 Lat-Nam Adept
-1 Windrider Wizard
+1 Laboratory Maniac
+1 Alandra, Sky Dreamer
+1 Psychosis Crawler
 1 Trinket Mage
 1 Snap
 1 Pensive Professor
-1 Disdainful Stroke
-1 Volshe Tideturner
-1 Deekah, Fractal Theorist
-1 Tester of the Tangential
+1 Unwind
+1 Cyclone Summoner
+1 Galecaster Colossus
+1 Patron Wizard
 1 Dispel
-1 Moonfolk Puzzlemaker
-1 Merrow Levitator
+1 Chasm Skulker
+1 Archmage Emeritus
 1 Arcanis the Omnipotent
 1 Gadwick, the Wizened
-1 Vodalian Arcanist
+1 Baral, Chief of Compliance
 1 Spell Pierce
-1 Kefnet's Monument
-1 Curse of the Swine
+1 Sapphire Medallion
+1 Empyrial Plate
 1 Aetherize
-1 Fallowsage
+1 Twenty-Toed Toad
 1 Reality Shift
 1 Sky Diamond
 1 Rewind
 1 Wizard's Retort
-1 Portal Mage
+1 Talrand, Sky Summoner
