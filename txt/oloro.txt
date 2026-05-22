@@ -21,7 +21,7 @@ Deck
 1 Cosmos Elixir
 1 Counterspell
 1 Crawlspace
-1 Damn
+1 Vanquish the Horde
 1 Debt to the Deathless
 1 Despark
 1 Detection Tower
@@ -39,7 +39,7 @@ Deck
 1 Fumigate
 1 Ghostly Prison
 1 Grasp of Fate
-1 Halimar Depths
+1 Path of Ancestry
 1 Greater Auramancy
 1 Humility
 1 Irrigated Farmland
@@ -61,7 +61,7 @@ Deck
 1 Path to Exile
 1 Pendrell Mists
 1 Phyrexian Arena
-7 Plains
+6 Plains
 1 Pristine Talisman
 1 Propaganda
 1 Reliquary Tower
@@ -72,7 +72,7 @@ Deck
 1 Sphere of Safety
 1 Sphinx's Revelation
 1 Sun Droplet
-1 Supreme Verdict
+1 Brilliant Restoration
 5 Swamp
 1 Swords to Plowshares
 1 Tainted Aether
@@ -87,3 +87,4 @@ Deck
 1 Vile Consumption
 1 Void Rend
 1 Well of Lost Dreams
+1 Adarkar Wastes
