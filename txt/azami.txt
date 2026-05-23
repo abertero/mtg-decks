@@ -20,7 +20,7 @@ Deck
 1 Flood of Tears
 1 Graceful Adept
 1 High Tide
-1 Impulse
+1 Archmage's Charm
 1 Information Dealer
 1 Ixidor's Will
 1 Wizard Class
