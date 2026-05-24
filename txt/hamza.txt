@@ -63,11 +63,11 @@ Deck
 1 Inscription of Abundance
 1 Bloodspore Thrinax
 1 Pir, Imaginative Rascal
-1 Forced Adaptation
+1 Citadel Siege
 1 Genesis Hydra
-1 Renegade Krasis
+1 Valorous Stance
 1 Solemn Simulacrum
-1 King Darien XLVIII
+1 Elite Scaleguard
 1 Lifecrafter's Gift
 1 Ordeal of Nylea
 1 Selesnya Guildgate
@@ -78,3 +78,4 @@ Deck
 14 Forest
 1 Warped Landscape
 10 Plains
+1 Together Forever
