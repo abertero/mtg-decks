@@ -43,7 +43,7 @@
 * Sythis, Harvest's Hand [MF](https://moxfield.com/decks/QZhibCi5rEyLMv36Bkoulw) [AD](https://archidekt.com/decks/22698286/sythis)
 * Felothar, the Steadfast [MF](https://moxfield.com/decks/ZB5KloMI5EyiTFPcb5besg) [AD](https://archidekt.com/decks/22700732/felothar)
 * Minwu, White Mage [MF](https://moxfield.com/decks/X4xCJc3feEur1YGMasQ3QQ) [AD](https://archidekt.com/decks/22714895/minwu)
-* Hamza, Guardian of Arashin [MF](https://moxfield.com/decks/XWLGVYQqdUW3rGkUTCvnSw)
+* Hamza, Guardian of Arashin [MF](https://moxfield.com/decks/XWLGVYQqdUW3rGkUTCvnSw) [AD](https://archidekt.com/decks/22888170/hamza)
 
 ## Disassembled Decks
 
