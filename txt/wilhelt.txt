@@ -47,7 +47,7 @@ Deck
 1 Headless Rider
 1 Hordewing Skaab
 1 Victimize
-11 Island
+10 Island
 1 Liliana, Death's Majesty
 1 Liliana's Devotee
 1 Liliana's Mastery
@@ -79,3 +79,4 @@ Deck
 1 Undead Alchemist
 1 Undead Augur
 1 Zombie Apocalypse
+1 Lazotep Plating
