@@ -52,3 +52,20 @@ Deck
 1 Mana Geyser
 1 Chef's Kiss
 1 Gimli of the Glittering Caves
+1 City on Fire
+1 Brash Taunter
+1 Sol Ring
+1 Pandemonium
+1 Torbran, Thane of Red Fell
+1 Disrupt Decorum
+1 Shocking Sharpshooter
+1 Dictate of the Twin Gods
+1 Wild Magic Surge
+1 Abrade
+1 Etali, Primal Storm
+1 Flameshadow Conjuring
+1 Impact Tremors
+1 Vigilante Justice
+1 Outpost Siege1
+1 Faithless Looting
+33 Mountain
