@@ -5,7 +5,7 @@ Deck
 1 Chaos Warp
 1 Fiery Emancipation
 1 Cursed Mirror
-1 Clive, Ifrit's Dominant
+1 Tokka & Rahzar, Unsupervised
 1 Slash, Reptile Rampager
 1 Thrill of Possibility
 1 Mechanized Warfare
@@ -63,7 +63,7 @@ Deck
 1 Wild Magic Surge
 1 Abrade
 1 Etali, Primal Storm
-1 Flameshadow Conjuring
+1 Chandra, Torch of Defiance
 1 Impact Tremors
 1 Vigilante Justice
 1 Outpost Siege
