@@ -38,3 +38,10 @@ Deck
 1 The Fire Crystal
 1 Dwarven Mine
 1 Weftstalker Ardent
+1 Koth, Fire of Resistance
+1 Tome of Legends
+1 Harsh Mentor
+1 Rose Room Treasurer
+1 Blasphemous Act
+1 Magus of the Wheel
+1 Rite of the Raging Storm
