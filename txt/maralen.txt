@@ -14,3 +14,5 @@ Deck
 1 Quirion Explorer
 1 Quirion Elves
 1 Graveshifter
+1 Marwyn, the Nurturer
+1 Faerie Formation
