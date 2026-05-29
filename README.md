@@ -44,6 +44,7 @@
 * Felothar, the Steadfast [MF](https://moxfield.com/decks/ZB5KloMI5EyiTFPcb5besg) [AD](https://archidekt.com/decks/22700732/felothar)
 * Minwu, White Mage [MF](https://moxfield.com/decks/X4xCJc3feEur1YGMasQ3QQ) [AD](https://archidekt.com/decks/22714895/minwu)
 * Hamza, Guardian of Arashin [MF](https://moxfield.com/decks/XWLGVYQqdUW3rGkUTCvnSw) [AD](https://archidekt.com/decks/22888170/hamza)
+* Norin the Wary [MF](https://moxfield.com/decks/i3kKIl1280a3OkC7jA0PMA) [AD](https://archidekt.com/decks/23038293/norin)
 
 ## Disassembled Decks
 
