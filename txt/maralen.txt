@@ -16,3 +16,36 @@ Deck
 1 Graveshifter
 1 Marwyn, the Nurturer
 1 Faerie Formation
+1 Elvish Mystic
+1 Imperious Perfect
+1 Reclamation Sage
+1 Llanowar Elves
+1 Elvish Archdruid
+1 Elvish Harbinger
+1 Lys Alana Huntmaster
+1 Arbor Elf
+1 Elves of Deep Shadow
+1 Paradise Druid
+1 Maraleaf Pixie
+1 Frilled Mystic
+1 Spellstutter Sprite
+1 Glen Elendra Pranksters
+1 Miara, Thorn of the Glade
+1 Beastcaller Savant
+1 Wood Elves
+1 Leaf Gilder
+1 Progenitor Mimic
+1 Farhaven Elf
+1 Gilt-Leaf Seer
+1 Masked Admirers
+1 Immaculate Magistrate
+1 Firdoch Core
+1 Fellwar Stone
+1 Dream Harvest
+1 Tear Asunder
+1 Trystan's Command
+1 Ezuri, Renegade Leader
+1 Sylvan Offering
+1 Freyalise, Llanowar's Fury
+1 Morcant's Eyes
+1 Infernal Grasp
