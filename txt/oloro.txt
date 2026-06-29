@@ -16,50 +16,50 @@ Deck
 1 The Wind Crystal
 1 Chromatic Lantern
 1 Test of Endurance
-1 Meekstone
+1 Will, Scion of Peace
 1 Command Tower
 1 Cosmos Elixir
 1 Counterspell
-1 Crawlspace
+1 Soul Warden
 1 Vanquish the Horde
 1 Debt to the Deathless
 1 Despark
 1 Detection Tower
 1 Diabolic Tutor
-1 Dimir Signet
+1 Drogskol Reaver
 1 River of Tears
 1 Dovin's Veto
-1 Shadow of the Second Sun
-1 Arena of the Ancients
+1 Drana's Emissary
+1 Queza, Augur of Agonies
 1 Evolving Wilds
 1 Exotic Orchard
 1 Exquisite Blood
 1 Exsanguinate
-1 Extravagant Replication
+1 Defiant Bloodlord
 1 Fumigate
 1 Ghostly Prison
-1 Grasp of Fate
+1 Voice of the Blessed
 1 Path of Ancestry
 1 Greater Auramancy
-1 Humility
+1 Felidar Sovereign
 1 Irrigated Farmland
 1 Boseiju, Who Shelters All
 5 Island
 1 Isolated Chapel
 1 Karmic Justice
-1 Lethal Vapors
-1 Leyline of Anticipation
-1 Spreading Plague
+1 Starscape Cleric
+1 Suture Priest
+1 Crested Sunmare
 1 Merciless Eviction
 1 Mortify
 1 Negate
 1 Hall of Heliod's Generosity
 1 Norn's Annex
-1 Open the Vaults
+1 Ajani's Pridemate
 1 Orzhov Signet
-1 Overburden
+1 Witch of the Moors
 1 Path to Exile
-1 Pendrell Mists
+1 Vizkopa Guildmage
 1 Phyrexian Arena
 6 Plains
 1 Pristine Talisman
@@ -71,11 +71,11 @@ Deck
 1 Sol Ring
 1 Sphere of Safety
 1 Sphinx's Revelation
-1 Sun Droplet
+1 Soul's Attendant
 1 Brilliant Restoration
 5 Swamp
 1 Swords to Plowshares
-1 Tainted Aether
+1 Nykthos Paragon
 1 Tainted Field
 1 Temple of Deceit
 1 Terminus
@@ -83,7 +83,7 @@ Deck
 1 Temple of Silence
 1 Urborg, Tomb of Yawgmoth
 1 Sunlit Marsh
-1 Venser's Journal
+1 Karlov of the Ghost Council
 1 Vile Consumption
 1 Void Rend
 1 Well of Lost Dreams
