@@ -45,6 +45,8 @@
 * Minwu, White Mage [MF](https://moxfield.com/decks/X4xCJc3feEur1YGMasQ3QQ) [AD](https://archidekt.com/decks/22714895/minwu)
 * Hamza, Guardian of Arashin [MF](https://moxfield.com/decks/XWLGVYQqdUW3rGkUTCvnSw) [AD](https://archidekt.com/decks/22888170/hamza)
 * Norin the Wary [MF](https://moxfield.com/decks/i3kKIl1280a3OkC7jA0PMA) [AD](https://archidekt.com/decks/23038293/norin)
+* T'Challa, the Black Panther [MF](https://moxfield.com/decks/Ojj1sS_yI02_mrsr7H7lVw)
+* Anti-Venom, Horrifying Healer [MF](https://moxfield.com/decks/1HJFdrsiBEqZmbyhKxwg2A)
 
 ## Disassembled Decks
 
