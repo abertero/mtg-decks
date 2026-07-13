@@ -3,3 +3,4 @@ soundfile
 ipython
 torch
 numpy
+pyyaml
