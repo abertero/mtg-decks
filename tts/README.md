@@ -86,7 +86,21 @@ The script automatically adds pauses for punctuation:
 
 | Punctuation | Duration |
 |-------------|----------|
-| Newline (`\n`) | 1500ms |
+| Newline (`\n`) | 1000ms |
 | Ellipsis (`...`) | 800ms |
 | Period (`.`) | 600ms |
-| Comma (`,`) | 300ms |
+| Question (`?`) | 400ms |
+| Exclamation (`!`) | 300ms |
+| Comma (`,`) | 200ms |
+
+## Speed Modifiers
+
+The script automatically adjusts speech speed based on punctuation to add expression:
+
+| Punctuation | Speed Modifier | Effect |
+|-------------|----------------|--------|
+| Question (`?`) | 0.85x | Slower, questioning tone |
+| Exclamation (`!`) | 1.15x | Faster, emphatic tone |
+| Other | 1.0x | Normal speed |
+
+These modifiers are applied on top of the base `--speed` parameter.

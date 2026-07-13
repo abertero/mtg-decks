@@ -17,7 +17,15 @@ PAUSE_DURATIONS = {
     'newline': 1000,
     'ellipsis': 800,
     'period': 600,
+    'question': 400,
+    'exclamation': 300,
     'comma': 200,
+}
+
+SPEED_MODIFIERS = {
+    'question': 0.85,
+    'exclamation': 1.15,
+    'default': 1.0,
 }
 
 
@@ -52,7 +60,7 @@ def apply_pronunciations(text, pronunciation_dict):
 
 
 def parse_text_parts(text):
-    parts = re.split(r'(\n+|\.{3}|\.|,)', text)
+    parts = re.split(r'(\n+|\.{3}|\.|\?|!|,)', text)
     result = []
     for part in parts:
         if not part:
@@ -63,6 +71,10 @@ def parse_text_parts(text):
             result.append(('ellipsis', 1))
         elif part == '.':
             result.append(('period', 1))
+        elif part == '?':
+            result.append(('question', 1))
+        elif part == '!':
+            result.append(('exclamation', 1))
         elif part == ',':
             result.append(('comma', 1))
         else:
@@ -75,15 +87,27 @@ def parse_text_parts(text):
 def generate_audio_segments(text_parts, pipeline, voice_file, speed):
     audio_segments = []
     sequence = []
-    for part_type, value in text_parts:
+    i = 0
+    while i < len(text_parts):
+        part_type, value = text_parts[i]
         if part_type == 'text':
-            generator = pipeline(value, voice=voice_file, speed=speed, split_pattern=None)
+            next_type = text_parts[i + 1][0] if i + 1 < len(text_parts) else None
+            if next_type == 'question':
+                speed_modifier = SPEED_MODIFIERS['question']
+            elif next_type == 'exclamation':
+                speed_modifier = SPEED_MODIFIERS['exclamation']
+            else:
+                speed_modifier = SPEED_MODIFIERS['default']
+            
+            adjusted_speed = speed * speed_modifier
+            generator = pipeline(value, voice=voice_file, speed=adjusted_speed, split_pattern=None)
             for gs, ps, audio in generator:
                 print(gs, ps)
                 audio_segments.append(audio)
                 sequence.append(('audio', None))
         else:
             sequence.append((part_type, value))
+        i += 1
     return audio_segments, sequence
 
 

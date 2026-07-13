@@ -4,3 +4,5 @@ ipython
 torch
 numpy
 pyyaml
+edge-tts
+pydub
