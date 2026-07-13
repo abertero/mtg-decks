@@ -8,12 +8,13 @@ import sys
 import shutil
 import re
 import yaml
+import argparse
 
 SAMPLE_RATE = 24000
 REPO_ID = 'hexgrad/Kokoro-82M'
 
 PAUSE_DURATIONS = {
-    'newline': 1500,
+    'newline': 1000,
     'ellipsis': 800,
     'period': 600,
     'comma': 300,
@@ -71,12 +72,12 @@ def parse_text_parts(text):
     return result
 
 
-def generate_audio_segments(text_parts, pipeline, voice_file):
+def generate_audio_segments(text_parts, pipeline, voice_file, speed):
     audio_segments = []
     sequence = []
     for part_type, value in text_parts:
         if part_type == 'text':
-            generator = pipeline(value, voice=voice_file, speed=0.8, split_pattern=None)
+            generator = pipeline(value, voice=voice_file, speed=speed, split_pattern=None)
             for gs, ps, audio in generator:
                 print(gs, ps)
                 audio_segments.append(audio)
@@ -113,41 +114,50 @@ def save_audio(audio, output_path):
     print(f'Archivo guardado: {output_path}')
 
 
-def main():
-    if len(sys.argv) < 2:
-        print("Uso: python tts.py <ruta_al_archivo.txt>")
-        sys.exit(1)
+def parse_args():
+    parser = argparse.ArgumentParser(description='Text-to-Speech converter')
+    parser.add_argument('file_path', help='Path to the input text file')
+    parser.add_argument('--output-dir', default=None, help='Output subdirectory inside dialog folder (default: dialog/)')
+    parser.add_argument('--voice', default='ef_dora', help='Voice name to use (default: ef_dora)')
+    parser.add_argument('--speed', type=float, default=0.9, help='Speech speed from 0.1 to 2.0 (default: 0.9)')
+    return parser.parse_args()
 
-    file_path = sys.argv[1]
-    if not os.path.exists(file_path):
-        print(f"Error: No se encontró el archivo '{file_path}'")
+
+def main():
+    args = parse_args()
+
+    if not os.path.exists(args.file_path):
+        print(f"Error: No se encontró el archivo '{args.file_path}'")
         sys.exit(1)
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     voices_dir = os.path.join(script_dir, 'voices')
     os.makedirs(voices_dir, exist_ok=True)
 
-    voice_name = 'ef_dora'
-    voice_file = load_voice(voice_name, voices_dir)
+    voice_file = load_voice(args.voice, voices_dir)
 
     pronunciations_file = os.path.join(script_dir, 'pronunciations.yml')
     pronunciation_dict = load_pronunciations(pronunciations_file)
 
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(args.file_path, 'r', encoding='utf-8') as f:
         text = f.read()
 
     text = apply_pronunciations(text, pronunciation_dict)
 
     pipeline = KPipeline(lang_code='e')
     text_parts = parse_text_parts(text)
-    audio_segments, sequence = generate_audio_segments(text_parts, pipeline, voice_file)
+    audio_segments, sequence = generate_audio_segments(text_parts, pipeline, voice_file, args.speed)
 
     if audio_segments:
         combined = combine_audio_with_pauses(audio_segments, sequence)
         if combined is not None:
             dialog_dir = os.path.join(script_dir, 'dialog')
-            base_name = os.path.splitext(os.path.basename(file_path))[0]
-            wav_path = os.path.join(dialog_dir, f'{base_name}.wav')
+            if args.output_dir:
+                output_dir = os.path.join(dialog_dir, args.output_dir)
+            else:
+                output_dir = dialog_dir
+            base_name = os.path.splitext(os.path.basename(args.file_path))[0]
+            wav_path = os.path.join(output_dir, f'{base_name}.wav')
             save_audio(combined, wav_path)
 
 
