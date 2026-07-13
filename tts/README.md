@@ -1,6 +1,13 @@
 # Text-to-Speech (TTS)
 
-This module converts text files to speech audio using the Kokoro TTS model.
+This module converts text files to speech audio using Microsoft Edge TTS.
+
+## Features
+
+- **Natural voices**: Microsoft's neural voices are highly realistic
+- **Multiple Spanish accents**: Spain, Mexico, Chile, Argentina
+- **No GPU required**: Works on CPU efficiently
+- **Free**: No API keys or costs
 
 ## Installation
 
@@ -20,8 +27,8 @@ python tts/tts.py <file_path> [options]
 |----------|-------------|---------|
 | `file_path` | Path to the input text file (required) | - |
 | `--output-dir` | Output subdirectory inside `dialog/` folder | `dialog/` |
-| `--voice` | Voice name to use | `ef_dora` |
-| `--speed` | Speech speed (0.1 to 2.0) | `0.9` |
+| `--voice` | Voice name to use | `es-ES-ElviraNeural` |
+| `--list-voices` | List available Spanish voices | - |
 
 ### Examples
 
@@ -30,19 +37,19 @@ Basic usage:
 python tts/tts.py story/chapter1.txt
 ```
 
-Custom voice and speed:
+List available voices:
 ```bash
-python tts/tts.py story/chapter1.txt --voice af_nicole --speed 1.0
+python tts/tts.py --list-voices
+```
+
+Custom voice:
+```bash
+python tts/tts.py story/chapter1.txt --voice es-MX-DaliaNeural
 ```
 
 Custom output directory:
 ```bash
-python tts/tts.py story/chapter1.txt --output-dir chapter1
-```
-
-Full example:
-```bash
-python tts/tts.py story/chapter1.txt --output-dir chapter1 --voice ef_dora --speed 0.9
+python tts/tts.py story/chapter1.txt --output-dir chapter1 --voice es-ES-AlvaroNeural
 ```
 
 ## Output
@@ -58,6 +65,21 @@ python tts/tts.py story/chapter1.txt --output-dir chapter1
 
 Will generate: `tts/dialog/chapter1/chapter1.wav`
 
+## Available Voices
+
+| Voice | Description |
+|-------|-------------|
+| `es-ES-ElviraNeural` | Female Spanish (Spain) |
+| `es-ES-AlvaroNeural` | Male Spanish (Spain) |
+| `es-MX-DaliaNeural` | Female Spanish (Mexico) |
+| `es-MX-JorgeNeural` | Male Spanish (Mexico) |
+| `es-CL-CatalinaNeural` | Female Spanish (Chile) |
+| `es-CL-LorenzoNeural` | Male Spanish (Chile) |
+| `es-AR-ElenaNeural` | Female Spanish (Argentina) |
+| `es-AR-TomasNeural` | Male Spanish (Argentina) |
+
+For a full list, run: `python tts/tts.py --list-voices`
+
 ## Custom Pronunciations
 
 You can add custom pronunciations in `tts/pronunciations.yml`. The file already includes common Magic: The Gathering terms.
@@ -69,38 +91,3 @@ zendikar: sendikár
 ```
 
 The script automatically handles capitalized versions of words.
-
-## Available Voices
-
-Voices are downloaded automatically on first use and cached in `tts/voices/`. Some available voices:
-
-- `ef_dora` - Female Spanish voice
-- `af_nicole` - Female English voice
-- `em_santa` - Male English voice
-
-For a full list, check the [Kokoro model repository](https://huggingface.co/hexgrad/Kokoro-82M/tree/main/voices).
-
-## Pause Durations
-
-The script automatically adds pauses for punctuation:
-
-| Punctuation | Duration |
-|-------------|----------|
-| Newline (`\n`) | 1000ms |
-| Ellipsis (`...`) | 800ms |
-| Period (`.`) | 600ms |
-| Question (`?`) | 400ms |
-| Exclamation (`!`) | 300ms |
-| Comma (`,`) | 200ms |
-
-## Speed Modifiers
-
-The script automatically adjusts speech speed based on punctuation to add expression:
-
-| Punctuation | Speed Modifier | Effect |
-|-------------|----------------|--------|
-| Question (`?`) | 0.85x | Slower, questioning tone |
-| Exclamation (`!`) | 1.15x | Faster, emphatic tone |
-| Other | 1.0x | Normal speed |
-
-These modifiers are applied on top of the base `--speed` parameter.

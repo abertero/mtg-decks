@@ -1,8 +1,2 @@
-kokoro>=0.9.4
-soundfile
-ipython
-torch
-numpy
-pyyaml
 edge-tts
-pydub
+pyyaml
