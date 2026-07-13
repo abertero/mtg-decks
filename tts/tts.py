@@ -17,7 +17,7 @@ PAUSE_DURATIONS = {
     'newline': 1000,
     'ellipsis': 800,
     'period': 600,
-    'comma': 300,
+    'comma': 200,
 }
 
 
