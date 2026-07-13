@@ -1,2 +1,6 @@
 edge-tts
 pyyaml
+pydub
+soundfile
+numpy
+scipy

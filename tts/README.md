@@ -91,3 +91,96 @@ zendikar: sendikár
 ```
 
 The script automatically handles capitalized versions of words.
+
+## Ambient Background
+
+Add pleasant ambient sounds as background to your audio files:
+
+```bash
+python tts/ambient.py <input_wav> [options]
+```
+
+### Options
+
+- `--output-mp3`: Output MP3 file path (default: `<input>_ambient.mp3`)
+- `--type`: Background type (default: `rain`)
+  - `pink` - Pink noise (soft, like rain)
+  - `brown` - Brown noise (very soft, like waterfall)
+  - `ocean` - Ocean waves
+  - `rain` - Rain sound
+  - `pad` - Soft ambient pad
+- `--volume`: Background volume percentage (default: 15)
+
+### Examples
+
+Basic usage (rain at 15% volume):
+```bash
+python tts/ambient.py tts/dialog/chapter1.wav
+```
+
+Ocean waves at 20% volume:
+```bash
+python tts/ambient.py tts/dialog/chapter1.wav --type ocean --volume 20
+```
+
+Custom output file:
+```bash
+python tts/ambient.py tts/dialog/chapter1.wav --type pad --output-mp3 tts/dialog/chapter1_final.mp3
+```
+
+### Background Types
+
+| Type | Description | Best For |
+|------|-------------|----------|
+| `pink` | Soft pink noise | General background |
+| `brown` | Very soft brown noise | Deep focus |
+| `ocean` | Ocean waves | Relaxing content |
+| `rain` | Rain sound | Storytelling, calm content |
+| `pad` | Ambient synthesizer pad | Meditative, atmospheric |
+
+## Binaural Background
+
+You can add binaural beats as background to your audio files:
+
+```bash
+python tts/binaural.py <input_wav> [options]
+```
+
+### Arguments
+
+| Argument | Description | Default |
+|----------|-------------|---------|
+| `input_wav` | Path to input WAV file (required) | - |
+| `--output-mp3` | Output MP3 file path | `<input>_binaural.mp3` |
+| `--base-freq` | Base frequency in Hz | `200` |
+| `--beat-freq` | Beat frequency in Hz | `10` |
+| `--volume` | Binaural volume percentage | `20` |
+
+### Examples
+
+Basic usage:
+```bash
+python tts/binaural.py tts/dialog/chapter1.wav
+```
+
+Custom frequencies and volume:
+```bash
+python tts/binaural.py tts/dialog/chapter1.wav --base-freq 150 --beat-freq 5 --volume 15
+```
+
+Custom output file:
+```bash
+python tts/binaural.py tts/dialog/chapter1.wav --output-mp3 tts/dialog/chapter1_final.mp3
+```
+
+### Binaural Beat Effects
+
+Different beat frequencies are associated with different brain states:
+
+| Beat Frequency | Brain Wave | Effect |
+|----------------|------------|--------|
+| 1-4 Hz | Delta | Deep sleep |
+| 4-8 Hz | Theta | Meditation, creativity |
+| 8-14 Hz | Alpha | Relaxation, focus |
+| 14-30 Hz | Beta | Alertness, concentration |
+| 30+ Hz | Gamma | High-level cognitive processing |
