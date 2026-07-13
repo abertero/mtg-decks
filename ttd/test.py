@@ -19,8 +19,9 @@ with open(file_path, 'r', encoding='utf-8') as f:
 
 pipeline = KPipeline(lang_code='e')
 #voice = 'ef_dora'
-voice = 'em_santa'
-pause_duration_ms = 1000
+#voice = 'em_santa'
+voice = 'af_nicole'
+pause_duration_ms = 1500
 generator = pipeline(text, voice=voice, speed=0.8, split_pattern=r'\n+')
 
 all_audio = []
