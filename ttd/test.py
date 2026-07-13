@@ -21,7 +21,7 @@ pipeline = KPipeline(lang_code='e')
 #voice = 'ef_dora'
 voice = 'em_santa'
 pause_duration_ms = 1000
-generator = pipeline(text, voice=voice, speed=1, split_pattern=r'\n+')
+generator = pipeline(text, voice=voice, speed=0.8, split_pattern=r'\n+')
 
 all_audio = []
 for i, (gs, ps, audio) in enumerate(generator):
