@@ -1,0 +1,13 @@
+# Audio outputs
+ttd/dialog/
+ttd/voice/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
