@@ -5,6 +5,8 @@ import sys
 import re
 import yaml
 import argparse
+import tempfile
+from pydub import AudioSegment
 
 EDGE_VOICES = {
     'es-ES-ElviraNeural': 'Female Spanish (Spain)',
@@ -15,6 +17,12 @@ EDGE_VOICES = {
     'es-CL-LorenzoNeural': 'Male Spanish (Chile)',
     'es-AR-ElenaNeural': 'Female Spanish (Argentina)',
     'es-AR-TomasNeural': 'Male Spanish (Argentina)',
+}
+
+VOICE_PRESETS = {
+    'thought': {'rate': '-10%', 'pitch': '-5Hz'},
+    'whisper': {'rate': '-20%', 'pitch': '-10Hz'},
+    'god': {'rate': '-15%', 'pitch': '-20Hz', 'volume': '+10%'},
 }
 
 
@@ -38,9 +46,69 @@ def apply_pronunciations(text, pronunciation_dict):
     return text
 
 
-async def synthesize_speech(text, voice, output_path):
-    communicate = edge_tts.Communicate(text, voice)
+def parse_voice_tags(text, default_voice):
+    """Parse voice tags and return list of (text, voice, rate, pitch, volume) segments"""
+    segments = []
+    pattern = r'\{(voice:([^}]+)|thought|whisper|god)\}(.*?)\{/(voice|thought|whisper|god)\}'
+    
+    last_end = 0
+    for match in re.finditer(pattern, text, re.DOTALL):
+        # Add text before this tag
+        if match.start() > last_end:
+            before_text = text[last_end:match.start()].strip()
+            if before_text:
+                segments.append((before_text, default_voice, '+0%', '+0Hz', '+0%'))
+        
+        # Parse the tag
+        tag_type = match.group(1)
+        content = match.group(3).strip()
+        
+        if tag_type.startswith('voice:'):
+            voice = match.group(2)
+            segments.append((content, voice, '+0%', '+0Hz', '+0%'))
+        elif tag_type in VOICE_PRESETS:
+            preset = VOICE_PRESETS[tag_type]
+            segments.append((content, default_voice, preset.get('rate', '+0%'), preset.get('pitch', '+0Hz'), preset.get('volume', '+0%')))
+        
+        last_end = match.end()
+    
+    # Add remaining text
+    if last_end < len(text):
+        remaining = text[last_end:].strip()
+        if remaining:
+            segments.append((remaining, default_voice, '+0%', '+0Hz', '+0%'))
+    
+    return segments
+
+
+async def synthesize_segment(text, voice, rate, pitch, volume, output_path):
+    """Synthesize a single segment with specific parameters"""
+    communicate = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, volume=volume)
     await communicate.save(output_path)
+
+
+async def synthesize_speech(segments, output_path):
+    """Synthesize multiple segments and concatenate them"""
+    if len(segments) == 1:
+        text, voice, rate, pitch, volume = segments[0]
+        communicate = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, volume=volume)
+        await communicate.save(output_path)
+        return
+    
+    with tempfile.TemporaryDirectory() as temp_dir:
+        audio_files = []
+        for i, (text, voice, rate, pitch, volume) in enumerate(segments):
+            temp_path = os.path.join(temp_dir, f'segment_{i}.mp3')
+            await synthesize_segment(text, voice, rate, pitch, volume, temp_path)
+            audio_files.append(temp_path)
+        
+        # Concatenate all segments
+        combined = AudioSegment.from_mp3(audio_files[0])
+        for audio_file in audio_files[1:]:
+            segment = AudioSegment.from_mp3(audio_file)
+            combined += segment
+        
+        combined.export(output_path, format='wav')
 
 
 def parse_args():
@@ -75,6 +143,9 @@ async def main():
     
     text = apply_pronunciations(text, pronunciation_dict)
     
+    # Parse voice tags and create segments
+    segments = parse_voice_tags(text, args.voice)
+    
     dialog_dir = os.path.join(script_dir, 'dialog')
     if args.output_dir:
         output_dir = os.path.join(dialog_dir, args.output_dir)
@@ -85,8 +156,8 @@ async def main():
     base_name = os.path.splitext(os.path.basename(args.file_path))[0]
     output_path = os.path.join(output_dir, f'{base_name}.wav')
     
-    print(f'Generando audio con Edge TTS...')
-    await synthesize_speech(text, args.voice, output_path)
+    print(f'Generando audio con Edge TTS ({len(segments)} segmento(s))...')
+    await synthesize_speech(segments, output_path)
     print(f'Archivo guardado: {output_path}')
 
 

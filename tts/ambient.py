@@ -157,10 +157,11 @@ def mix_audios(dialog_audio, background_audio, background_volume_percent):
 def parse_args():
     parser = argparse.ArgumentParser(description='Add ambient background to audio')
     parser.add_argument('input_wav', help='Path to input WAV file (dialog)')
-    parser.add_argument('--output-mp3', help='Output MP3 file path (default: input name + _ambient.mp3)')
+    parser.add_argument('--output-mp3', help='Output MP3 file path (default: input name + .mp3)')
     parser.add_argument('--type', choices=['pink', 'brown', 'ocean', 'rain', 'pad'], 
                        default='rain', help='Background type (default: rain)')
     parser.add_argument('--volume', type=int, default=60, help='Background volume percentage (default: 60)')
+    parser.add_argument('--bitrate', default='320k', help='MP3 bitrate (default: 320k, options: 128k, 192k, 256k, 320k)')
     return parser.parse_args()
 
 
@@ -175,7 +176,7 @@ def main():
         output_path = args.output_mp3
     else:
         base_name = os.path.splitext(args.input_wav)[0]
-        output_path = f"{base_name}_ambient.mp3"
+        output_path = f"{base_name}.mp3"
     
     print(f'Cargando audio de diálogo...')
     audio_data, sample_rate = sf.read(args.input_wav)
@@ -211,8 +212,8 @@ def main():
     print(f'Mezclando audios (fondo al {args.volume}%)...')
     mixed_audio = mix_audios(dialog_audio, background_audio, args.volume)
     
-    print(f'Exportando a MP3...')
-    mixed_audio.export(output_path, format='mp3')
+    print(f'Exportando a MP3 ({args.bitrate})...')
+    mixed_audio.export(output_path, format='mp3', bitrate=args.bitrate)
     print(f'Archivo guardado: {output_path}')
 
 

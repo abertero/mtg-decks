@@ -92,6 +92,64 @@ zendikar: sendikár
 
 The script automatically handles capitalized versions of words.
 
+## Voice Tags
+
+You can use special tags in your text to change voice, simulate thoughts, or whispers:
+
+### Change Voice for Dialogues
+
+Use `{voice:VOICE_NAME}...{/voice}` to switch to a different voice:
+
+```
+The narrator speaks normally.
+{voice:es-MX-JorgeNeural}"Hello, I'm a different character," said the guard.{/voice}
+The narrator continues speaking.
+```
+
+### Thoughts
+
+Use `{thought}...{/thought}` to simulate inner thoughts (slower, lower pitch):
+
+```
+She looked at the horizon.
+{thought}This changes everything,{/thought} she thought.
+```
+
+### Whispers
+
+Use `{whisper}...{/whisper}` to simulate whispering (slower, lower pitch):
+
+```
+{whisper}Don't move,{/whisper} he whispered quietly.
+```
+
+### God Voice
+
+Use `{god}...{/god}` to simulate a powerful, deep voice (slower, much lower pitch, louder):
+
+```
+{god}I am the creator of worlds,{/god} spoke the deity.
+```
+
+### Complete Example
+
+```
+The old wizard stood before the ancient door.
+{thought}At last, the moment has come,{/thought} he thought.
+{voice:es-ES-AlvaroNeural}"Open the gate," he commanded.{/voice}
+The door creaked open slowly.
+{whisper}Be careful,{/whisper} warned his apprentice.
+```
+
+### Available Voice Tags
+
+| Tag | Effect |
+|-----|--------|
+| `{voice:VOICE_NAME}...{/voice}` | Change to specific voice |
+| `{thought}...{/thought}` | Slower, lower pitch (thoughts) |
+| `{whisper}...{/whisper}` | Slower, lower pitch (whispers) |
+| `{god}...{/god}` | Much slower, deeper, louder (deities) |
+
 ## Ambient Background
 
 Add pleasant ambient sounds as background to your audio files:
@@ -110,6 +168,7 @@ python tts/ambient.py <input_wav> [options]
   - `rain` - Rain sound
   - `pad` - Soft ambient pad
 - `--volume`: Background volume percentage (default: 15)
+- `--bitrate`: MP3 bitrate (default: `192k`, options: `128k`, `192k`, `256k`, `320k`)
 
 ### Examples
 
@@ -128,6 +187,11 @@ Custom output file:
 python tts/ambient.py tts/dialog/chapter1.wav --type pad --output-mp3 tts/dialog/chapter1_final.mp3
 ```
 
+High quality for streaming platforms:
+```bash
+python tts/ambient.py tts/dialog/chapter1.wav --bitrate 320k
+```
+
 ### Background Types
 
 | Type | Description | Best For |
@@ -138,49 +202,72 @@ python tts/ambient.py tts/dialog/chapter1.wav --type pad --output-mp3 tts/dialog
 | `rain` | Rain sound | Storytelling, calm content |
 | `pad` | Ambient synthesizer pad | Meditative, atmospheric |
 
-## Binaural Background
+## Concatenate Audio Files
 
-You can add binaural beats as background to your audio files:
+Combine multiple audio files with silence between them:
 
 ```bash
-python tts/binaural.py <input_wav> [options]
+python tts/concat.py <input1> <input2> [...] [options]
 ```
 
-### Arguments
+### Options
 
-| Argument | Description | Default |
-|----------|-------------|---------|
-| `input_wav` | Path to input WAV file (required) | - |
-| `--output-mp3` | Output MP3 file path | `<input>_binaural.mp3` |
-| `--base-freq` | Base frequency in Hz | `200` |
-| `--beat-freq` | Beat frequency in Hz | `10` |
-| `--volume` | Binaural volume percentage | `20` |
+- `--output`, `-o`: Output MP3 file (default: `output.mp3`)
+- `--silence`, `-s`: Silence duration in milliseconds (default: 2000)
+- `--bitrate`: MP3 bitrate (default: `192k`, options: `128k`, `192k`, `256k`, `320k`)
 
 ### Examples
 
-Basic usage:
+Concatenate two files with 2 seconds of silence:
 ```bash
-python tts/binaural.py tts/dialog/chapter1.wav
+python tts/concat.py tts/dialog/chapter1.mp3 tts/dialog/chapter2.mp3 -o tts/dialog/full_story.mp3
 ```
 
-Custom frequencies and volume:
+Concatenate three files with 5 seconds of silence:
 ```bash
-python tts/binaural.py tts/dialog/chapter1.wav --base-freq 150 --beat-freq 5 --volume 15
+python tts/concat.py intro.mp3 main.mp3 outro.mp3 --silence 5000 -o tts/dialog/complete.mp3
 ```
 
-Custom output file:
+Concatenate multiple chapter files:
 ```bash
-python tts/binaural.py tts/dialog/chapter1.wav --output-mp3 tts/dialog/chapter1_final.mp3
+python tts/concat.py tts/dialog/chapter*.mp3 -o tts/dialog/full_book.mp3
 ```
 
-### Binaural Beat Effects
+High quality for streaming platforms:
+```bash
+python tts/concat.py tts/dialog/chapter1.mp3 tts/dialog/chapter2.mp3 --bitrate 320k -o tts/dialog/final.mp3
+```
 
-Different beat frequencies are associated with different brain states:
+### Notes
 
-| Beat Frequency | Brain Wave | Effect |
-|----------------|------------|--------|
-| 1-4 Hz | Delta | Deep sleep |
-| 4-8 Hz | Theta | Meditation, creativity |
-| 8-14 Hz | Alpha | Relaxation, focus |
-| 14-30 Hz | Beta | Alertness, concentration |
-| 30+ Hz | Gamma | High-level cognitive processing |
+- Supports both `.wav` and `.mp3` input files
+- Output is always MP3 format
+- Files are concatenated in the order provided
+
+## Audio Quality & Bitrates
+
+Both `ambient.py` and `concat.py` support custom bitrates for MP3 output. The default is **192 kbps**, which is suitable for most use cases.
+
+### Recommended Bitrates
+
+| Bitrate | Quality | Use Case |
+|---------|---------|----------|
+| `128k` | Good | Web streaming, podcasts |
+| `192k` | Very Good | General purpose (default) |
+| `256k` | Excellent | High quality audio |
+| `320k` | Maximum | Professional, Spotify, Apple Music |
+
+### Platform Requirements
+
+- **Spotify**: 160-320 kbps (OGG Vorbis for streaming, accepts high-quality MP3)
+- **Apple Music**: 256 kbps AAC
+- **YouTube**: 128-192 kbps AAC
+- **Professional/Archival**: 320 kbps CBR
+
+### Examples
+
+For Spotify or professional distribution:
+```bash
+python tts/ambient.py input.wav --bitrate 320k
+python tts/concat.py file1.mp3 file2.mp3 --bitrate 320k -o output.mp3
+```
