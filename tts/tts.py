@@ -111,6 +111,35 @@ async def synthesize_speech(segments, output_path):
         combined.export(output_path, format='wav')
 
 
+async def tts(file_path, output_dir, voice='es-ES-ElviraNeural'):
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    pronunciations_file = os.path.join(script_dir, 'pronunciations.yml')
+    pronunciation_dict = load_pronunciations(pronunciations_file)
+
+    with open(file_path, 'r', encoding='utf-8') as f:
+        text = f.read()
+
+    text = apply_pronunciations(text, pronunciation_dict)
+
+    segments = parse_voice_tags(text, voice)
+
+    dialog_dir = os.path.join(script_dir, 'dialog')
+    if output_dir:
+        out_dir = os.path.join(dialog_dir, output_dir)
+    else:
+        out_dir = dialog_dir
+
+    os.makedirs(out_dir, exist_ok=True)
+    base_name = os.path.splitext(os.path.basename(file_path))[0]
+    output_path = os.path.join(out_dir, f'{base_name}.wav')
+
+    print(f'Generando audio con Edge TTS ({len(segments)} segmento(s))...')
+    await synthesize_speech(segments, output_path)
+    print(f'Archivo guardado: {output_path}')
+    return output_path
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description='Text-to-Speech converter (Edge TTS)')
     parser.add_argument('file_path', help='Path to the input text file')
@@ -122,43 +151,18 @@ def parse_args():
 
 async def main():
     args = parse_args()
-    
+
     if args.list_voices:
         print('Available Spanish voices:')
         for voice, description in EDGE_VOICES.items():
             print(f'  {voice}: {description}')
         return
-    
+
     if not os.path.exists(args.file_path):
         print(f"Error: No se encontró el archivo '{args.file_path}'")
         sys.exit(1)
-    
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    pronunciations_file = os.path.join(script_dir, 'pronunciations.yml')
-    pronunciation_dict = load_pronunciations(pronunciations_file)
-    
-    with open(args.file_path, 'r', encoding='utf-8') as f:
-        text = f.read()
-    
-    text = apply_pronunciations(text, pronunciation_dict)
-    
-    # Parse voice tags and create segments
-    segments = parse_voice_tags(text, args.voice)
-    
-    dialog_dir = os.path.join(script_dir, 'dialog')
-    if args.output_dir:
-        output_dir = os.path.join(dialog_dir, args.output_dir)
-    else:
-        output_dir = dialog_dir
-    
-    os.makedirs(output_dir, exist_ok=True)
-    base_name = os.path.splitext(os.path.basename(args.file_path))[0]
-    output_path = os.path.join(output_dir, f'{base_name}.wav')
-    
-    print(f'Generando audio con Edge TTS ({len(segments)} segmento(s))...')
-    await synthesize_speech(segments, output_path)
-    print(f'Archivo guardado: {output_path}')
+
+    await tts(args.file_path, args.output_dir, args.voice)
 
 
 if __name__ == '__main__':

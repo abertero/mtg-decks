@@ -154,6 +154,57 @@ def mix_audios(dialog_audio, background_audio, background_volume_percent):
     return mixed
 
 
+def ambient(input_wav, ambient_type='rain', volume=60, output_mp3=None, bitrate='320k'):
+    if not os.path.exists(input_wav):
+        print(f"Error: No se encontró el archivo '{input_wav}'")
+        return None
+
+    if output_mp3:
+        output_path = output_mp3
+    else:
+        base_name = os.path.splitext(input_wav)[0]
+        output_path = f"{base_name}.mp3"
+
+    print(f'Cargando audio de diálogo...')
+    audio_data, sample_rate = sf.read(input_wav)
+
+    if len(audio_data.shape) == 1:
+        audio_data = np.column_stack((audio_data, audio_data))
+
+    audio_data_int16 = (audio_data * 32767).astype(np.int16)
+
+    dialog_audio = AudioSegment(
+        audio_data_int16.tobytes(),
+        frame_rate=sample_rate,
+        sample_width=2,
+        channels=audio_data.shape[1]
+    )
+    duration_ms = len(dialog_audio)
+
+    print(f'Generando sonido ambiental ({ambient_type})...')
+
+    if ambient_type == 'pink':
+        bg_audio_array, bg_sample_rate = generate_pink_noise(duration_ms)
+    elif ambient_type == 'brown':
+        bg_audio_array, bg_sample_rate = generate_brown_noise(duration_ms)
+    elif ambient_type == 'ocean':
+        bg_audio_array, bg_sample_rate = generate_ocean_waves(duration_ms)
+    elif ambient_type == 'rain':
+        bg_audio_array, bg_sample_rate = generate_rain_sound(duration_ms)
+    elif ambient_type == 'pad':
+        bg_audio_array, bg_sample_rate = generate_ambient_pad(duration_ms)
+
+    background_audio = create_audio_from_array(bg_audio_array, bg_sample_rate)
+
+    print(f'Mezclando audios (fondo al {volume}%)...')
+    mixed_audio = mix_audios(dialog_audio, background_audio, volume)
+
+    print(f'Exportando a MP3 ({bitrate})...')
+    mixed_audio.export(output_path, format='mp3', bitrate=bitrate)
+    print(f'Archivo guardado: {output_path}')
+    return output_path
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description='Add ambient background to audio')
     parser.add_argument('input_wav', help='Path to input WAV file (dialog)')
@@ -167,54 +218,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    
-    if not os.path.exists(args.input_wav):
-        print(f"Error: No se encontró el archivo '{args.input_wav}'")
-        sys.exit(1)
-    
-    if args.output_mp3:
-        output_path = args.output_mp3
-    else:
-        base_name = os.path.splitext(args.input_wav)[0]
-        output_path = f"{base_name}.mp3"
-    
-    print(f'Cargando audio de diálogo...')
-    audio_data, sample_rate = sf.read(args.input_wav)
-    
-    if len(audio_data.shape) == 1:
-        audio_data = np.column_stack((audio_data, audio_data))
-    
-    audio_data_int16 = (audio_data * 32767).astype(np.int16)
-    
-    dialog_audio = AudioSegment(
-        audio_data_int16.tobytes(),
-        frame_rate=sample_rate,
-        sample_width=2,
-        channels=audio_data.shape[1]
-    )
-    duration_ms = len(dialog_audio)
-    
-    print(f'Generando sonido ambiental ({args.type})...')
-    
-    if args.type == 'pink':
-        bg_audio_array, bg_sample_rate = generate_pink_noise(duration_ms)
-    elif args.type == 'brown':
-        bg_audio_array, bg_sample_rate = generate_brown_noise(duration_ms)
-    elif args.type == 'ocean':
-        bg_audio_array, bg_sample_rate = generate_ocean_waves(duration_ms)
-    elif args.type == 'rain':
-        bg_audio_array, bg_sample_rate = generate_rain_sound(duration_ms)
-    elif args.type == 'pad':
-        bg_audio_array, bg_sample_rate = generate_ambient_pad(duration_ms)
-    
-    background_audio = create_audio_from_array(bg_audio_array, bg_sample_rate)
-    
-    print(f'Mezclando audios (fondo al {args.volume}%)...')
-    mixed_audio = mix_audios(dialog_audio, background_audio, args.volume)
-    
-    print(f'Exportando a MP3 ({args.bitrate})...')
-    mixed_audio.export(output_path, format='mp3', bitrate=args.bitrate)
-    print(f'Archivo guardado: {output_path}')
+    ambient(args.input_wav, args.type, args.volume, args.output_mp3, args.bitrate)
 
 
 if __name__ == '__main__':

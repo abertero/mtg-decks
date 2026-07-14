@@ -55,6 +55,25 @@ def concatenate_with_silence(file_paths, silence_duration_ms=2000):
     return combined
 
 
+def concat(input_files, output='output.mp3', silence_duration_ms=2000, bitrate='320k'):
+    for file_path in input_files:
+        if not os.path.exists(file_path):
+            print(f"Error: No se encontró el archivo '{file_path}'")
+            return None
+
+    print(f'Concatenando {len(input_files)} archivos con {silence_duration_ms}ms de silencio entre pistas...')
+
+    combined = concatenate_with_silence(input_files, silence_duration_ms)
+
+    total_duration = len(combined) / 1000
+    print(f'\nDuración total: {total_duration:.1f}s')
+
+    print(f'Exportando a MP3 ({bitrate})...')
+    combined.export(output, format='mp3', bitrate=bitrate)
+    print(f'✓ Archivo guardado: {output}')
+    return output
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description='Concatenate audio files with silence between them')
     parser.add_argument('input_files', nargs='+', help='Input audio files (.wav or .mp3)')
@@ -66,23 +85,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    
-    # Validate input files
-    for file_path in args.input_files:
-        if not os.path.exists(file_path):
-            print(f"Error: No se encontró el archivo '{file_path}'")
-            sys.exit(1)
-    
-    print(f'Concatenando {len(args.input_files)} archivos con {args.silence}ms de silencio entre pistas...')
-    
-    combined = concatenate_with_silence(args.input_files, args.silence)
-    
-    total_duration = len(combined) / 1000
-    print(f'\nDuración total: {total_duration:.1f}s')
-    
-    print(f'Exportando a MP3 ({args.bitrate})...')
-    combined.export(args.output, format='mp3', bitrate=args.bitrate)
-    print(f'✓ Archivo guardado: {args.output}')
+    concat(args.input_files, args.output, args.silence, args.bitrate)
 
 
 if __name__ == '__main__':
