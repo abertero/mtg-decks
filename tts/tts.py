@@ -17,6 +17,7 @@ EDGE_VOICES = {
     'es-CL-LorenzoNeural': 'Male Spanish (Chile)',
     'es-AR-ElenaNeural': 'Female Spanish (Argentina)',
     'es-AR-TomasNeural': 'Male Spanish (Argentina)',
+    'es-PE-AlexNeural': 'Male Spanish (Peru)'
 }
 
 VOICE_PRESETS = {
@@ -42,8 +43,13 @@ def load_pronunciations(pronunciations_file):
 
 def apply_pronunciations(text, pronunciation_dict):
     for word, pronunciation in pronunciation_dict.items():
-        text = re.sub(r'\b' + re.escape(word) + r'\b', pronunciation, text)
+        text = re.sub(r'\b' + re.escape(word) + '\b', pronunciation, text)
     return text
+
+
+def is_pronounceable(text):
+    cleaned = re.sub(r'[―—\-\s\.\,\;\:\!\?\"\'\(\)\[\]\{\}…·]', '', text)
+    return len(cleaned) > 0
 
 
 def parse_voice_tags(text, default_voice):
@@ -53,29 +59,28 @@ def parse_voice_tags(text, default_voice):
     
     last_end = 0
     for match in re.finditer(pattern, text, re.DOTALL):
-        # Add text before this tag
         if match.start() > last_end:
             before_text = text[last_end:match.start()].strip()
-            if before_text:
+            if before_text and is_pronounceable(before_text):
                 segments.append((before_text, default_voice, '+0%', '+0Hz', '+0%'))
         
-        # Parse the tag
         tag_type = match.group(1)
         content = match.group(3).strip()
         
         if tag_type.startswith('voice:'):
             voice = match.group(2)
-            segments.append((content, voice, '+0%', '+0Hz', '+0%'))
+            if content and is_pronounceable(content):
+                segments.append((content, voice, '+0%', '+0Hz', '+0%'))
         elif tag_type in VOICE_PRESETS:
             preset = VOICE_PRESETS[tag_type]
-            segments.append((content, default_voice, preset.get('rate', '+0%'), preset.get('pitch', '+0Hz'), preset.get('volume', '+0%')))
+            if content and is_pronounceable(content):
+                segments.append((content, default_voice, preset.get('rate', '+0%'), preset.get('pitch', '+0Hz'), preset.get('volume', '+0%')))
         
         last_end = match.end()
     
-    # Add remaining text
     if last_end < len(text):
         remaining = text[last_end:].strip()
-        if remaining:
+        if remaining and is_pronounceable(remaining):
             segments.append((remaining, default_voice, '+0%', '+0Hz', '+0%'))
     
     return segments
