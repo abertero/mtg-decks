@@ -15,7 +15,7 @@
       "text": "story/002-tarkir/02-awakening-the-bear-2.txt",
       "voice": "es-AR-TomasNeural",
       "ambient": null,
-      "process": true
+      "process": false
     },
     {
       "text": "story/002-tarkir/02-awakening-the-bear-3.txt",
@@ -24,7 +24,7 @@
         "type": "ocean",
         "volume": 60
       },
-      "process": true
+      "process": false
     }
   ]
 }
