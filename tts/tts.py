@@ -43,7 +43,7 @@ def load_pronunciations(pronunciations_file):
 
 def apply_pronunciations(text, pronunciation_dict):
     for word, pronunciation in pronunciation_dict.items():
-        text = re.sub(r'\b' + re.escape(word) + '\b', pronunciation, text)
+        text = re.sub(r'\b' + re.escape(word) + r'\b', pronunciation, text)
     return text
 
 
