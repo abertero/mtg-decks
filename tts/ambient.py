@@ -202,6 +202,10 @@ def ambient(input_wav, ambient_type='rain', volume=60, output_mp3=None, bitrate=
     print(f'Exportando a MP3 ({bitrate})...')
     mixed_audio.export(output_path, format='mp3', bitrate=bitrate)
     print(f'Archivo guardado: {output_path}')
+
+    os.remove(input_wav)
+    print(f'Archivo temporal eliminado: {input_wav}')
+
     return output_path
 
 

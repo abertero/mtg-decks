@@ -71,6 +71,13 @@ def concat(input_files, output='output.mp3', silence_duration_ms=2000, bitrate='
     print(f'Exportando a MP3 ({bitrate})...')
     combined.export(output, format='mp3', bitrate=bitrate)
     print(f'✓ Archivo guardado: {output}')
+
+    output_abs = os.path.abspath(output)
+    for file_path in input_files:
+        if os.path.abspath(file_path) != output_abs:
+            os.remove(file_path)
+            print(f'  ✓ Eliminado: {file_path}')
+
     return output
 
 
