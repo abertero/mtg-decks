@@ -44,7 +44,7 @@ Un gong sonó en el centro de la localidad. Kela podía sentir la reverberación
 ―{voice:es-PE-AlexNeural}¿Qué clase de persona iba a...?{/voice}
 Kela y Dari subieron juntos tres peldaños bajos y llegaron a una tarima de madera que había en el centro de la localidad.
 La anciana de la aldea los recibió inclinándose hacia ellos; era una mujer con una densa trenza cana que le llegaba a los tobillos. El resto de los habitantes contuvieron el aliento.
-―{voice:es-ES-AlvaroNeural}Bienvenidos a Jigme {/voice}―saludó con voz nítida―{voice:es-ES-AlvaroNeural}. Soy Nigabo, la líder de la aldea. Nos honráis con vuestra presencia, Gemelos Mediadores ―hizo una larga y profunda reverencia―. Roguemos por que hoy se haga justicia.{/voice}
+―{voice:es-ES-AlvaroNeural}Bienvenidos a Jigme {/voice}―saludó con voz nítida―{voice:es-ES-AlvaroNeural}. Soy Nigabo, la líder de la aldea. Nos honráis con vuestra presencia, Gemelos Mediadores{/voice} ―hizo una larga y profunda reverencia―{voice:es-ES-AlvaroNeural}. Roguemos por que hoy se haga justicia.{/voice}
 Pues así lo dictan las Normas de los Juncos Dari y Kela correspondieron la reverencia y Dari se inclinó un poco más que su hermana.
 Kela se enfadó, pero no dio muestras de ello.
 Se suponía que debían ser iguales, permanecer en equilibrio. Así era como se garantizaba la justicia: la inocencia y la culpabilidad debían estar parejas. Sin embargo, dado que Dari había nacido un día antes y se consideraba mejor que Kela, era un milagro que pudiesen impartir justicia. Kela pensaba que no deberían hacerlo, al menos en el caso de ella.

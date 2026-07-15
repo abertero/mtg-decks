@@ -54,15 +54,71 @@ def apply_pronunciations(text, pronunciation_dict):
 
 def normalize_pauses(text):
     text = re.sub(r'\.{3,}', ', ', text)
-    text = text.replace('…', '. ')
-    text = text.replace(';', '.')
-    text = text.replace(':', '. ')
+    text = text.replace('…', ', ')
+    text = text.replace(';', ',')
+    text = re.sub(r':(?![^{}]*\})', ',', text)
     return text
 
 
 def is_pronounceable(text):
     cleaned = re.sub(r'[―—\-\s\.\,\;\:\!\?\"\'\(\)\[\]\{\}…·]', '', text)
     return len(cleaned) > 0
+
+
+def validate_voice_tags(text):
+    """Validate that all voice tags are properly closed"""
+    open_pattern = r'\{(voice:[^}]+|thought|whisper|god|child|old)\}'
+    close_pattern = r'\{/(voice|thought|whisper|god|child|old)\}'
+    
+    opens = list(re.finditer(open_pattern, text))
+    closes = list(re.finditer(close_pattern, text))
+    
+    if len(opens) != len(closes):
+        first_unmatched = opens[-1] if len(opens) > len(closes) else closes[-1]
+        line_num = text[:first_unmatched.start()].count('\n') + 1
+        line_content = text.split('\n')[line_num - 1].strip()
+        tag = first_unmatched.group(0)
+        kind = "apertura" if len(opens) > len(closes) else "cierre"
+        raise ValueError(
+            f"Mismatch de tags: {len(opens)} apertura(s) vs {len(closes)} cierre(s)\n"
+            f"  Línea {line_num}: {line_content}\n"
+            f"  Tag sin par: {tag} ({kind})"
+        )
+    
+    stack = []
+    all_tags = []
+    for m in opens:
+        all_tags.append(('open', m.group(1), m.start(), m.group(0)))
+    for m in closes:
+        all_tags.append(('close', m.group(1), m.start(), m.group(0)))
+    all_tags.sort(key=lambda x: x[2])
+    
+    for tag_type, tag_name, pos, tag_raw in all_tags:
+        line_num = text[:pos].count('\n') + 1
+        line_content = text.split('\n')[line_num - 1].strip()
+        
+        if tag_type == 'open':
+            stack.append((tag_name, line_num, line_content, tag_raw))
+        else:
+            if not stack:
+                raise ValueError(
+                    f"Tag de cierre '{tag_raw}' sin apertura\n"
+                    f"  Línea {line_num}: {line_content}"
+                )
+            expected, exp_line, exp_content, exp_raw = stack.pop()
+            expected_base = expected.split(':')[0] if expected.startswith('voice:') else expected
+            if expected_base != tag_name:
+                raise ValueError(
+                    f"Tag '{tag_raw}' no coincide con '{exp_raw}'\n"
+                    f"  Apertura en línea {exp_line}: {exp_content}\n"
+                    f"  Cierre en línea {line_num}: {line_content}"
+                )
+    
+    if stack:
+        errors = []
+        for tag_name, line_num, line_content, tag_raw in stack:
+            errors.append(f"  Línea {line_num}: {line_content}\n    Tag sin cerrar: {tag_raw}")
+        raise ValueError("Tag(s) sin cerrar:\n" + "\n".join(errors))
 
 
 def parse_voice_tags(text, default_voice):
@@ -140,6 +196,12 @@ async def tts(file_path, output_dir, voice='es-ES-ElviraNeural'):
 
     text = apply_pronunciations(text, pronunciation_dict)
     text = normalize_pauses(text)
+    
+    try:
+        validate_voice_tags(text)
+    except ValueError as e:
+        print(f"Error de validación en tags de voz: {e}")
+        sys.exit(1)
 
     segments = parse_voice_tags(text, voice)
 
