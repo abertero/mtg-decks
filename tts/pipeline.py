@@ -70,7 +70,7 @@ async def run_pipeline(config_path):
     output_path = os.path.join(out_dir_full, output_file)
 
     print(f'\n--- Concatenando {len(all_files)} archivos ---')
-    concat(all_files, output_path)
+    concat(all_files, output_path, preserve_files=extra_files)
 
     print(f'\n✓ Pipeline completado: {output_path}')
 

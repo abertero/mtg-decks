@@ -55,7 +55,7 @@ def concatenate_with_silence(file_paths, silence_duration_ms=2000):
     return combined
 
 
-def concat(input_files, output='output.mp3', silence_duration_ms=2000, bitrate='320k'):
+def concat(input_files, output='output.mp3', silence_duration_ms=2000, bitrate='320k', preserve_files=None):
     for file_path in input_files:
         if not os.path.exists(file_path):
             print(f"Error: No se encontró el archivo '{file_path}'")
@@ -72,13 +72,20 @@ def concat(input_files, output='output.mp3', silence_duration_ms=2000, bitrate='
     combined.export(output, format='mp3', bitrate=bitrate)
     print(f'✓ Archivo guardado: {output}')
 
-    output_abs = os.path.abspath(output)
-    for file_path in input_files:
-        if os.path.abspath(file_path) != output_abs:
-            os.remove(file_path)
-            print(f'  ✓ Eliminado: {file_path}')
+    remove_files(preserve_files, input_files, output)
 
     return output
+
+def remove_files(preserve_files, input_files, output):
+    preserve_set = set()
+    if preserve_files:
+        preserve_set = {os.path.abspath(f) for f in preserve_files}
+    preserve_set.add(os.path.abspath(output))
+
+    for file_path in input_files:
+        if os.path.abspath(file_path) not in preserve_set:
+            os.remove(file_path)
+            print(f'  ✓ Eliminado: {file_path}')
 
 
 def parse_args():

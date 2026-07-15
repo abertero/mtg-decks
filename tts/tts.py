@@ -45,19 +45,18 @@ def load_pronunciations(pronunciations_file):
 
 def apply_pronunciations(text, pronunciation_dict):
     for word, pronunciation in pronunciation_dict.items():
-        text = re.sub(r'\b' + re.escape(word) + r'\b', pronunciation, text)
+        if ' ' in word or not re.match(r'^\w+$', word):
+            text = re.sub(re.escape(word), pronunciation, text, flags=re.IGNORECASE)
+        else:
+            text = re.sub(r'\b' + re.escape(word) + r'\b', pronunciation, text)
     return text
-
-
-PAUSE_SEPARATOR = '\x00'
-PAUSE_DURATION_MS = 400
 
 
 def normalize_pauses(text):
     text = re.sub(r'\.{3,}', ', ', text)
-    text = text.replace('…', ', ')
-    text = text.replace(';', PAUSE_SEPARATOR)
-    text = text.replace(':', PAUSE_SEPARATOR)
+    text = text.replace('…', '. ')
+    text = text.replace(';', '.')
+    text = text.replace(':', '. ')
     return text
 
 
@@ -110,31 +109,21 @@ async def synthesize_speech(segments, output_path):
     """Synthesize multiple segments and concatenate them"""
     if len(segments) == 1:
         text, voice, rate, pitch, volume = segments[0]
-        if not text.strip():
-            silence = AudioSegment.silent(duration=PAUSE_DURATION_MS)
-            silence.export(output_path, format='wav')
-        else:
-            communicate = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, volume=volume)
-            await communicate.save(output_path)
+        communicate = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, volume=volume)
+        await communicate.save(output_path)
         return
     
     with tempfile.TemporaryDirectory() as temp_dir:
         audio_files = []
         for i, (text, voice, rate, pitch, volume) in enumerate(segments):
-            if not text.strip():
-                silence = AudioSegment.silent(duration=PAUSE_DURATION_MS)
-                temp_path = os.path.join(temp_dir, f'segment_{i}.wav')
-                silence.export(temp_path, format='wav')
-            else:
-                temp_path = os.path.join(temp_dir, f'segment_{i}.mp3')
-                await synthesize_segment(text, voice, rate, pitch, volume, temp_path)
+            temp_path = os.path.join(temp_dir, f'segment_{i}.mp3')
+            await synthesize_segment(text, voice, rate, pitch, volume, temp_path)
             audio_files.append(temp_path)
         
         # Concatenate all segments
-        first = audio_files[0]
-        combined = AudioSegment.from_wav(first) if first.endswith('.wav') else AudioSegment.from_mp3(first)
+        combined = AudioSegment.from_mp3(audio_files[0])
         for audio_file in audio_files[1:]:
-            segment = AudioSegment.from_wav(audio_file) if audio_file.endswith('.wav') else AudioSegment.from_mp3(audio_file)
+            segment = AudioSegment.from_mp3(audio_file)
             combined += segment
         
         combined.export(output_path, format='wav')
@@ -154,24 +143,6 @@ async def tts(file_path, output_dir, voice='es-ES-ElviraNeural'):
 
     segments = parse_voice_tags(text, voice)
 
-    expanded_segments = []
-    for seg_text, seg_voice, seg_rate, seg_pitch, seg_volume in segments:
-        parts = seg_text.split(PAUSE_SEPARATOR)
-        for j, part in enumerate(parts):
-            part = part.strip()
-            if part and is_pronounceable(part):
-                expanded_segments.append((part, seg_voice, seg_rate, seg_pitch, seg_volume))
-            if j < len(parts) - 1:
-                expanded_segments.append(('', seg_voice, seg_rate, seg_pitch, seg_volume))
-
-    while expanded_segments and not expanded_segments[0][0].strip():
-        expanded_segments.pop(0)
-    while expanded_segments and not expanded_segments[-1][0].strip():
-        expanded_segments.pop()
-
-    if not expanded_segments:
-        expanded_segments = segments
-
     dialog_dir = os.path.join(script_dir, 'dialog')
     if output_dir:
         out_dir = os.path.join(dialog_dir, output_dir)
@@ -182,8 +153,8 @@ async def tts(file_path, output_dir, voice='es-ES-ElviraNeural'):
     base_name = os.path.splitext(os.path.basename(file_path))[0]
     output_path = os.path.join(out_dir, f'{base_name}.wav')
 
-    print(f'Generando audio con Edge TTS ({len(expanded_segments)} segmento(s))...')
-    await synthesize_speech(expanded_segments, output_path)
+    print(f'Generando audio con Edge TTS ({len(segments)} segmento(s))...')
+    await synthesize_speech(segments, output_path)
     print(f'Archivo guardado: {output_path}')
     return output_path
 

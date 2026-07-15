@@ -1,6 +1,6 @@
 ―{voice:es-PE-AlexNeural}¡Han llegado! ¡Han llegado!{/voice}
 ―{voice:es-AR-TomasNeural}¡Han venido los gemelos!{/voice}
-―{voice:es-AR-ElenaNeural}¡Vamos, vamos!{voice:es-AR-ElenaNeural}
+―{voice:es-AR-ElenaNeural}¡Vamos, vamos!{/voice}
 Las voces cantarinas y los chapoteos llamaron la atención de Kela, que desvió la mirada sin girar el cuello ni un milímetro, manteniendo el paso coordinado junto a Dari.
 Unos cuantos niños de la aldea de Jigme corrían hacia ellos desde la otra orilla del riachuelo.
 ―{voice:es-PE-AlexNeural}¿Dirán que es culpable? {/voice}―preguntó a los demás niños el que iba en cabeza.
