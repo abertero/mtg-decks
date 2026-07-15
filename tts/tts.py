@@ -24,6 +24,8 @@ VOICE_PRESETS = {
     'thought': {'rate': '-10%', 'pitch': '-5Hz'},
     'whisper': {'rate': '-20%', 'pitch': '-10Hz'},
     'god': {'rate': '-15%', 'pitch': '-20Hz', 'volume': '+10%'},
+    'child': {'rate': '+10%', 'pitch': '+8Hz'},
+    'old': {'rate': '-15%', 'pitch': '-10Hz'},
 }
 
 
@@ -55,7 +57,7 @@ def is_pronounceable(text):
 def parse_voice_tags(text, default_voice):
     """Parse voice tags and return list of (text, voice, rate, pitch, volume) segments"""
     segments = []
-    pattern = r'\{(voice:([^}]+)|thought|whisper|god)\}(.*?)\{/(voice|thought|whisper|god)\}'
+    pattern = r'\{(voice:([^}]+)|thought|whisper|god|child|old)\}(.*?)\{/(voice|thought|whisper|god|child|old)\}'
     
     last_end = 0
     for match in re.finditer(pattern, text, re.DOTALL):
