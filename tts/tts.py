@@ -49,6 +49,14 @@ def apply_pronunciations(text, pronunciation_dict):
     return text
 
 
+def normalize_pauses(text):
+    text = re.sub(r'\.{3,}', ', ', text)
+    text = text.replace('…', '. ')
+    text = text.replace(';', '.')
+    text = text.replace(':', '.')
+    return text
+
+
 def is_pronounceable(text):
     cleaned = re.sub(r'[―—\-\s\.\,\;\:\!\?\"\'\(\)\[\]\{\}…·]', '', text)
     return len(cleaned) > 0
@@ -128,6 +136,7 @@ async def tts(file_path, output_dir, voice='es-ES-ElviraNeural'):
         text = f.read()
 
     text = apply_pronunciations(text, pronunciation_dict)
+    text = normalize_pauses(text)
 
     segments = parse_voice_tags(text, voice)
 
