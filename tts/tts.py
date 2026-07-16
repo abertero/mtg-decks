@@ -54,7 +54,7 @@ def apply_pronunciations(text, pronunciation_dict):
 
 def normalize_pauses(text):
     text = re.sub(r'\.{3,}', ', ', text)
-    text = text.replace('…', ', ')
+    text = text.replace('…', '. ')
     text = text.replace(';', ',')
     text = re.sub(r':(?![^{}]*\})', ',', text)
     return text
