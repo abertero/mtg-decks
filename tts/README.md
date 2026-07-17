@@ -148,6 +148,20 @@ Use `{warlock}...{/warlock}` to simulate a warlock or dark sorcerer (slower, ver
 {warlock}Your soul belongs to me now,{/warlock} whispered the warlock.
 ```
 
+### Combining Voices with Presets
+
+You can combine any voice alias with any preset using the `{alias+preset}...{/alias+preset}` syntax. This applies the preset effect to the specified voice:
+
+```
+{dalia+thought}She pondered the question silently,{/dalia+thought} Dalia thought.
+{alvaro+whisper}Be careful,{/alvaro+whisper} Alvaro whispered.
+{jorge+god}I am eternal,{/jorge+god} Jorge spoke with divine authority.
+{elena+goblin}Hehehe!{/elena+goblin} Elena cackled mischievously.
+{alex+warlock}Your soul is mine,{/alex+warlock} Alex intoned darkly.
+```
+
+All combinations are valid: any of the 9 voice aliases can be paired with any of the 7 presets.
+
 ### Complete Example
 
 ```
@@ -176,6 +190,7 @@ The door creaked open slowly.
 | `{god}...{/god}` | Much slower, deeper, louder (deities) |
 | `{goblin}...{/goblin}` | Faster, higher pitch, sneaky (goblins/imps) |
 | `{warlock}...{/warlock}` | Slower, very deep, menacing (warlocks/sorcerers) |
+| `{alias+preset}...{/alias+preset}` | Combine any voice with any preset (e.g., `{dalia+thought}`) |
 
 ## Ambient Background
 

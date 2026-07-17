@@ -38,6 +38,26 @@ VOICE_PRESETS = {
 
 ALL_TAGS = set(VOICE_ALIASES.keys()) | set(VOICE_PRESETS.keys())
 
+def build_tag_pattern():
+    """Build regex pattern for voice tags: alias, preset, or alias+preset combinations"""
+    aliases = '|'.join(re.escape(a) for a in VOICE_ALIASES.keys())
+    presets = '|'.join(re.escape(p) for p in VOICE_PRESETS.keys())
+    return rf'(?:({aliases})\+({presets})|({aliases})|({presets}))'
+
+def parse_tag(tag_str):
+    """Parse a tag string and return (voice, preset) tuple.
+    Returns (alias, None) for voice-only tags, (None, preset) for preset-only tags,
+    or (alias, preset) for combined tags."""
+    if '+' in tag_str:
+        alias, preset = tag_str.split('+', 1)
+        if alias in VOICE_ALIASES and preset in VOICE_PRESETS:
+            return (alias, preset)
+    elif tag_str in VOICE_ALIASES:
+        return (tag_str, None)
+    elif tag_str in VOICE_PRESETS:
+        return (None, tag_str)
+    return (None, None)
+
 
 def load_pronunciations(pronunciations_file):
     if not os.path.exists(pronunciations_file):
@@ -77,9 +97,9 @@ def is_pronounceable(text):
 
 def validate_voice_tags(text):
     """Validate that all voice tags are properly closed"""
-    tags_pattern = '|'.join(re.escape(t) for t in ALL_TAGS)
-    open_pattern = rf'\{{({tags_pattern})\}}'
-    close_pattern = rf'\{{/({tags_pattern})\}}'
+    tag_pattern = build_tag_pattern()
+    open_pattern = rf'\{{{tag_pattern}\}}'
+    close_pattern = rf'\{{/({tag_pattern})\}}'
     
     opens = list(re.finditer(open_pattern, text))
     closes = list(re.finditer(close_pattern, text))
@@ -99,9 +119,11 @@ def validate_voice_tags(text):
     stack = []
     all_tags = []
     for m in opens:
-        all_tags.append(('open', m.group(1), m.start(), m.group(0)))
+        tag_name = m.group(0)[1:-1]
+        all_tags.append(('open', tag_name, m.start(), m.group(0)))
     for m in closes:
-        all_tags.append(('close', m.group(1), m.start(), m.group(0)))
+        tag_name = m.group(1)
+        all_tags.append(('close', tag_name, m.start(), m.group(0)))
     all_tags.sort(key=lambda x: x[2])
     
     for tag_type, tag_name, pos, tag_raw in all_tags:
@@ -134,8 +156,8 @@ def validate_voice_tags(text):
 def parse_voice_tags(text, default_voice):
     """Parse voice tags and return list of (text, voice, rate, pitch, volume) segments"""
     segments = []
-    tags_pattern = '|'.join(re.escape(t) for t in ALL_TAGS)
-    pattern = rf'\{{({tags_pattern})\}}(.*?)\{{/({tags_pattern})\}}'
+    tag_pattern = build_tag_pattern()
+    pattern = rf'\{{{tag_pattern}\}}(.*?)\{{/({tag_pattern})\}}'
     
     last_end = 0
     for match in re.finditer(pattern, text, re.DOTALL):
@@ -144,17 +166,23 @@ def parse_voice_tags(text, default_voice):
             if before_text and is_pronounceable(before_text):
                 segments.append((before_text, default_voice, '+0%', '+0Hz', '+0%'))
         
-        tag_type = match.group(1)
-        content = match.group(2).strip()
+        open_tag = match.group(0)[1:match.group(0).index('}')]
+        content = match.group(6).strip()
+        alias, preset = parse_tag(open_tag)
         
-        if tag_type in VOICE_ALIASES:
-            voice = VOICE_ALIASES[tag_type]
+        if alias and preset:
+            voice = VOICE_ALIASES[alias]
+            preset_data = VOICE_PRESETS[preset]
+            if content and is_pronounceable(content):
+                segments.append((content, voice, preset_data.get('rate', '+0%'), preset_data.get('pitch', '+0Hz'), preset_data.get('volume', '+0%')))
+        elif alias:
+            voice = VOICE_ALIASES[alias]
             if content and is_pronounceable(content):
                 segments.append((content, voice, '+0%', '+0Hz', '+0%'))
-        elif tag_type in VOICE_PRESETS:
-            preset = VOICE_PRESETS[tag_type]
+        elif preset:
+            preset_data = VOICE_PRESETS[preset]
             if content and is_pronounceable(content):
-                segments.append((content, default_voice, preset.get('rate', '+0%'), preset.get('pitch', '+0Hz'), preset.get('volume', '+0%')))
+                segments.append((content, default_voice, preset_data.get('rate', '+0%'), preset_data.get('pitch', '+0Hz'), preset_data.get('volume', '+0%')))
         
         last_end = match.end()
     
