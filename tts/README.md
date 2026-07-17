@@ -67,16 +67,17 @@ Will generate: `tts/dialog/chapter1/chapter1.wav`
 
 ## Available Voices
 
-| Voice | Description |
-|-------|-------------|
-| `es-ES-ElviraNeural` | Female Spanish (Spain) |
-| `es-ES-AlvaroNeural` | Male Spanish (Spain) |
-| `es-MX-DaliaNeural` | Female Spanish (Mexico) |
-| `es-MX-JorgeNeural` | Male Spanish (Mexico) |
-| `es-CL-CatalinaNeural` | Female Spanish (Chile) |
-| `es-CL-LorenzoNeural` | Male Spanish (Chile) |
-| `es-AR-ElenaNeural` | Female Spanish (Argentina) |
-| `es-AR-TomasNeural` | Male Spanish (Argentina) |
+| Alias | Voice | Description |
+|-------|-------|-------------|
+| `elvira` | `es-ES-ElviraNeural` | Female Spanish (Spain) |
+| `alvaro` | `es-ES-AlvaroNeural` | Male Spanish (Spain) |
+| `dalia` | `es-MX-DaliaNeural` | Female Spanish (Mexico) |
+| `jorge` | `es-MX-JorgeNeural` | Male Spanish (Mexico) |
+| `catalina` | `es-CL-CatalinaNeural` | Female Spanish (Chile) |
+| `lorenzo` | `es-CL-LorenzoNeural` | Male Spanish (Chile) |
+| `elena` | `es-AR-ElenaNeural` | Female Spanish (Argentina) |
+| `tomas` | `es-AR-TomasNeural` | Male Spanish (Argentina) |
+| `alex` | `es-PE-AlexNeural` | Male Spanish (Peru) |
 
 For a full list, run: `python tts/tts.py --list-voices`
 
@@ -98,11 +99,11 @@ You can use special tags in your text to change voice, simulate thoughts, or whi
 
 ### Change Voice for Dialogues
 
-Use `{voice:VOICE_NAME}...{/voice}` to switch to a different voice:
+Use `{alias}...{/alias}` to switch to a different voice. Available aliases: `elvira`, `alvaro`, `dalia`, `jorge`, `catalina`, `lorenzo`, `elena`, `tomas`, `alex`:
 
 ```
 The narrator speaks normally.
-{voice:es-MX-JorgeNeural}"Hello, I'm a different character," said the guard.{/voice}
+{jorge}"Hello, I'm a different character," said the guard.{/jorge}
 The narrator continues speaking.
 ```
 
@@ -131,12 +132,28 @@ Use `{god}...{/god}` to simulate a powerful, deep voice (slower, much lower pitc
 {god}I am the creator of worlds,{/god} spoke the deity.
 ```
 
+### Goblin Voice
+
+Use `{goblin}...{/goblin}` to simulate a goblin or imp (faster, higher pitch, sneaky):
+
+```
+{goblin}Hehehe! Give me your shiny things!{/goblin} cackled the goblin.
+```
+
+### Warlock Voice
+
+Use `{warlock}...{/warlock}` to simulate a warlock or dark sorcerer (slower, very deep, menacing):
+
+```
+{warlock}Your soul belongs to me now,{/warlock} whispered the warlock.
+```
+
 ### Complete Example
 
 ```
 The old wizard stood before the ancient door.
 {thought}At last, the moment has come,{/thought} he thought.
-{voice:es-ES-AlvaroNeural}"Open the gate," he commanded.{/voice}
+{alvaro}"Open the gate," he commanded.{/alvaro}
 The door creaked open slowly.
 {whisper}Be careful,{/whisper} warned his apprentice.
 ```
@@ -145,10 +162,20 @@ The door creaked open slowly.
 
 | Tag | Effect |
 |-----|--------|
-| `{voice:VOICE_NAME}...{/voice}` | Change to specific voice |
+| `{elvira}...{/elvira}` | Female Spanish (Spain) |
+| `{alvaro}...{/alvaro}` | Male Spanish (Spain) |
+| `{dalia}...{/dalia}` | Female Spanish (Mexico) |
+| `{jorge}...{/jorge}` | Male Spanish (Mexico) |
+| `{catalina}...{/catalina}` | Female Spanish (Chile) |
+| `{lorenzo}...{/lorenzo}` | Male Spanish (Chile) |
+| `{elena}...{/elena}` | Female Spanish (Argentina) |
+| `{tomas}...{/tomas}` | Male Spanish (Argentina) |
+| `{alex}...{/alex}` | Male Spanish (Peru) |
 | `{thought}...{/thought}` | Slower, lower pitch (thoughts) |
 | `{whisper}...{/whisper}` | Slower, lower pitch (whispers) |
 | `{god}...{/god}` | Much slower, deeper, louder (deities) |
+| `{goblin}...{/goblin}` | Faster, higher pitch, sneaky (goblins/imps) |
+| `{warlock}...{/warlock}` | Slower, very deep, menacing (warlocks/sorcerers) |
 
 ## Ambient Background
 

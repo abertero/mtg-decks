@@ -20,13 +20,23 @@ EDGE_VOICES = {
     'es-PE-AlexNeural': 'Male Spanish (Peru)'
 }
 
+VOICE_ALIASES = {
+    alias: full_name
+    for full_name in EDGE_VOICES
+    for alias in [full_name.split('-')[-1].replace('Neural', '').lower()]
+}
+
 VOICE_PRESETS = {
     'thought': {'rate': '-10%', 'pitch': '-5Hz'},
     'whisper': {'rate': '-20%', 'pitch': '-10Hz'},
     'god': {'rate': '-15%', 'pitch': '-20Hz', 'volume': '+10%'},
     'child': {'rate': '+10%', 'pitch': '+8Hz'},
     'old': {'rate': '-15%', 'pitch': '-10Hz'},
+    'goblin': {'rate': '+20%', 'pitch': '+12Hz', 'volume': '-5%'},
+    'warlock': {'rate': '-20%', 'pitch': '-25Hz', 'volume': '+5%'},
 }
+
+ALL_TAGS = set(VOICE_ALIASES.keys()) | set(VOICE_PRESETS.keys())
 
 
 def load_pronunciations(pronunciations_file):
@@ -67,8 +77,9 @@ def is_pronounceable(text):
 
 def validate_voice_tags(text):
     """Validate that all voice tags are properly closed"""
-    open_pattern = r'\{(voice:[^}]+|thought|whisper|god|child|old)\}'
-    close_pattern = r'\{/(voice|thought|whisper|god|child|old)\}'
+    tags_pattern = '|'.join(re.escape(t) for t in ALL_TAGS)
+    open_pattern = rf'\{{({tags_pattern})\}}'
+    close_pattern = rf'\{{/({tags_pattern})\}}'
     
     opens = list(re.finditer(open_pattern, text))
     closes = list(re.finditer(close_pattern, text))
@@ -106,8 +117,7 @@ def validate_voice_tags(text):
                     f"  Línea {line_num}: {line_content}"
                 )
             expected, exp_line, exp_content, exp_raw = stack.pop()
-            expected_base = expected.split(':')[0] if expected.startswith('voice:') else expected
-            if expected_base != tag_name:
+            if expected != tag_name:
                 raise ValueError(
                     f"Tag '{tag_raw}' no coincide con '{exp_raw}'\n"
                     f"  Apertura en línea {exp_line}: {exp_content}\n"
@@ -124,7 +134,8 @@ def validate_voice_tags(text):
 def parse_voice_tags(text, default_voice):
     """Parse voice tags and return list of (text, voice, rate, pitch, volume) segments"""
     segments = []
-    pattern = r'\{(voice:([^}]+)|thought|whisper|god|child|old)\}(.*?)\{/(voice|thought|whisper|god|child|old)\}'
+    tags_pattern = '|'.join(re.escape(t) for t in ALL_TAGS)
+    pattern = rf'\{{({tags_pattern})\}}(.*?)\{{/({tags_pattern})\}}'
     
     last_end = 0
     for match in re.finditer(pattern, text, re.DOTALL):
@@ -134,10 +145,10 @@ def parse_voice_tags(text, default_voice):
                 segments.append((before_text, default_voice, '+0%', '+0Hz', '+0%'))
         
         tag_type = match.group(1)
-        content = match.group(3).strip()
+        content = match.group(2).strip()
         
-        if tag_type.startswith('voice:'):
-            voice = match.group(2)
+        if tag_type in VOICE_ALIASES:
+            voice = VOICE_ALIASES[tag_type]
             if content and is_pronounceable(content):
                 segments.append((content, voice, '+0%', '+0Hz', '+0%'))
         elif tag_type in VOICE_PRESETS:
