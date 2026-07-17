@@ -19,7 +19,7 @@
     },
     {
       "text": "story/002-tarkir/08-the-salt-road/3.txt",
-      "voice": "es-MX-DaliaNeural",
+      "voice": "es-CL-LorenzoNeural",
       "ambient": {
         "type": "brown",
         "volume": 60

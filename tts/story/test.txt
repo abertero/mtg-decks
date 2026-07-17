@@ -1,0 +1,5 @@
+Este es un texto normal
+{jorge}Este texto lo dirá jorge con su voz normal{/jorge}
+{jorge+god}Este texto lo dirá jorge con su voz de Dios{/jorge+god}
+{elena}Este texto lo dirá elena normal{/elena}
+{elena+goblin}Este será elena goblin{/elena+goblin}

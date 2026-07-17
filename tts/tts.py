@@ -167,7 +167,7 @@ def parse_voice_tags(text, default_voice):
                 segments.append((before_text, default_voice, '+0%', '+0Hz', '+0%'))
         
         open_tag = match.group(0)[1:match.group(0).index('}')]
-        content = match.group(6).strip()
+        content = match.group(5).strip()
         alias, preset = parse_tag(open_tag)
         
         if alias and preset:
