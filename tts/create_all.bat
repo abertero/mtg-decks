@@ -8,4 +8,4 @@ python .\pipeline.py .\json\002-tarkir\05-way-of-the-mantis.json
 python .\pipeline.py .\json\002-tarkir\06-the-chensal-twins.json
 python .\pipeline.py .\json\002-tarkir\07-enlightened.json
 python .\pipeline.py .\json\002-tarkir\08-the-salt-road.json
-python .\pipeline.py .\json\002-tarkir\08-mercy.json
+python .\pipeline.py .\json\002-tarkir\09-mercy.json
