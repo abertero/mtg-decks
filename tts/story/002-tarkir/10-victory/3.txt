@@ -24,11 +24,11 @@ Zurgo se irguió todo lo que pudo. —{jorge}Vencemos a los Temur porque luchamo
 
 Varuk alzó su arma y lanzó un grito de júbilo. En respuesta, la multitud alzó sus armas al cielo y las igualó. Su voz unificada resonó en la meseta y se desvaneció.
 
-«¡Entonces la rompiste!», exclamó el trasgo, mirando hacia donde ahora yacía el trozo al pie de la meseta, y luego le devolvió la mirada desafiante. «¡Era una buena roca!». El patético trasgo miró fijamente a Zurgo mientras su voz chillona resonaba en la silenciosa llanura. Los guerreros más cercanos a Zurgo avanzaban lentamente, con rostros fríos y furiosos, murmurando entre sí.
+{goblin}«¡Entonces la rompiste!»{/goblin}, exclamó el trasgo, mirando hacia donde ahora yacía el trozo al pie de la meseta, y luego le devolvió la mirada desafiante. {goblin}«¡Era una buena roca!»{/goblin}. El patético trasgo miró fijamente a Zurgo mientras su voz chillona resonaba en la silenciosa llanura. Los guerreros más cercanos a Zurgo avanzaban lentamente, con rostros fríos y furiosos, murmurando entre sí.
 
 {jorge+thought}¿Acaso crees que no ordeno lo que es mejor para los Mardu?{/jorge+thought}.
 
-«¡Mi hermana murió en vano!», chilló.
+{goblin}«¡Mi hermana murió en vano!»{/goblin}, chilló.
 
 Zurgo levantó su pie izquierdo lo más alto que pudo y luego pisoteó al trasgo, dejando caer todo su peso sobre él. Quedó aplastado casi hasta el suelo con un crujido satisfactorio.
 
