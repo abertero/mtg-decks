@@ -91,7 +91,7 @@ def normalize_pauses(text):
 
 
 def is_pronounceable(text):
-    cleaned = re.sub(r'[―—\-\s\.\,\;\:\!\?\"\'\(\)\[\]\{\}…·]', '', text)
+    cleaned = re.sub(r'[―—\-\s\.\,\;\:\!\?\"\'\(\)\[\]\{\}…·»«]', '', text)
     return len(cleaned) > 0
 
 
