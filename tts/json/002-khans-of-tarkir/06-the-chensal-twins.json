@@ -1,30 +1,30 @@
 {
-  "output_dir": "002-tarkir",
-  "output_file": "02-awakening-the-bear.mp3",
+  "output_dir": "002-khans-of-tarkir",
+  "output_file": "06-the-chensal-twins.mp3",
   "extra_files": [
     "dialog/outro.wav"
   ],
   "segments": [
     {
-      "text": "story/002-tarkir/02-awakening-the-bear/1.txt",
+      "text": "story/002-khans-of-tarkir/06-the-chensal-twins/1.txt",
       "voice": "es-CL-CatalinaNeural",
       "ambient": null,
       "process": true
     },
     {
-      "text": "story/002-tarkir/02-awakening-the-bear/2.txt",
+      "text": "story/002-khans-of-tarkir/06-the-chensal-twins/2.txt",
       "voice": "es-AR-TomasNeural",
       "ambient": null,
-      "process": false
+      "process": true
     },
     {
-      "text": "story/002-tarkir/02-awakening-the-bear/3.txt",
+      "text": "story/002-khans-of-tarkir/06-the-chensal-twins/3.txt",
       "voice": "es-CL-LorenzoNeural",
       "ambient": {
         "type": "ocean",
         "volume": 60
       },
-      "process": false
+      "process": true
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
-  "output_dir": "002-tarkir",
+  "output_dir": "002-khans-of-tarkir",
   "output_file": "09-mercy.mp3",
   "extra_files": [
     "dialog/outro.wav"
   ],
   "segments": [
     {
-      "text": "story/002-tarkir/09-mercy/1.txt",
+      "text": "story/002-khans-of-tarkir/09-mercy/1.txt",
       "voice": "es-CL-CatalinaNeural",
       "ambient": null,
       "process": true
     },
     {
-      "text": "story/002-tarkir/09-mercy/2.txt",
+      "text": "story/002-khans-of-tarkir/09-mercy/2.txt",
       "voice": "es-CL-LorenzoNeural",
       "ambient": {
         "type": "pink",

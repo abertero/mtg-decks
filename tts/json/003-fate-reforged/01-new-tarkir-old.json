@@ -1,27 +1,27 @@
 {
-  "output_dir": "002-tarkir",
-  "output_file": "08-the-salt-road.mp3",
+  "output_dir": "003-fate-reforged",
+  "output_file": "01-new-tarkir-old.mp3",
   "extra_files": [
     "dialog/outro.wav"
   ],
   "segments": [
     {
-      "text": "story/002-tarkir/08-the-salt-road/1.txt",
+      "text": "story/003-fate-reforged/01-new-tarkir-old/1.txt",
       "voice": "es-CL-CatalinaNeural",
       "ambient": null,
       "process": true
     },
     {
-      "text": "story/002-tarkir/08-the-salt-road/2.txt",
+      "text": "story/003-fate-reforged/01-new-tarkir-old/2.txt",
       "voice": "es-AR-TomasNeural",
       "ambient": null,
       "process": true
     },
     {
-      "text": "story/002-tarkir/08-the-salt-road/3.txt",
+      "text": "story/003-fate-reforged/01-new-tarkir-old/3.txt",
       "voice": "es-CL-LorenzoNeural",
       "ambient": {
-        "type": "brown",
+        "type": "rain",
         "volume": 60
       },
       "process": true

@@ -1,24 +1,24 @@
 {
-  "output_dir": "002-tarkir",
-  "output_file": "11-bond-and-blood.mp3",
+  "output_dir": "002-khans-of-tarkir",
+  "output_file": "10-victory.mp3",
   "extra_files": [
     "dialog/outro.wav"
   ],
   "segments": [
     {
-      "text": "story/002-tarkir/11-bond-and-blood/1.txt",
+      "text": "story/002-khans-of-tarkir/10-victory/1.txt",
       "voice": "es-CL-CatalinaNeural",
       "ambient": null,
       "process": true
     },
     {
-      "text": "story/002-tarkir/11-bond-and-blood/2.txt",
+      "text": "story/002-khans-of-tarkir/10-victory/2.txt",
       "voice": "es-AR-TomasNeural",
       "ambient": null,
       "process": true
     },
     {
-      "text": "story/002-tarkir/11-bond-and-blood/3.txt",
+      "text": "story/002-khans-of-tarkir/10-victory/3.txt",
       "voice": "es-CL-LorenzoNeural",
       "ambient": {
         "type": "ocean",
